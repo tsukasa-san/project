@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inversiones - Visual Economic</title>
+    <link rel="stylesheet" href="inversiones.css">
+</head>
+<body style="background-image: url('https://z101digital.com/wp-content/uploads/2018/12/ezgif-com-video-to-gif-9.gif');">
+
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <h1 class="logo">Visual Economic</h1>
+                <span class="tagline">Análisis financiero CECyT 3</span>
+            </div>
+            <nav class="top-nav">
+                <ul>
+                    <li><a href="../index.html" class="nav-link">🏠 Inicio</a></li>
+                    <li><a href="../mercados/mercados.html" class="nav-link">📈 Mercados</a></li>
+                    <li><a href="inversiones.html" class="nav-link active">💼 Inversiones</a></li>
+                    <li><a href="../finanzas/finanzas.html" class="nav-link">💰 Finanzas</a></li>
+                    <li><a href="../analisis/analisis.html" class="nav-link">🔍 Análisis</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-container">
+        
+        <aside class="sidebar">
+            <nav class="side-nav">
+                <h3>📈 Estrategias de Inversión</h3>
+                <ul>
+                    <li><a href="#dashboard" class="side-link active">📊 Dashboard Global</a></li>
+                    <li><a href="#portafolio" class="side-link">💼 Gestión de Portafolio</a></li>
+                    <li><a href="#estrategias" class="side-link">🎯 Estrategias Avanzadas</a></li>
+                    <li><a href="#herramientas" class="side-link">🛠️ Herramientas Prácticas</a></li>
+                    <li><a href="#analisis" class="side-link">📉 Análisis Técnico</a></li>
+                </ul>
+            </nav>
+            
+            <div class="sidebar-widget">
+                <h4>⭐ Mercados Destacados</h4>
+                <div class="widget-content">
+                    <div class="news-item">
+                        <div class="news-badge">🚀</div>
+                        <div class="news-content">
+                            <h5>Tecnología IA</h5>
+                            <p>+35% crecimiento YTD</p>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-badge">🌱</div>
+                        <div class="news-content">
+                            <h5>ESG Investing</h5>
+                            <p>+42% flujos 2025</p>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-badge">🥇</div>
+                        <div class="news-content">
+                            <h5>Oro como Refugio</h5>
+                            <p>+8.3% YTD</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar-widget">
+                <h4>📊 Tendencias de Inversión</h4>
+                <div class="trends-list">
+                    <div class="trend-item">
+                        <span class="trend-name">Crowdfunding</span>
+                        <span class="trend-value positive">+45%</span>
+                    </div>
+                    <div class="trend-item">
+                        <span class="trend-name">Robo-Advisors</span>
+                        <span class="trend-value positive">+32%</span>
+                    </div>
+                    <div class="trend-item">
+                        <span class="trend-name">Fintech</span>
+                        <span class="trend-value positive">+35%</span>
+                    </div>
+                    <div class="trend-item">
+                        <span class="trend-name">Blockchain</span>
+                        <span class="trend-value positive">+28%</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="content">
+            <section id="dashboard" class="content-section active">
+                <div class="dashboard-header">
+                    <div>
+                        <h2 class="section-title">📊 Dashboard Global de Inversiones</h2>
+                        <p class="dashboard-description">
+                            Panel integral de oportunidades de inversión en mercados globales. 
+                            Monitoreo de tendencias, sectores emergentes y estrategias de diversificación 
+                            para maximizar retornos en diferentes condiciones de mercado. 
+                            Datos actualizados al cierre de diciembre 2025.
+                        </p>
+                    </div>
+                    <div class="dashboard-controls">
+                        <button class="control-btn" data-period="week">Semana</button>
+                        <button class="control-btn active" data-period="month">Mes</button>
+                        <button class="control-btn" data-period="quarter">Trimestre</button>
+                        <button class="control-btn" data-period="year">Año</button>
+                    </div>
+                </div>
+
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-header">
+                            <div class="metric-icon">🌍</div>
+                            <div class="metric-trend positive">+8.5% Anual</div>
+                        </div>
+                        <div class="metric-value">$92.8T</div>
+                        <div class="metric-label">Capitalización Global de Mercados</div>
+                        <div class="metric-info">
+                            <p><strong>Estados Unidos:</strong> $45.2T (48.7%)</p>
+                            <p><strong>Europa:</strong> $18.5T (19.9%)</p>
+                            <p><strong>Asia-Pacífico:</strong> $24.8T (26.7%)</p>
+                            <p><strong>Emergentes:</strong> $4.3T (4.7%)</p>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-header">
+                            <div class="metric-icon">📈</div>
+                            <div class="metric-trend positive">+22.3% Anual</div>
+                        </div>
+                        <div class="metric-value">15.8%</div>
+                        <div class="metric-label">Retorno Promedio Sector Tech</div>
+                        <div class="metric-info">
+                            <p><strong>Semiconductores:</strong> +42.5%</p>
+                            <p><strong>Software SaaS:</strong> +28.3%</p>
+                            <p><strong>IA/Machine Learning:</strong> +35.8%</p>
+                            <p><strong>Cyberseguridad:</strong> +24.2%</p>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-header">
+                            <div class="metric-icon">⚡</div>
+                            <div class="metric-trend negative">+12.5%</div>
+                        </div>
+                        <div class="metric-value">18.3%</div>
+                        <div class="metric-label">Volatilidad Mercados Emergentes</div>
+                        <div class="metric-info">
+                            <p><strong>Índice VIMEX:</strong> 22.5</p>
+                            <p><strong>Correlación con S&P 500:</strong> 0.65</p>
+                            <p><strong>Beta promedio:</strong> 1.25</p>
+                            <p><strong>Spread soberano:</strong> +320pb</p>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-header">
+                            <div class="metric-icon">🛡️</div>
+                            <div class="metric-trend positive">+8.7% Anual</div>
+                        </div>
+                        <div class="metric-value">4.8%</div>
+                        <div class="metric-label">Yield Dividendo Global</div>
+                        <div class="metric-info">
+                            <p><strong>Estados Unidos:</strong> 1.8%</p>
+                            <p><strong>Europa:</strong> 3.2%</p>
+                            <p><strong>Emergentes:</strong> 4.5%</p>
+                            <p><strong>Pago total 2025:</strong> $1.8T</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sector-trends">
+                    <h3 class="subsection-title">📊 Análisis Sectorial Global</h3>
+                    <div class="sectors-grid">
+                        <div class="sector-card tech">
+                            <div class="sector-icon">💻</div>
+                            <div class="sector-info">
+                                <h4>Tecnología</h4>
+                                <div class="sector-performance positive">+22.3% Anual</div>
+                                <p><strong>Líderes:</strong> NVDA, AAPL, MSFT</p>
+                            </div>
+                            <div class="sector-analysis">
+                                <p>Impulsado por revolución AI y transformación digital global. Valuaciones elevadas pero crecimiento sostenido.</p>
+                            </div>
+                        </div>
+                        <div class="sector-card health">
+                            <div class="sector-icon">🏥</div>
+                            <div class="sector-info">
+                                <h4>Salud</h4>
+                                <div class="sector-performance positive">+12.8% Anual</div>
+                                <p><strong>Líderes:</strong> JNJ, UNH, LLY</p>
+                            </div>
+                            <div class="sector-analysis">
+                                <p>Envejecimiento poblacional y innovación médica impulsan crecimiento estable. Defensivo con crecimiento moderado.</p>
+                            </div>
+                        </div>
+                        <div class="sector-card energy">
+                            <div class="sector-icon">⚡</div>
+                            <div class="sector-info">
+                                <h4>Energía</h4>
+                                <div class="sector-performance positive">+18.5% Anual</div>
+                                <p><strong>Líderes:</strong> XOM, CVX, SHEL</p>
+                            </div>
+                            <div class="sector-analysis">
+                                <p>Transición energética y precios sostenidos del petróleo. Energías renovables con crecimiento acelerado (+35%).</p>
+                            </div>
+                        </div>
+                        <div class="sector-card finance">
+                            <div class="sector-icon">🏦</div>
+                            <div class="sector-info">
+                                <h4>Finanzas</h4>
+                                <div class="sector-performance positive">+15.2% Anual</div>
+                                <p><strong>Líderes:</strong> JPM, BAC, GS</p>
+                            </div>
+                            <div class="sector-analysis">
+                                <p>Margen de interés favorable y economía sólida. Fintech capturando cuota de mercado tradicional.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="portafolio" class="content-section">
+                <div class="section-header">
+                    <h2 class="section-title">💼 Gestión Estratégica de Portafolios</h2>
+                    <p class="section-description">
+                        Estrategias avanzadas para la construcción y gestión de portafolios diversificados 
+                        en mercados globales. Análisis de asignación de activos, optimización de riesgo-retorno
+                        y gestión de correlaciones. Metodologías probadas para diferentes perfiles de inversionista.
+                    </p>
+                </div>
+
+                <div class="diversification-analysis">
+                    <h3 class="subsection-title">🌍 Análisis de Diversificación Global</h3>
+                    <div class="diversification-intro">
+                        <p>
+                            La diversificación es el principio fundamental de la gestión moderna de portafolios. 
+                            Distribuir el capital entre diferentes clases de activos, sectores económicos y regiones 
+                            geográficas reduce el riesgo específico sin sacrificar retornos esperados. 
+                            Un portafolio bien diversificado puede reducir la volatilidad en un 30-40% manteniendo 
+                            el retorno esperado.
+                        </p>
+                    </div>
+                    <div class="diversification-grid">
+                        <div class="diversification-card">
+                            <h4>📊 Por Clase de Activo</h4>
+                            <div class="sector-chart">
+                                <div class="sector-item">
+                                    <span>Acciones Globales</span>
+                                    <div class="sector-bar">
+                                        <div class="sector-fill tech" style="width: 55%"></div>
+                                    </div>
+                                    <span>55%</span>
+                                </div>
+                                <div class="sector-item">
+                                    <span>Bonos Corporativos</span>
+                                    <div class="sector-bar">
+                                        <div class="sector-fill health" style="width: 20%"></div>
+                                    </div>
+                                    <span>20%</span>
+                                </div>
+                                <div class="sector-item">
+                                    <span>Bonos Gubernamentales</span>
+                                    <div class="sector-bar">
+                                        <div class="sector-fill finance" style="width: 15%"></div>
+                                    </div>
+                                    <span>15%</span>
+                                </div>
+                                <div class="sector-item">
+                                    <span>Alternativos/REITs</span>
+                                    <div class="sector-bar">
+                                        <div class="sector-fill consumer" style="width: 7%"></div>
+                                    </div>
+                                    <span>7%</span>
+                                </div>
+                                <div class="sector-item">
+                                    <span>Cash/Equivalentes</span>
+                                    <div class="sector-bar">
+                                        <div class="sector-fill energy" style="width: 3%"></div>
+                                    </div>
+                                    <span>3%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="diversification-card">
+                            <h4>🌎 Por Región Geográfica</h4>
+                            <div class="region-distribution">
+                                <div class="region-item">
+                                    <span class="region-name">Estados Unidos</span>
+                                    <div class="region-bar">
+                                        <div class="region-fill" style="width: 50%"></div>
+                                    </div>
+                                    <span class="region-percentage">50%</span>
+                                </div>
+                                <div class="region-item">
+                                    <span class="region-name">Europa Desarrollada</span>
+                                    <div class="region-bar">
+                                        <div class="region-fill" style="width: 20%"></div>
+                                    </div>
+                                    <span class="region-percentage">20%</span>
+                                </div>
+                                <div class="region-item">
+                                    <span class="region-name">Asia-Pacífico</span>
+                                    <div class="region-bar">
+                                        <div class="region-fill" style="width: 15%"></div>
+                                    </div>
+                                    <span class="region-percentage">15%</span>
+                                </div>
+                                <div class="region-item">
+                                    <span class="region-name">Mercados Emergentes</span>
+                                    <div class="region-bar">
+                                        <div class="region-fill" style="width: 10%"></div>
+                                    </div>
+                                    <span class="region-percentage">10%</span>
+                                </div>
+                                <div class="region-item">
+                                    <span class="region-name">Otros</span>
+                                    <div class="region-bar">
+                                        <div class="region-fill" style="width: 5%"></div>
+                                    </div>
+                                    <span class="region-percentage">5%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-strategies">
+                    <h3 class="subsection-title">🎯 Estrategias por Perfil de Inversor</h3>
+                    <div class="strategies-grid">
+                        <div class="strategy-card conservative">
+                            <div class="strategy-header">
+                                <h4>🛡️ Conservador</h4>
+                                <div class="strategy-risk">Riesgo Bajo</div>
+                            </div>
+                            <div class="strategy-allocation">
+                                <p><strong>Bonos:</strong> 60-70%</p>
+                                <p><strong>Acciones:</strong> 20-30%</p>
+                                <p><strong>Cash:</strong> 10-20%</p>
+                            </div>
+                            <div class="strategy-details">
+                                <p><strong>Retorno Esperado:</strong> 4-6% anual</p>
+                                <p><strong>Volatilidad:</strong> 5-8%</p>
+                                <p><strong>Horizonte:</strong> Corto plazo (1-3 años)</p>
+                                <p><strong>Objetivo:</strong> Preservación de capital</p>
+                            </div>
+                        </div>
+
+                        <div class="strategy-card moderate">
+                            <div class="strategy-header">
+                                <h4>⚖️ Moderado</h4>
+                                <div class="strategy-risk">Riesgo Medio</div>
+                            </div>
+                            <div class="strategy-allocation">
+                                <p><strong>Acciones:</strong> 50-60%</p>
+                                <p><strong>Bonos:</strong> 30-40%</p>
+                                <p><strong>Alternativos:</strong> 5-10%</p>
+                            </div>
+                            <div class="strategy-details">
+                                <p><strong>Retorno Esperado:</strong> 7-9% anual</p>
+                                <p><strong>Volatilidad:</strong> 10-15%</p>
+                                <p><strong>Horizonte:</strong> Medio plazo (3-7 años)</p>
+                                <p><strong>Objetivo:</strong> Crecimiento balanceado</p>
+                            </div>
+                        </div>
+
+                        <div class="strategy-card aggressive">
+                            <div class="strategy-header">
+                                <h4>🚀 Agresivo</h4>
+                                <div class="strategy-risk">Riesgo Alto</div>
+                            </div>
+                            <div class="strategy-allocation">
+                                <p><strong>Acciones:</strong> 70-80%</p>
+                                <p><strong>Alternativos:</strong> 15-20%</p>
+                                <p><strong>Bonos:</strong> 5-10%</p>
+                            </div>
+                            <div class="strategy-details">
+                                <p><strong>Retorno Esperado:</strong> 10-12% anual</p>
+                                <p><strong>Volatilidad:</strong> 18-25%</p>
+                                <p><strong>Horizonte:</strong> Largo plazo (7+ años)</p>
+                                <p><strong>Objetivo:</strong> Maximización crecimiento</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="estrategias" class="content-section">
+                <div class="section-header">
+                    <h2 class="section-title">🎯 Estrategias Avanzadas de Inversión</h2>
+                    <p class="section-description">
+                        Metodologías probadas de inversión utilizadas por gestores profesionales e inversores institucionales.
+                        Análisis detallado de estrategias de valor, crecimiento, ingresos y el poder transformador del interés compuesto.
+                    </p>
+                </div>
+
+                <div class="strategies-tabs">
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" data-tab="value">💰 Value Investing</button>
+                        <button class="tab-btn" data-tab="growth">📈 Growth Investing</button>
+                        <button class="tab-btn" data-tab="income">💵 Income Investing</button>
+                        <button class="tab-btn" data-tab="compound">📊 Interés Compuesto</button>
+                    </div>
+
+                    <div class="tab-content active" id="value-tab">
+                        <div class="strategy-content">
+                            <div class="strategy-info">
+                                <h3>💰 Value Investing - La Filosofía de Benjamin Graham</h3>
+                                <p>Estrategia centrada en identificar empresas que cotizan por debajo de su valor intrínseco real, 
+                                   buscando un "margen de seguridad". Popularizada por Warren Buffett, busca compañías con 
+                                   fundamentales sólidos, baja deuda, flujos de caja consistentes y que el mercado ha subestimado 
+                                   temporalmente.</p>
+                                <div class="strategy-metrics">
+                                    <div class="strategy-metric">
+                                        <span class="metric-label">Horizonte Temporal</span>
+                                        <span class="metric-value">Largo Plazo (5+ años)</span>
+                                    </div>
+                                    <div class="strategy-metric">
+                                        <span class="metric-label">Nivel de Riesgo</span>
+                                        <span class="metric-value">Moderado a Bajo</span>
+                                    </div>
+                                    <div class="strategy-metric">
+                                        <span class="metric-label">Rendimiento Histórico</span>
+                                        <span class="metric-value positive">9-12% anual</span>
+                                    </div>
+                                    <div class="strategy-metric">
+                                        <span class="metric-label">Métricas Clave</span>
+                                        <span class="metric-value">P/B < 1.5, P/E < 15, ROE > 15%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="growth-tab">
+                        <div class="strategy-content">
+                            <div class="strategy-info">
+                                <h3>📈 Growth Investing - Apostando al Futuro</h3>
+                                <p>Enfoque en empresas con alto potencial de crecimiento futuro, incluso si sus valoraciones 
+                                   parecen elevadas. Se priorizan ingresos en rápido crecimiento, ventajas competitivas 
+                                   sostenibles y participación de mercado creciente sobre rentabilidad inmediata o dividendos.</p>
+                                <div class="strategy-metrics">
+                                    <div class="strategy-metric">
+                                        <span class="metric-label">Horizonte Temporal</span>
+                                        <span class="metric-value">Medio a Largo Plazo (3-7 años)</span>
+                                    </div>
+                                    <div class="strategy-metric">
+                                        <span class="metric-label">Nivel de Riesgo</span>
+                                        <span class="metric-value">Alto</span>
+                                    </div>
+                                    <div class="strategy-metric">
+                                        <span class="metric-label">Rendimiento Esperado</span>
+                                        <span class="metric-value positive">15-25% anual</span>
+                                    </div>
+                                    <div class="strategy-metric">
+                                        <span class="metric-label">Métricas Clave</span>
+                                        <span class="metric-value">Crecimiento Ingresos > 20%, Margen Bruto > 40%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="income-tab">
+                        <div class="strategy-content">
+                            <div class="strategy-info">
+                                <h3>💵 Income Investing - Generando Flujos Constantes</h3>
+                                <p>Estrategia enfocada en generar flujos de ingresos regulares y predecibles a través de 
+                                   dividendos, pagos de intereses y distribuciones. Ideal para jubilados o inversores que 
+                                   buscan ingresos pasivos. Prioriza estabilidad, calidad crediticia y sostenibilidad de pagos.</p>
+                                <div class="strategy-metrics">
+                                    <div class="strategy-metric">
+                                        <span class="metric-label">Horizonte Temporal</span>
+                                        <span class="metric-value">Indefinido (ingresos perpetuo)</span>
+                                    </div>
+                                    <div class="strategy-metric">
+                                        <span class="metric-label">Nivel de Riesgo</span>
+                                        <span class="metric-value">Bajo a Moderado</span>
+                                    </div>
+                                    <div class="strategy-metric">
+                                        <span class="metric-label">Rendimiento Total Esperado</span>
+                                        <span class="metric-value positive">6-10% anual (4-8% yield + crecimiento)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="compound-tab">
+                        <div class="strategy-content">
+                            <div class="strategy-info">
+                                <h3>📊 El Poder Transformador del Interés Compuesto</h3>
+                                <p>Albert Einstein llamó al interés compuesto "la octava maravilla del mundo". Es el proceso 
+                                   donde los intereses generados se reinvierten para generar más intereses, creando un efecto 
+                                   de bola de nieve que puede multiplicar exponencialmente el capital a lo largo del tiempo.</p>
+                                <div class="compound-explanation">
+                                    <h4>⚡ ¿Cómo funciona el efecto multiplicador?</h4>
+                                    <p>Cuando reinviertes tus ganancias, estas generan nuevas ganancias. Con el tiempo, 
+                                       este efecto acumulativo puede generar un crecimiento exponencial de tu inversión.</p>
+                                    
+                                    <h4>🧮 Fórmula Matemática del Interés Compuesto:</h4>
+                                    <div class="formula">
+                                        A = P × (1 + r/n)^(nt)
+                                    </div>
+                                    <div class="formula-explanation">
+                                        <p><strong>A</strong> = Valor futuro de la inversión/principal</p>
+                                        <p><strong>P</strong> = Inversión principal inicial</p>
+                                        <p><strong>r</strong> = Tasa de interés anual (decimal)</p>
+                                        <p><strong>n</strong> = Número de veces que se capitaliza por año</p>
+                                        <p><strong>t</strong> = Número de años invertidos</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="strategy-tool">
+                                <h4>🔄 Calculadora Avanzada de Interés Compuesto</h4>
+                                <div class="calculator-form">
+                                    <div class="input-group">
+                                        <label>Inversión Inicial ($)</label>
+                                        <input type="number" id="initial-investment" value="10000" class="calculator-input">
+                                    </div>
+                                    <div class="input-group">
+                                        <label>Aportación Mensual ($)</label>
+                                        <input type="number" id="monthly-contribution" value="500" class="calculator-input">
+                                    </div>
+                                    <div class="input-group">
+                                        <label>Tasa Anual de Retorno (%)</label>
+                                        <input type="number" id="annual-rate" value="8" class="calculator-input" step="0.1">
+                                    </div>
+                                    <div class="input-group">
+                                        <label>Años de Inversión</label>
+                                        <input type="number" id="years" value="30" class="calculator-input">
+                                    </div>
+                                    <div class="input-group">
+                                        <label>Frecuencia Capitalización</label>
+                                        <select id="compounding-frequency" class="calculator-input">
+                                            <option value="1">Anual</option>
+                                            <option value="4">Trimestral</option>
+                                            <option value="12" selected>Mensual</option>
+                                            <option value="365">Diaria</option>
+                                        </select>
+                                    </div>
+                                    <button class="calculate-btn" id="calculate-compound">Calcular Proyección</button>
+                                    <div class="result-display">
+                                        <div class="result-value" id="compound-result">$745,179</div>
+                                        <div class="result-label">Valor Futuro Estimado</div>
+                                        <div class="result-details">
+                                            <p><strong>Total Aportado:</strong> $190,000</p>
+                                            <p><strong>Intereses Generados:</strong> $555,179</p>
+                                            <p><strong>Retorno Total:</strong> +292%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="herramientas" class="content-section">
+                <div class="section-header">
+                    <h2 class="section-title">🛠️ Herramientas Prácticas de Inversión</h2>
+                    <p class="section-description">
+                        Conjunto de herramientas interactivas y calculadoras financieras para análisis, 
+                        planificación y simulación de estrategias de inversión. Herramientas profesionales 
+                        adaptadas para inversores individuales e institucionales.
+                    </p>
+                </div>
+
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-icon">💰</div>
+                        <h3>Calculadora de Interés Compuesto</h3>
+                        <p>Calcula el crecimiento potencial de tu inversión utilizando el poder del interés compuesto a lo largo del tiempo.</p>
+                        <div class="calculator-form">
+                            <div class="input-group">
+                                <label>Inversión Inicial ($)</label>
+                                <input type="number" id="tool-initial-investment" value="10000" class="calculator-input">
+                            </div>
+                            <div class="input-group">
+                                <label>Aportación Mensual ($)</label>
+                                <input type="number" id="tool-monthly-contribution" value="500" class="calculator-input">
+                            </div>
+                            <div class="input-group">
+                                <label>Tasa Anual (%)</label>
+                                <input type="number" id="tool-annual-rate" value="8" class="calculator-input" step="0.1">
+                            </div>
+                            <div class="input-group">
+                                <label>Años</label>
+                                <input type="number" id="tool-years" value="10" class="calculator-input">
+                            </div>
+                            <button class="calculate-btn" id="tool-calculate-compound">Calcular</button>
+                            <div class="result-display">
+                                <div class="result-value" id="tool-compound-result">$98,358</div>
+                                <div class="result-label">Valor Futuro</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-icon">⚖️</div>
+                        <h3>Simulador de Rebalanceo</h3>
+                        <p>
+                            El rebalanceo periódico de portafolio es una estrategia crucial para mantener 
+                            la asignación de activos deseada y gestionar el riesgo sistemáticamente.
+                        </p>
+                        <div class="rebalancing-simulator">
+                            <div class="current-allocation">
+                                <h4>🔍 Asignación Actual vs Objetivo</h4>
+                                <div class="allocation-bars">
+                                    <div class="allocation-bar-item">
+                                        <span>Acciones US</span>
+                                        <div class="bar-container">
+                                            <div class="current-bar" style="width: 65%"></div>
+                                            <div class="target-bar" style="width: 60%"></div>
+                                        </div>
+                                        <span>65%</span>
+                                    </div>
+                                    <div class="allocation-bar-item">
+                                        <span>Bonos</span>
+                                        <div class="bar-container">
+                                            <div class="current-bar" style="width: 20%"></div>
+                                            <div class="target-bar" style="width: 25%"></div>
+                                        </div>
+                                        <span>20%</span>
+                                    </div>
+                                    <div class="allocation-bar-item">
+                                        <span>Alternativos</span>
+                                        <div class="bar-container">
+                                            <div class="current-bar" style="width: 15%"></div>
+                                            <div class="target-bar" style="width: 15%"></div>
+                                        </div>
+                                        <span>15%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rebalancing-controls">
+                                <div class="input-group">
+                                    <label>Capital para Rebalanceo ($)</label>
+                                    <input type="number" id="rebalance-budget" value="10000" class="calculator-input">
+                                </div>
+                                <div class="rebalancing-result">
+                                    <div class="result-item">
+                                        <span>Acciones a ajustar:</span>
+                                        <span class="negative" id="stocks-to-adjust">-$850</span>
+                                    </div>
+                                    <div class="result-item">
+                                        <span>Bonos a comprar:</span>
+                                        <span class="positive" id="bonds-to-buy">+$850</span>
+                                    </div>
+                                    <button class="rebalance-btn" id="apply-rebalance">Simular Rebalanceo</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-icon">🎯</div>
+                        <h3>Análisis de Riesgo</h3>
+                        <p>Evalúa el perfil de riesgo de diferentes estrategias de inversión y portafolios.</p>
+                        <div class="risk-analysis">
+                            <div class="risk-meter">
+                                <div class="risk-scale">
+                                    <div class="risk-level conservative">Conservador</div>
+                                    <div class="risk-level moderate">Moderado</div>
+                                    <div class="risk-level aggressive active">Agresivo</div>
+                                </div>
+                                <div class="risk-indicator" style="left: 75%"></div>
+                            </div>
+                            <div class="risk-metrics">
+                                <div class="risk-metric">
+                                    <span>Volatilidad Anual</span>
+                                    <span class="metric-value">12.4%</span>
+                                </div>
+                                <div class="risk-metric">
+                                    <span>Ratio Sharpe</span>
+                                    <span class="metric-value positive">1.28</span>
+                                </div>
+                                <div class="risk-metric">
+                                    <span>Máxima Pérdida</span>
+                                    <span class="metric-value negative">-15.2%</span>
+                                </div>
+                                <div class="risk-metric">
+                                    <span>Correlación Mercado</span>
+                                    <span class="metric-value">0.85</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="analisis" class="content-section">
+                <div class="section-header">
+                    <h2 class="section-title">📉 Análisis Técnico Profesional</h2>
+                    <p class="section-description">
+                        Metodologías y herramientas de análisis técnico utilizadas por traders e inversores 
+                        profesionales para identificar tendencias, puntos de entrada/salida y gestión de riesgo. 
+                        Incluye patrones de gráficos, indicadores técnicos y análisis de volumen.
+                    </p>
+                </div>
+
+                <div class="technical-analysis-grid">
+                    <div class="technical-card">
+                        <h3>📊 Patrones de Gráficos Clásicos</h3>
+                        <p>Análisis de patrones técnicos comunes en los mercados financieros y su interpretación 
+                           para la toma de decisiones de inversión.</p>
+                        <div class="technical-tips">
+                            <h4>🔍 Patrones Principales:</h4>
+                            <ul>
+                                <li><strong>Triángulo Ascendente:</strong> Señal alcista de continuación</li>
+                                <li><strong>Cabeza y Hombros:</strong> Patrón de reversión bajista</li>
+                                <li><strong>Doble Techo/Suelo:</strong> Señales de cambio de tendencia</li>
+                                <li><strong>Bandera/Banderín:</strong> Patrones de continuación</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="technical-card">
+                        <h3>📈 Indicadores Técnicos Avanzados</h3>
+                        <div class="indicators-grid">
+                            <div class="indicator-item">
+                                <h4>RSI (Relative Strength Index)</h4>
+                                <p>Oscilador de momentum que mide la velocidad y cambio de movimientos de precios</p>
+                                <div class="indicator-value">
+                                    <span class="value">62.5</span>
+                                    <span class="status neutral">Neutral</span>
+                                </div>
+                            </div>
+                            <div class="indicator-item">
+                                <h4>MACD</h4>
+                                <p>Indica la relación entre dos medias móviles del precio</p>
+                                <div class="indicator-value">
+                                    <span class="value">+1.85</span>
+                                    <span class="status positive">Alcista</span>
+                                </div>
+                            </div>
+                            <div class="indicator-item">
+                                <h4>Medias Móviles</h4>
+                                <p>Suavizan las fluctuaciones de precios para identificar tendencias</p>
+                                <div class="indicator-value">
+                                    <span class="value">EMA 50 > EMA 200</span>
+                                    <span class="status positive">Tendencia Alcista</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="technical-card">
+                        <h3>🎯 Estrategias Técnicas Comprobadas</h3>
+                        <div class="trading-strategies">
+                            <div class="strategy-example">
+                                <h4>📈 Trend Following</h4>
+                                <p><strong>Concepto:</strong> "La tendencia es tu amiga" - seguir movimientos establecidos</p>
+                                <p><strong>Implementación:</strong> Comprar en pullbacks dentro de tendencia alcista</p>
+                            </div>
+                            <div class="strategy-example">
+                                <h4>🔄 Mean Reversion</h4>
+                                <p><strong>Concepto:</strong> Los precios tienden a volver a su media histórica</p>
+                                <p><strong>Implementación:</strong> Comprar en sobreventa (RSI <30)</p>
+                            </div>
+                            <div class="strategy-example">
+                                <h4>⚡ Breakout Trading</h4>
+                                <p><strong>Concepto:</strong> Comprar cuando precio rompe niveles de resistencia clave</p>
+                                <p><strong>Filtro:</strong> Requerir volumen >150% promedio para confirmación</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Visual Economic</h4>
+                    <p>Portal líder en análisis económico y financiero para profesionales e inversionistas.</p>
+                    <p><strong>Datos actualizados:</strong> Diciembre 2025</p>
+                    <p><strong>Fuentes:</strong> Bloomberg, Refinitiv, Morningstar, AMIB</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Inversiones Globales</h4>
+                    <ul>
+                        <li><a href="#dashboard">📊 Dashboard Global</a></li>
+                        <li><a href="#portafolio">💼 Gestión Portafolios</a></li>
+                        <li><a href="#estrategias">🎯 Estrategias Avanzadas</a></li>
+                        <li><a href="#herramientas">🛠️ Herramientas</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Visual Economic. Arrieta Torres Carlos Ernesto - Datos actualizados Diciembre 2025</p>
+                <p class="footer-disclaimer"><strong>Importante:</strong> La información presentada es con fines educativos y de análisis. No constituye asesoría financiera.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="inversiones.js"></script>
+</body>
+</html>
