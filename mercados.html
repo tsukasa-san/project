@@ -1,0 +1,1599 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercados - Visual Economic</title>
+    <link rel="stylesheet" href="mercados.css">
+</head>
+<body style="background-image: url('https://z101digital.com/wp-content/uploads/2018/12/ezgif-com-video-to-gif-9.gif');">
+
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <h1 class="logo">Visual Economic</h1>
+                <span class="tagline">Análisis financiero CECyT 3</span>
+            </div>
+            <nav class="top-nav">
+                <ul>
+                    <li><a href="../index.html" class="nav-link">🏠 Inicio</a></li>
+                    <li><a href="mercados.html" class="nav-link active">📈 Mercados</a></li>
+                    <li><a href="../inversiones/inversiones.html" class="nav-link">💼 Inversiones</a></li>
+                    <li><a href="../finanzas/finanzas.html" class="nav-link">💰 Finanzas</a></li>
+                    <li><a href="../analisis/analisis.html" class="nav-link">🔍 Análisis</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-container">
+        
+        <aside class="sidebar">
+            <nav class="side-nav">
+                <h3>📈 Índice de Mercados</h3>
+                <ul>
+                    <li><a href="#dashboard" class="side-link active">📊 Dashboard</a></li>
+                    <li><a href="#principales" class="side-link">🌍 Principales Índices</a></li>
+                    <li><a href="#divisas" class="side-link">💱 Mercado de Divisas</a></li>
+                    <li><a href="#commodities" class="side-link">🛢️ Commodities</a></li>
+                    <li><a href="#bonos" class="side-link">📈 Mercado de Bonos</a></li>
+                    <li><a href="#futuros" class="side-link">⏰ Futuros y Opciones MX</a></li>
+                </ul>
+            </nav>
+            
+            <div class="sidebar-widget">
+                <h4>⭐ Alertas de Mercado</h4>
+                <div class="widget-content">
+                    <div class="news-item">
+                        <div class="news-badge">📈</div>
+                        <div class="news-content">
+                            <h5>México Tasa Banxico</h5>
+                            <p>Se mantiene en 11.00%</p>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-badge">💱</div>
+                        <div class="news-content">
+                            <h5>Peso Mexicano</h5>
+                            <p>USD/MXN 18.25</p>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-badge">📊</div>
+                        <div class="news-content">
+                            <h5>BMV IPC</h5>
+                            <p>+1.8% sesión</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar-widget">
+                <h4>📊 Tendencias México</h4>
+                <div class="trends-list">
+                    <div class="trend-item">
+                        <span class="trend-name">CETES 28 días</span>
+                        <span class="trend-value">11.05%</span>
+                    </div>
+                    <div class="trend-item">
+                        <span class="trend-name">UDIBONOS</span>
+                        <span class="trend-value positive">+1.2%</span>
+                    </div>
+                    <div class="trend-item">
+                        <span class="trend-name">BMV IPC</span>
+                        <span class="trend-value positive">+1.8%</span>
+                    </div>
+                    <div class="trend-item">
+                        <span class="trend-name">TIIE 28 días</span>
+                        <span class="trend-value">11.25%</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="content">
+
+            <section id="dashboard" class="content-section active">
+                <div class="dashboard-header">
+                    <div>
+                        <h2 class="section-title">📈 Mercados Globales en Tiempo Real</h2>
+                        <p class="dashboard-description">
+                            Monitoreo actualizado de los principales indicadores financieros globales. 
+                            Datos en tiempo real de índices bursátiles, divisas, commodities y bonos.
+                            Información actualizada al cierre de diciembre 2025.
+                        </p>
+                    </div>
+                    <div class="dashboard-controls">
+                        <button class="control-btn" data-period="day">Hoy</button>
+                        <button class="control-btn active" data-period="week">Semana</button>
+                        <button class="control-btn" data-period="month">Mes</button>
+                        <button class="control-btn" data-period="quarter">Trimestre</button>
+                    </div>
+                </div>
+
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-header">
+                            <div class="metric-icon">🇺🇸</div>
+                            <div class="metric-trend positive">+8.5% Q4</div>
+                        </div>
+                        <div class="metric-value">5,825.60</div>
+                        <div class="metric-label">S&P 500</div>
+                        <div class="metric-info">
+                            <p><strong>Máximo histórico:</strong> 5,845.20</p>
+                            <p><strong>Mínimo trimestre:</strong> 5,420.35</p>
+                            <p><strong>Volumen promedio:</strong> $485B diarios</p>
+                            <p><strong>Sectores líderes:</strong> Tech, Salud, Energía</p>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-header">
+                            <div class="metric-icon">💻</div>
+                            <div class="metric-trend positive">+12.3% Q4</div>
+                        </div>
+                        <div class="metric-value">18,450.30</div>
+                        <div class="metric-label">NASDAQ Composite</div>
+                        <div class="metric-info">
+                            <p><strong>Máximo histórico:</strong> 18,520.45</p>
+                            <p><strong>Mínimo trimestre:</strong> 16,890.20</p>
+                            <p><strong>Volumen promedio:</strong> $320B diarios</p>
+                            <p><strong>Empresas líderes:</strong> AAPL, MSFT, NVDA, GOOGL</p>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-header">
+                            <div class="metric-icon">💱</div>
+                            <div class="metric-trend negative">-2.8% Q4</div>
+                        </div>
+                        <div class="metric-value">1.0650</div>
+                        <div class="metric-label">EUR/USD</div>
+                        <div class="metric-info">
+                            <p><strong>Soporte técnico:</strong> 1.0580</p>
+                            <p><strong>Resistencia:</strong> 1.0725</p>
+                            <p><strong>Volatilidad anual:</strong> 8.5%</p>
+                            <p><strong>Diferencial tasas:</strong> Fed 4.50% vs BCE 3.50%</p>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-header">
+                            <div class="metric-icon">🛢️</div>
+                            <div class="metric-trend positive">+15.2% Q4</div>
+                        </div>
+                        <div class="metric-value">$94.25</div>
+                        <div class="metric-label">Petróleo Brent</div>
+                        <div class="metric-info">
+                            <p><strong>WTI Crudo:</strong> $90.80</p>
+                            <p><strong>Inventarios EEUU:</strong> -3.2M barriles</p>
+                            <p><strong>Producción OPEP+:</strong> 40.5M bpd</p>
+                            <p><strong>Demanda global:</strong> 102.3M bpd</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="market-summary">
+                    <h3 class="subsection-title">📊 Resumen General de Mercados</h3>
+                    <div class="summary-content">
+                        <p><strong>Estados Unidos:</strong> Los mercados cierran el 2025 con fuertes ganancias lideradas por el sector tecnológico. El S&P 500 registra un avance del 28% anual, impulsado por resultados empresariales sólidos y expectativas de estabilidad en las tasas de interés de la Fed.</p>
+                        
+                        <p><strong>Europa:</strong> Los mercados europeos muestran desempeño mixto con el DAX alemán avanzando 12% anual mientras que los índices del sur de Europa enfrentan presión por crecimiento moderado y altas tasas del BCE.</p>
+                        
+                        <p><strong>Asia:</strong> Mercados asiáticos con divergencias: Nikkei japonés sube 18% anual apoyado por políticas del BoJ, mientras que el Hang Seng chino enfrenta presión regulatoria y desaceleración económica.</p>
+                        
+                        <div class="summary-stats">
+                            <div class="stat-item">
+                                <span>Ganancia Anual S&P 500:</span>
+                                <span class="positive">+28.3%</span>
+                            </div>
+                            <div class="stat-item">
+                                <span>Inflación Global:</span>
+                                <span class="warning">3.1%</span>
+                            </div>
+                            <div class="stat-item">
+                                <span>Volatilidad VIX:</span>
+                                <span class="positive">15.8 (Baja)</span>
+                            </div>
+                            <div class="stat-item">
+                                <span>Rendimiento Bonos 10 años:</span>
+                                <span>4.25%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="live-market-banner">
+                    <h4>📡 Indicadores en Vivo</h4>
+                    <div class="live-indicators">
+                        <div class="live-indicator">
+                            <span class="indicator-name">DOW JONES</span>
+                            <span class="indicator-value">39,875.40</span>
+                            <span class="indicator-change positive">+1.5%</span>
+                        </div>
+                        <div class="live-indicator">
+                            <span class="indicator-name">FTSE 100</span>
+                            <span class="indicator-value">8,320.15</span>
+                            <span class="indicator-change positive">+0.9%</span>
+                        </div>
+                        <div class="live-indicator">
+                            <span class="indicator-name">NIKKEI 225</span>
+                            <span class="indicator-value">39,120.80</span>
+                            <span class="indicator-change positive">+1.8%</span>
+                        </div>
+                        <div class="live-indicator">
+                            <span class="indicator-name">USD/JPY</span>
+                            <span class="indicator-value">152.80</span>
+                            <span class="indicator-change positive">+0.9%</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="principales" class="content-section">
+                <div class="section-header">
+                    <h2 class="section-title">🌍 Principales Índices Bursátiles Globales</h2>
+                    <p class="section-description">
+                        Análisis detallado de los principales índices bursátiles a nivel mundial.
+                        Datos actualizados diciembre 2025 con rendimientos anuales y análisis por región.
+                    </p>
+                </div>
+
+                <div class="market-regions">
+                    <div class="region-card">
+                        <div class="region-header">
+                            <div class="region-icon">🇺🇸</div>
+                            <div class="region-title">América del Norte</div>
+                            <div class="region-performance positive">+24.8% Anual</div>
+                        </div>
+                        <div class="region-indices">
+                            <div class="index-item">
+                                <span class="index-name">S&P 500</span>
+                                <span class="index-value">5,825.60</span>
+                                <span class="index-change positive">+28.3%</span>
+                            </div>
+                            <div class="index-item">
+                                <span class="index-name">NASDAQ Composite</span>
+                                <span class="index-value">18,450.30</span>
+                                <span class="index-change positive">+32.5%</span>
+                            </div>
+                            <div class="index-item">
+                                <span class="index-name">DOW JONES Industrial</span>
+                                <span class="index-value">39,875.40</span>
+                                <span class="index-change positive">+18.7%</span>
+                            </div>
+                            <div class="index-item">
+                                <span class="index-name">TSX (Canadá)</span>
+                                <span class="index-value">22,480.75</span>
+                                <span class="index-change positive">+14.2%</span>
+                            </div>
+                        </div>
+                        <div class="region-analysis">
+                            <p><strong>Análisis:</strong> Mercados norteamericanos liderados por sector tecnológico con avances en IA y semiconductores. Resultados empresariales superan expectativas y perspectivas de estabilidad monetaria.</p>
+                        </div>
+                    </div>
+
+                    <div class="region-card">
+                        <div class="region-header">
+                            <div class="region-icon">🇪🇺</div>
+                            <div class="region-title">Europa</div>
+                            <div class="region-performance positive">+16.2% Anual</div>
+                        </div>
+                        <div class="region-indices">
+                            <div class="index-item">
+                                <span class="index-name">Euro Stoxx 50</span>
+                                <span class="index-value">4,920.45</span>
+                                <span class="index-change positive">+15.8%</span>
+                            </div>
+                            <div class="index-item">
+                                <span class="index-name">DAX Alemán</span>
+                                <span class="index-value">18,450.20</span>
+                                <span class="index-change positive">+20.3%</span>
+                            </div>
+                            <div class="index-item">
+                                <span class="index-name">CAC 40 Francés</span>
+                                <span class="index-value">7,820.65</span>
+                                <span class="index-change positive">+14.5%</span>
+                            </div>
+                            <div class="index-item">
+                                <span class="index-name">FTSE 100 UK</span>
+                                <span class="index-value">8,320.15</span>
+                                <span class="index-change positive">+12.8%</span>
+                            </div>
+                        </div>
+                        <div class="region-analysis">
+                            <p><strong>Análisis:</strong> Recuperación gradual impulsada por energías renovables y sector industrial. Alemania lidera crecimiento mientras sur de Europa muestra mejoría gradual.</p>
+                        </div>
+                    </div>
+
+                    <div class="region-card">
+                        <div class="region-header">
+                            <div class="region-icon">🌏</div>
+                            <div class="region-title">Asia-Pacífico</div>
+                            <div class="region-performance mixed">+18.5% Anual</div>
+                        </div>
+                        <div class="region-indices">
+                            <div class="index-item">
+                                <span class="index-name">Nikkei 225</span>
+                                <span class="index-value">39,120.80</span>
+                                <span class="index-change positive">+24.8%</span>
+                            </div>
+                            <div class="index-item">
+                                <span class="index-name">Hang Seng</span>
+                                <span class="index-value">18,850.40</span>
+                                <span class="index-change positive">+8.5%</span>
+                            </div>
+                            <div class="index-item">
+                                <span class="index-name">Shanghai Composite</span>
+                                <span class="index-value">3,280.90</span>
+                                <span class="index-change positive">+5.2%</span>
+                            </div>
+                            <div class="index-item">
+                                <span class="index-name">ASX 200 Australia</span>
+                                <span class="index-value">8,015.45</span>
+                                <span class="index-change positive">+16.3%</span>
+                            </div>
+                        </div>
+                        <div class="region-analysis">
+                            <p><strong>Análisis:</strong> Japón lidera con políticas expansionistas. China muestra recuperación moderada. India y Corea del Sur con fuerte crecimiento tecnológico.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="market-analysis">
+                    <h3 class="subsection-title">📊 Análisis Sectorial Detallado</h3>
+                    <div class="analysis-grid">
+                        <div class="analysis-card">
+                            <div class="analysis-icon">🚀</div>
+                            <h4>Sectores Alcistas</h4>
+                            <p><strong>Tecnología:</strong> +35.8% anual impulsado por IA y nube.</p>
+                            <p><strong>Energía:</strong> +28.5% con precios altos del petróleo.</p>
+                            <p><strong>Salud:</strong> +22.3% con innovaciones médicas.</p>
+                            <div class="analysis-metrics">
+                                <div class="analysis-metric">
+                                    <span>Tecnología NASDAQ:</span>
+                                    <span class="positive">+35.8%</span>
+                                </div>
+                                <div class="analysis-metric">
+                                    <span>Semiconductores:</span>
+                                    <span class="positive">+42.5%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="analysis-card">
+                            <div class="analysis-icon">📉</div>
+                            <h4>Sectores Defensivos</h4>
+                            <p><strong>Bienes Raíces:</strong> +8.5% con tasas altas.</p>
+                            <p><strong>Utilities:</strong> +12.3% estable.</p>
+                            <p><strong>Consumo Básico:</strong> +10.8% moderado.</p>
+                            <div class="analysis-metrics">
+                                <div class="analysis-metric">
+                                    <span>Bienes Raíces REITs:</span>
+                                    <span class="positive">+8.5%</span>
+                                </div>
+                                <div class="analysis-metric">
+                                    <span>Utilities:</span>
+                                    <span class="positive">+12.3%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="analysis-card">
+                            <div class="analysis-icon">⚠️</div>
+                            <h4>Sectores Bajistas</h4>
+                            <p><strong>Bienes de Lujo:</strong> +3.2% crecimiento lento.</p>
+                            <p><strong>Aerolíneas:</strong> +5.8% recuperación moderada.</p>
+                            <p><strong>Materiales:</strong> +7.5% demanda estable.</p>
+                            <div class="analysis-metrics">
+                                <div class="analysis-metric">
+                                    <span>Aerolíneas:</span>
+                                    <span class="warning">+5.8%</span>
+                                </div>
+                                <div class="analysis-metric">
+                                    <span>Lujo:</span>
+                                    <span class="warning">+3.2%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="market-outlook">
+                    <h3 class="subsection-title">🔮 Perspectivas 2026</h3>
+                    <div class="outlook-content">
+                        <p><strong>Estados Unidos:</strong> Expectativas de crecimiento moderado con tasas estables. S&P 500 podría alcanzar 6,000 puntos si inflación se mantiene controlada.</p>
+                        <p><strong>Europa:</strong> Recuperación gradual con posible recorte de tasas del BCE en Q2 2026. Sectores industriales y energías renovables clave.</p>
+                        <p><strong>Asia:</strong> Japón mantiene políticas expansionistas. China enfocada en estímulo interno. India continúa crecimiento acelerado.</p>
+                        <p><strong>Riesgos Principales:</strong> Inflación persistente, tensiones geopolíticas, y posibles shocks energéticos.</p>
+                    </div>
+                </div>
+            </section>
+
+    
+            <section id="divisas" class="content-section">
+                <div class="section-header">
+                    <h2 class="section-title">💱 Mercado de Divisas (Forex)</h2>
+                    <p class="section-description">
+                        Análisis completo del mercado de divisas internacional. 
+                        Datos actualizados diciembre 2025 con niveles técnicos, análisis fundamental y perspectivas.
+                    </p>
+                </div>
+
+                <div class="forex-overview">
+                    <h3 class="subsection-title">📊 Visión General Forex</h3>
+                    <div class="overview-content">
+                        <p>El dólar estadounidense mantiene fortaleza relativa ante mayoría de divisas desarrolladas. El euro enfrenta presión por diferencial de tasas Fed-BCE y crecimiento moderado europeo. El yen japonés se mantiene débil ante política ultra expansiva del BoJ. Divisas emergentes muestran divergencias según políticas locales.</p>
+                        
+                        <div class="overview-stats">
+                            <div class="overview-stat">
+                                <span>Volumen Diario Forex:</span>
+                                <span class="highlight">$7.5 billones</span>
+                            </div>
+                            <div class="overview-stat">
+                                <span>Pares más negociados:</span>
+                                <span>EUR/USD, USD/JPY, GBP/USD</span>
+                            </div>
+                            <div class="overview-stat">
+                                <span>Volatilidad Promedio:</span>
+                                <span>8.5% anual</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="forex-grid">
+                    <div class="forex-card major">
+                        <div class="forex-header">
+                            <div class="forex-pair">EUR/USD</div>
+                            <div class="forex-trend negative">▼ -3.2% Q4 2025</div>
+                        </div>
+                        <div class="forex-value">1.0650</div>
+                        <div class="forex-details">
+                            <div class="forex-detail">
+                                <span>Soporte Principal:</span>
+                                <span>1.0580</span>
+                            </div>
+                            <div class="forex-detail">
+                                <span>Resistencia Principal:</span>
+                                <span>1.0725</span>
+                            </div>
+                            <div class="forex-detail">
+                                <span>Volatilidad 30 días:</span>
+                                <span class="medium">7.8%</span>
+                            </div>
+                            <div class="forex-detail">
+                                <span>Diferencial Tasas:</span>
+                                <span>+100pb (Fed 4.50% vs BCE 3.50%)</span>
+                            </div>
+                        </div>
+                        <div class="forex-analysis">
+                            <p><strong>Análisis:</strong> Euro bajo presión estructural por crecimiento europeo inferior al estadounidense y diferencial de tasas favorable al dólar. Expectativas de que BCE podría iniciar recortes en Q2 2026 mientras Fed mantiene postura hawkish.</p>
+                            <p><strong>Perspectivas:</strong> Rango esperado 1.0580-1.0725 en corto plazo. Ruptura bajo 1.0580 podría llevar a 1.0450. Recuperación sobre 1.0725 apunta a 1.0850.</p>
+                        </div>
+                    </div>
+
+                    <div class="forex-card major">
+                        <div class="forex-header">
+                            <div class="forex-pair">USD/JPY</div>
+                            <div class="forex-trend positive">▲ +18.5% Anual</div>
+                        </div>
+                        <div class="forex-value">152.80</div>
+                        <div class="forex-details">
+                            <div class="forex-detail">
+                                <span>Soporte Principal:</span>
+                                <span>151.50</span>
+                            </div>
+                            <div class="forex-detail">
+                                <span>Resistencia Principal:</span>
+                                <span>153.00 (Máximo histórico)</span>
+                            </div>
+                            <div class="forex-detail">
+                                <span>Nivel Intervención BoJ:</span>
+                                <span class="high">152.00+</span>
+                            </div>
+                            <div class="forex-detail">
+                                <span>Diferencial Tasas:</span>
+                                <span>+440pb (Fed 4.50% vs BoJ 0.10%)</span>
+                            </div>
+                        </div>
+                        <div class="forex-analysis">
+                            <p><strong>Análisis:</strong> Yen en mínimos históricos ante política ultra expansiva del BoJ y diferencial de tasas récord. Banco de Japón ha intervenido varias veces en 2025 para suavizar depreciación.</p>
+                            <p><strong>Perspectivas:</strong> Presión alcista persistente mientras BoJ mantiene YCC. Intervenciones podrían limitar avances sobre 153.00. Soporte clave en 151.50.</p>
+                        </div>
+                    </div>
+
+                    <div class="forex-card major">
+                        <div class="forex-header">
+                            <div class="forex-pair">GBP/USD</div>
+                            <div class="forex-trend negative">▼ -2.5% Q4 2025</div>
+                        </div>
+                        <div class="forex-value">1.2420</div>
+                        <div class="forex-details">
+                            <div class="forex-detail">
+                                <span>Soporte Principal:</span>
+                                <span>1.2350</span>
+                            </div>
+                            <div class="forex-detail">
+                                <span>Resistencia Principal:</span>
+                                <span>1.2520</span>
+                            </div>
+                            <div class="forex-detail">
+                                <span>Inflación UK:</span>
+                                <span>3.2% (Meta 2.0%)</span>
+                            </div>
+                            <div class="forex-detail">
+                                <span>Tasa BoE:</span>
+                                <span>5.25%</span>
+                            </div>
+                        </div>
+                        <div class="forex-analysis">
+                            <p><strong>Análisis:</strong> Libra esterlina enfrenta presión por desaceleración económica UK y expectativas de recortes del BoE. Inflación moderando pero aún por encima de meta.</p>
+                            <p><strong>Perspectivas:</strong> Rango 1.2350-1.2520. Ruptura bajo 1.2350 apunta a 1.2200. Recuperación sobre 1.2520 podría extenderse a 1.2650.</p>
+                        </div>
+                    </div>
+
+                    <div class="forex-card exotic">
+                        <div class="forex-header">
+                            <div class="forex-pair">USD/MXN</div>
+                            <div class="forex-trend positive">▲ +8.2% Anual</div>
+                        </div>
+                        <div class="forex-value">18.25</div>
+                        <div class="forex-details">
+                            <div class="forex-detail">
+                                <span>Soporte Principal:</span>
+                                <span>17.80</span>
+                            </div>
+                            <div class="forex-detail">
+                                <span>Resistencia Principal:</span>
+                                <span>18.50</span>
+                            </div>
+                            <div class="forex-detail">
+                                <span>Tasa Banxico:</span>
+                                <span>11.00%</span>
+                            </div>
+                            <div class="forex-detail">
+                                <span>Spread Tasas vs Fed:</span>
+                                <span>+650pb</span>
+                            </div>
+                        </div>
+                        <div class="forex-analysis">
+                            <p><strong>Análisis:</strong> Peso mexicano relativamente estable gracias a altas tasas de interés y flujos de inversión. Diferencial de tasas atrae carry trade.</p>
+                            <p><strong>Perspectivas:</strong> Rango 17.80-18.50. Tasas altas de Banxico proveen soporte. Ruptura de 18.50 podría llevar a 19.00.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="currency-strength">
+                    <h3 class="subsection-title">💪 Índice de Fortaleza de Divisas</h3>
+                    <div class="strength-meters">
+                        <div class="strength-meter">
+                            <span class="currency-name">Dólar (USD)</span>
+                            <div class="meter-bar">
+                                <div class="meter-fill" style="width: 92%"></div>
+                            </div>
+                            <span class="strength-value">Muy Fuerte</span>
+                            <span class="strength-change positive">+5.8%</span>
+                        </div>
+                        <div class="strength-meter">
+                            <span class="currency-name">Franco Suizo (CHF)</span>
+                            <div class="meter-bar">
+                                <div class="meter-fill" style="width: 78%"></div>
+                            </div>
+                            <span class="strength-value">Fuerte</span>
+                            <span class="strength-change positive">+3.2%</span>
+                        </div>
+                        <div class="strength-meter">
+                            <span class="currency-name">Euro (EUR)</span>
+                            <div class="meter-bar">
+                                <div class="meter-fill" style="width: 65%"></div>
+                            </div>
+                            <span class="strength-value">Neutral</span>
+                            <span class="strength-change negative">-2.5%</span>
+                        </div>
+                        <div class="strength-meter">
+                            <span class="currency-name">Yen (JPY)</span>
+                            <div class="meter-bar">
+                                <div class="meter-fill" style="width: 35%"></div>
+                            </div>
+                            <span class="strength-value">Débil</span>
+                            <span class="strength-change negative">-12.8%</span>
+                        </div>
+                        <div class="strength-meter">
+                            <span class="currency-name">Libra (GBP)</span>
+                            <div class="meter-bar">
+                                <div class="meter-fill" style="width: 58%"></div>
+                            </div>
+                            <span class="strength-value">Leve Débil</span>
+                            <span class="strength-change negative">-4.2%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="forex-forecast">
+                    <h3 class="subsection-title">🔮 Pronóstico Divisas Q1 2026</h3>
+                    <div class="forecast-content">
+                        <div class="forecast-item">
+                            <span class="forecast-pair">EUR/USD</span>
+                            <span class="forecast-range">1.0580 - 1.0750</span>
+                            <span class="forecast-bias negative">Sesgo Bajista</span>
+                        </div>
+                        <div class="forecast-item">
+                            <span class="forecast-pair">USD/JPY</span>
+                            <span class="forecast-range">150.00 - 154.00</span>
+                            <span class="forecast-bias positive">Sesgo Alcista</span>
+                        </div>
+                        <div class="forecast-item">
+                            <span class="forecast-pair">GBP/USD</span>
+                            <span class="forecast-range">1.2350 - 1.2550</span>
+                            <span class="forecast-bias neutral">Neutral</span>
+                        </div>
+                        <div class="forecast-item">
+                            <span class="forecast-pair">USD/CAD</span>
+                            <span class="forecast-range">1.3200 - 1.3500</span>
+                            <span class="forecast-bias positive">Sesgo Alcista</span>
+                        </div>
+                    </div>
+                    <p class="forecast-note"><strong>Nota:</strong> Pronósticos basados en análisis técnico y fundamental. Sujetos a cambios por datos económicos y eventos geopolíticos.</p>
+                </div>
+            </section>
+
+
+            <section id="commodities" class="content-section">
+                <div class="section-header">
+                    <h2 class="section-title">🛢️ Mercado de Commodities</h2>
+                    <p class="section-description">
+                        Seguimiento de materias primas, energéticos y metales preciosos. 
+                        Datos actualizados diciembre 2025.
+                    </p>
+                </div>
+
+                <div class="commodities-grid">
+                    <div class="commodity-card energy">
+                        <div class="commodity-header">
+                            <div class="commodity-icon">🛢️</div>
+                            <div class="commodity-trend positive">+15.2% Q4</div>
+                        </div>
+                        <div class="commodity-name">Petróleo Brent</div>
+                        <div class="commodity-price">$94.25</div>
+                        <div class="commodity-details">
+                            <div class="commodity-detail">
+                                <span>WTI Crudo:</span>
+                                <span>$90.80</span>
+                            </div>
+                            <div class="commodity-detail">
+                                <span>Inventarios EEUU:</span>
+                                <span class="negative">-3.2M barriles</span>
+                            </div>
+                            <div class="commodity-detail">
+                                <span>Producción OPEP+:</span>
+                                <span>40.5M bpd</span>
+                            </div>
+                        </div>
+                        <p class="commodity-analysis">
+                            Precios sostenidos por recortes de OPEP+ y tensión en Medio Oriente. Demanda global estable.
+                        </p>
+                    </div>
+
+                    <div class="commodity-card metals">
+                        <div class="commodity-header">
+                            <div class="commodity-icon">🥇</div>
+                            <div class="commodity-trend positive">+8.5% Anual</div>
+                        </div>
+                        <div class="commodity-name">Oro</div>
+                        <div class="commodity-price">$2,215</div>
+                        <div class="commodity-details">
+                            <div class="commodity-detail">
+                                <span>Plata:</span>
+                                <span>$28.45</span>
+                            </div>
+                            <div class="commodity-detail">
+                                <span>Platino:</span>
+                                <span>$980</span>
+                            </div>
+                            <div class="commodity-detail">
+                                <span>ETF Oro:</span>
+                                <span class="positive">+45T</span>
+                            </div>
+                        </div>
+                        <p class="commodity-analysis">
+                            Oro como cobertura ante incertidumbre. Bancos centrales continúan compras de reservas.
+                        </p>
+                    </div>
+
+                    <div class="commodity-card agriculture">
+                        <div class="commodity-header">
+                            <div class="commodity-icon">🌾</div>
+                            <div class="commodity-trend negative">-2.5% Q4</div>
+                        </div>
+                        <div class="commodity-name">Trigo</div>
+                        <div class="commodity-price">$5.80</div>
+                        <div class="commodity-details">
+                            <div class="commodity-detail">
+                                <span>Maíz:</span>
+                                <span>$4.45</span>
+                            </div>
+                            <div class="commodity-detail">
+                                <span>Soya:</span>
+                                <span>$12.20</span>
+                            </div>
+                            <div class="commodity-detail">
+                                <span>Cosecha:</span>
+                                <span>Buena</span>
+                            </div>
+                        </div>
+                        <p class="commodity-analysis">
+                            Granos con presión por perspectivas de cosecha favorable en EE.UU. y condiciones climáticas óptimas.
+                        </p>
+                    </div>
+
+                    <div class="commodity-card industrial">
+                        <div class="commodity-header">
+                            <div class="commodity-icon">🏭</div>
+                            <div class="commodity-trend positive">+12.8% Anual</div>
+                        </div>
+                        <div class="commodity-name">Cobre</div>
+                        <div class="commodity-price">$4.85</div>
+                        <div class="commodity-details">
+                            <div class="commodity-detail">
+                                <span>Aluminio:</span>
+                                <span>$2,650</span>
+                            </div>
+                            <div class="commodity-detail">
+                                <span>Níquel:</span>
+                                <span>$18,200</span>
+                            </div>
+                            <div class="commodity-detail">
+                                <span>Demanda:</span>
+                                <span class="positive">+3.5%</span>
+                            </div>
+                        </div>
+                        <p class="commodity-analysis">
+                            Cobre impulsado por transición energética y demanda de infraestructura. China estable.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+ 
+            <section id="bonos" class="content-section">
+                <div class="section-header">
+                    <h2 class="section-title">📈 Mercado de Bonos - México y Global</h2>
+                    <p class="section-description">
+                        Análisis completo del mercado de renta fija mexicano e internacional.
+                        Rendimientos, spreads, duraciones y análisis de curvas. Datos actualizados Diciembre 2025.
+                    </p>
+                </div>
+
+                <div class="bonds-overview">
+                    <h3 class="subsection-title">📊 Panorama General Bonos México</h3>
+                    <div class="overview-content">
+                        <p><strong>Contexto Mercado:</strong> El mercado de bonos mexicanos muestra estabilidad con tasas en niveles elevados tras la última decisión de Banxico de mantener la tasa de referencia en 11.00%. La curva de rendimientos presenta pendiente positiva moderada, indicando expectativas de moderada inflación y crecimiento económico.</p>
+                        
+                        <div class="overview-stats">
+                            <div class="overview-stat">
+                                <span>Tasa Referencia Banxico:</span>
+                                <span class="highlight">11.00%</span>
+                            </div>
+                            <div class="overview-stat">
+                                <span>Inflación Anual:</span>
+                                <span>4.25%</span>
+                            </div>
+                            <div class="overview-stat">
+                                <span>Prima Riesgo México:</span>
+                                <span>+220pb vs Treasuries</span>
+                            </div>
+                            <div class="overview-stat">
+                                <span>Deuda/PIB México:</span>
+                                <span>52.8%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bonds-grid">
+        
+                    <div class="bond-card mexican-treasury">
+                        <div class="bond-header">
+                            <div class="bond-icon">🇲🇽</div>
+                            <div class="bond-type">CETES 28 días</div>
+                            <div class="bond-emission">Gubernamental MXN</div>
+                        </div>
+                        <div class="bond-yield">11.05%</div>
+                        <div class="bond-change positive">▲ +5pb</div>
+                        <div class="bond-details">
+                            <div class="bond-detail">
+                                <span>Plazo:</span>
+                                <span>28 días</span>
+                            </div>
+                            <div class="bond-detail">
+                                <span>Subasta Semanal:</span>
+                                <span>Lunes</span>
+                            </div>
+                            <div class="bond-detail">
+                                <span>Última Subasta:</span>
+                                <span>$45,000M MXN</span>
+                            </div>
+                            <div class="bond-detail">
+                                <span>Tasa Real:</span>
+                                <span class="positive">+6.80%</span>
+                            </div>
+                        </div>
+                        <div class="bond-analysis">
+                            <p><strong>Análisis:</strong> CETES mantienen atractivo por alta tasa real positiva. Instrumento libre de riesgo crediticio ideal para liquidez a corto plazo. Demanda constante de inversionistas institucionales y retail.</p>
+                        </div>
+                    </div>
+
+                    <div class="bond-card mexican-treasury">
+                        <div class="bond-header">
+                            <div class="bond-icon">🇲🇽</div>
+                            <div class="bond-type">MBONOS 3 años</div>
+                            <div class="bond-emission">Gubernamental MXN</div>
+                        </div>
+                        <div class="bond-yield">10.45%</div>
+                        <div class="bond-change negative">▼ -8pb</div>
+                        <div class="bond-details">
+                            <div class="bond-detail">
+                                <span>Plazo:</span>
+                                <span>3 años</span>
+                            </div>
+                            <div class="bond-detail">
+                                <span>Duración:</span>
+                                <span>2.8 años</span>
+                            </div>
+                            <div class="bond-detail">
+                                <span>Cupón:</span>
+                                <span>9.75% fijo</span>
+                            </div>
+                            <div class="bond-detail">
+                                <span>Spread vs Cetes:</span>
+                                <span class="negative">-60pb</span>
+                            </div>
+                        </div>
+                        <div class="bond-analysis">
+                            <p><strong>Análisis:</strong> MBONOS con curva normal (rendimientos decrecientes a mayor plazo). Atractivo para fondos de pensiones y aseguradoras. Spread negativo vs CETES indica expectativas de bajada de tasas.</p>
+                        </div>
+                    </div>
+
+                    <div class="bond-card mexican-treasury">
+                        <div class="bond-header">
+                            <div class="bond-icon">🇲🇽</div>
+                            <div class="bond-type">UDIBONOS 10 años</div>
+                            <div class="bond-emission">Gubernamental UDI</div>
+                        </div>
+                        <div class="bond-yield">3.25%</div>
+                        <div class="bond-change positive">▲ +3pb</div>
+                        <div class="bond-details">
+                            <div class="bond-detail">
+                                <span>Plazo:</span>
+                                <span>10 años</span>
+                            </div>
+                            <div class="bond-detail">
+                                <span>Tasa Real:</span>
+                                <span class="positive">3.25%</span>
+                            </div>
+                            <div class="bond-detail">
+                                <span>Inflación Esperada:</span>
+                                <span>4.20%</span>
+                            </div>
+                            <div class="bond-detail">
+                                <span>Protección Inflación:</span>
+                                <span class="positive">100%</span>
+                            </div>
+                        </div>
+                        <div class="bond-analysis">
+                            <p><strong>Análisis:</strong> Instrumento ideal para protección contra inflación. Demanda institucional fuerte por parte de Afores y fondos de pensión. Tasa real positiva atrae inversionistas conservadores.</p>
+                        </div>
+                    </div>
+
+                  
+                    <div class="bond-card mexican-corporate">
+                        <div class="bond-header">
+                            <div class="bond-icon">🏢</div>
+                            <div class="bond-type">PEMEX 2028</div>
+                            <div class="bond-emission">Corporativo BBB-</div>
+                        </div>
+                        <div class="bond-yield">12.85%</div>
+                        <div class="bond-change positive">▲ +12pb</div>
+                        <div class="bond-details">
+                            <div class="bond-detail">
+                                <span>Emisor:</span>
+                                <span>Petróleos Mexicanos</span>
+                            </div>
+                            <div class="bond-detail">
+                                <span>Vencimiento:</span>
+                                <span>Enero 2028</span>
+                            </div>
+                            <div class="bond-detail">
+                                <span>Spread vs MBONOS:</span>
+                                <span class="negative">+240pb</span>
+                            </div>
+                            <div class="bond-detail">
+                                <span>Rating:</span>
+                                <span class="warning">BBB- (Fitch)</span>
+                            </div>
+                        </div>
+                        <div class="bond-analysis">
+                            <p><strong>Análisis:</strong> Spread amplio refleja preocupaciones sobre situación financiera. Alto rendimiento compensa riesgo. Demanda principalmente de fondos especializados en alto rendimiento.</p>
+                        </div>
+                    </div>
+
+                    <div class="bond-card mexican-corporate">
+                        <div class="bond-header">
+                            <div class="bond-icon">🏦</div>
+                            <div class="bond-type">BANORTE 2027</div>
+                            <div class="bond-emission">Corporativo A</div>
+                        </div>
+                        <div class="bond-yield">10.25%</div>
+                        <div class="bond-change negative">▼ -5pb</div>
+                        <div class="bond-details">
+                            <div class="bond-detail">
+                                <span>Emisor:</span>
+                                <span>Banco Banorte</span>
+                            </div>
+                            <div class="bond-detail">
+                                <span>Vencimiento:</span>
+                                <span>Marzo 2027</span>
+                            </div>
+                            <div class="bond-detail">
+                                <span>Spread vs MBONOS:</span>
+                                <span class="positive">-20pb</span>
+                            </div>
+                            <div class="bond-detail">
+                                <span>Rating:</span>
+                                <span class="positive">A (S&P)</span>
+                            </div>
+                        </div>
+                        <div class="bond-analysis">
+                            <p><strong>Análisis:</strong> Bono bancario de alta calidad. Spread negativo indica percepción de menor riesgo que gubernamental. Liquidez excelente en mercado secundario.</p>
+                        </div>
+                    </div>
+
+                    <div class="bond-card mexican-corporate">
+                        <div class="bond-header">
+                            <div class="bond-icon">🏗️</div>
+                            <div class="bond-type">CEMEX 2030</div>
+                            <div class="bond-emission">Corporativo BB+</div>
+                        </div>
+                        <div class="bond-yield">11.75%</div>
+                        <div class="bond-change neutral">● 0pb</div>
+                        <div class="bond-details">
+                            <div class="bond-detail">
+                                <span>Emisor:</span>
+                                <span>CEMEX S.A.B.</span>
+                            </div>
+                            <div class="bond-detail">
+                                <span>Vencimiento:</span>
+                                <span>Junio 2030</span>
+                            </div>
+                            <div class="bond-detail">
+                                <span>Spread vs MBONOS:</span>
+                                <span class="negative">+130pb</span>
+                            </div>
+                            <div class="bond-detail">
+                                <span>Rating:</span>
+                                <span class="warning">BB+ (Moody's)</span>
+                            </div>
+                        </div>
+                        <div class="bond-analysis">
+                            <p><strong>Análisis:</strong> Bono corporativo de empresa global mexicana. Spread moderado refleja situación financiera estable y diversificación geográfica. Atractivo para fondos de renta fija global.</p>
+                        </div>
+                    </div>
+                </div>
+
+       
+                <div class="yield-curve-section">
+                    <h3 class="subsection-title">📊 Curva de Rendimientos México</h3>
+                    <div class="curve-container">
+                        <div class="curve-chart">
+                          
+                            <div class="curve-graphic">
+                                <div class="curve-point" style="left: 10%; bottom: 40%">1m</div>
+                                <div class="curve-point" style="left: 25%; bottom: 45%">3m</div>
+                                <div class="curve-point" style="left: 40%; bottom: 50%">6m</div>
+                                <div class="curve-point" style="left: 55%; bottom: 55%">1y</div>
+                                <div class="curve-point" style="left: 70%; bottom: 60%">3y</div>
+                                <div class="curve-point" style="left: 85%; bottom: 62%">10y</div>
+                                <div class="curve-line"></div>
+                            </div>
+                        </div>
+                        <div class="curve-analysis">
+                            <h4>Análisis de Curva</h4>
+                            <p><strong>Pendiente Positiva Moderada:</strong> Curva con pendiente de +85pb entre 1 mes y 10 años, indicando expectativas de crecimiento económico moderado y control inflacionario.</p>
+                            <p><strong>Niveles Clave:</strong>
+                                <br>• 1 mes: 11.05%
+                                <br>• 1 año: 10.85% 
+                                <br>• 3 años: 10.45%
+                                <br>• 10 años: 10.20%
+                            </p>
+                            <p><strong>Interpretación:</strong> Curva normal sin inversión, lo que históricamente indica baja probabilidad de recesión en el corto plazo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="international-comparison">
+                    <h3 class="subsection-title">🌍 Comparativa Internacional de Rendimientos</h3>
+                    <div class="comparison-grid">
+                        <div class="comparison-item">
+                            <div class="country-flag">🇲🇽</div>
+                            <div class="country-name">México 10 años</div>
+                            <div class="yield-value">10.20%</div>
+                            <div class="risk-premium">+595pb vs USA</div>
+                        </div>
+                        <div class="comparison-item">
+                            <div class="country-flag">🇺🇸</div>
+                            <div class="country-name">USA 10 años</div>
+                            <div class="yield-value">4.25%</div>
+                            <div class="risk-premium">Referencia</div>
+                        </div>
+                        <div class="comparison-item">
+                            <div class="country-flag">🇧🇷</div>
+                            <div class="country-name">Brasil 10 años</div>
+                            <div class="yield-value">11.80%</div>
+                            <div class="risk-premium">+755pb vs USA</div>
+                        </div>
+                        <div class="comparison-item">
+                            <div class="country-flag">🇨🇴</div>
+                            <div class="country-name">Colombia 10 años</div>
+                            <div class="yield-value">11.25%</div>
+                            <div class="risk-premium">+700pb vs USA</div>
+                        </div>
+                    </div>
+                    <p class="comparison-note"><strong>Nota:</strong> La prima de riesgo de México es de las más bajas entre mercados emergentes, reflejando estabilidad macroeconómica y credibilidad de política monetaria.</p>
+                </div>
+
+    
+                <div class="bond-perspectives">
+                    <h3 class="subsection-title">🔮 Perspectivas y Recomendaciones</h3>
+                    <div class="perspectives-content">
+                        <div class="perspective-card">
+                            <h4>📈 Escenario Alcista</h4>
+                            <p><strong>Condiciones:</strong> Inflación converge a meta Banxico (3.0%), crecimiento económico superior al 3%, mejora rating soberano.</p>
+                            <p><strong>Efecto:</strong> Bajada de tasas 150-200pb en 2026, apreciación de precios bonos largos.</p>
+                            <p><strong>Recomendación:</strong> Aumentar duración de portafolio con MBONOS y UDIBONOS largos.</p>
+                        </div>
+                        <div class="perspective-card">
+                            <h4>⚠️ Escenario Neutral</h4>
+                            <p><strong>Condiciones:</strong> Inflación se mantiene 4-4.5%, crecimiento 2-2.5%, estabilidad política.</p>
+                            <p><strong>Efecto:</strong> Tasas estables, curva mantiene pendiente, spreads corporativos estables.</p>
+                            <p><strong>Recomendación:</strong> Estrategia barbell: CETES cortos + MBONOS 3-5 años.</p>
+                        </div>
+                        <div class="perspective-card">
+                            <h4>📉 Escenario Bajista</h4>
+                            <p><strong>Condiciones:</strong> Inflación repunta a 5%+, deterioro fiscal, salida de capitales.</p>
+                            <p><strong>Efecto:</strong> Subida tasas 100-150pb, ensanchamiento spreads, depreciación bonos.</p>
+                            <p><strong>Recomendación:</strong> Posición corta en duración, preferir CETES y liquidez.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+          
+            <section id="futuros" class="content-section">
+                <div class="section-header">
+                    <h2 class="section-title">⏰ Mercado de Futuros y Opciones - México</h2>
+                    <p class="section-description">
+                        Análisis completo del mercado de derivados financieros mexicanos.
+                        Futuros sobre IPC, divisas, tasas de interés y opciones sobre acciones mexicanas.
+                        Datos actualizados Diciembre 2025.
+                    </p>
+                </div>
+
+                <div class="derivatives-overview">
+                    <h3 class="subsection-title">📊 Panorama General Derivados México</h3>
+                    <div class="overview-content">
+                        <p><strong>Mercado Mexicano de Derivados (MexDer):</strong> Es la bolsa de derivados de México, parte de Grupo BMV. Opera futuros y opciones sobre índices, acciones, divisas y tasas de interés. Volumen promedio diario $25,000M MXN en 2025.</p>
+                        
+                        <div class="overview-stats">
+                            <div class="overview-stat">
+                                <span>Volumen Diario MexDer:</span>
+                                <span class="highlight">$25,000M MXN</span>
+                            </div>
+                            <div class="overview-stat">
+                                <span>Contratos Activos:</span>
+                                <span>48 diferentes</span>
+                            </div>
+                            <div class="overview-stat">
+                                <span>Participación Institucional:</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="overview-stat">
+                                <span>Hedge Eficiencia:</span>
+                                <span>85% correlación</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+             
+                <div class="futures-section">
+                    <h3 class="subsection-title">📈 Futuros sobre IPC (Nifty/BMV)</h3>
+                    <div class="futures-grid">
+                        <div class="future-card mexder-future">
+                            <div class="future-header">
+                                <div class="future-symbol">IPC</div>
+                                <div class="future-name">Futuro IPC Mar 2026</div>
+                                <div class="future-contract">MexDer</div>
+                            </div>
+                            <div class="future-price">58,450</div>
+                            <div class="future-change positive">▲ +1.2%</div>
+                            <div class="future-premium">
+                                <span>Premium vs Spot:</span>
+                                <span class="positive">+85 puntos</span>
+                            </div>
+                            <div class="future-details">
+                                <div class="future-detail">
+                                    <span>Vencimiento:</span>
+                                    <span>15 Mar 2026</span>
+                                </div>
+                                <div class="future-detail">
+                                    <span>Multiplicador:</span>
+                                    <span>10 x IPC</span>
+                                </div>
+                                <div class="future-detail">
+                                    <span>Valor Contrato:</span>
+                                    <span>$584,500 MXN</span>
+                                </div>
+                                <div class="future-detail">
+                                    <span>Open Interest:</span>
+                                    <span>45,280 contratos</span>
+                                </div>
+                                <div class="future-detail">
+                                    <span>Volumen Día:</span>
+                                    <span>8,450 contratos</span>
+                                </div>
+                            </div>
+                            <div class="future-analysis">
+                                <p><strong>Análisis:</strong> Futuro en contango moderado. Alta liquidez y profundidad. Principal instrumento de cobertura institucional. Spread bid-ask de 5 puntos.</p>
+                            </div>
+                        </div>
+
+                        <div class="future-card mexder-future">
+                            <div class="future-header">
+                                <div class="future-symbol">IPC</div>
+                                <div class="future-name">Futuro IPC Jun 2026</div>
+                                <div class="future-contract">MexDer</div>
+                            </div>
+                            <div class="future-price">58,850</div>
+                            <div class="future-change positive">▲ +1.3%</div>
+                            <div class="future-premium">
+                                <span>Premium vs Spot:</span>
+                                <span class="positive">+485 puntos</span>
+                            </div>
+                            <div class="future-details">
+                                <div class="future-detail">
+                                    <span>Vencimiento:</span>
+                                    <span>20 Jun 2026</span>
+                                </div>
+                                <div class="future-detail">
+                                    <span>Multiplicador:</span>
+                                    <span>10 x IPC</span>
+                                </div>
+                                <div class="future-detail">
+                                    <span>Valor Contrato:</span>
+                                    <span>$588,500 MXN</span>
+                                </div>
+                                <div class="future-detail">
+                                    <span>Open Interest:</span>
+                                    <span>28,750 contratos</span>
+                                </div>
+                            </div>
+                            <div class="future-analysis">
+                                <p><strong>Análisis:</strong> Contango estacional normal. Utilizado por fondos de pensiones para cobertura de largo plazo. Costo carry implícito de 2.8% anualizado.</p>
+                            </div>
+                        </div>
+
+                        <div class="future-card mexder-future">
+                            <div class="future-header">
+                                <div class="future-symbol">MINI IPC</div>
+                                <div class="future-name">Mini Futuro IPC Mar 2026</div>
+                                <div class="future-contract">MexDer</div>
+                            </div>
+                            <div class="future-price">58,420</div>
+                            <div class="future-change positive">▲ +1.1%</div>
+                            <div class="future-premium">
+                                <span>Premium vs Spot:</span>
+                                <span class="positive">+55 puntos</span>
+                            </div>
+                            <div class="future-details">
+                                <div class="future-detail">
+                                    <span>Vencimiento:</span>
+                                    <span>15 Mar 2026</span>
+                                </div>
+                                <div class="future-detail">
+                                    <span>Multiplicador:</span>
+                                    <span>1 x IPC</span>
+                                </div>
+                                <div class="future-detail">
+                                    <span>Valor Contrato:</span>
+                                    <span>$58,420 MXN</span>
+                                </div>
+                                <div class="future-detail">
+                                    <span>Open Interest:</span>
+                                    <span>125,800 contratos</span>
+                                </div>
+                            </div>
+                            <div class="future-analysis">
+                                <p><strong>Análisis:</strong> Contrato más líquido para retail e inversionistas pequeños. Spread bid-ask de 2 puntos. Ideal para estrategias intraday.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="currency-futures-section">
+                    <h3 class="subsection-title">💱 Futuros sobre Divisas MXN</h3>
+                    <div class="futures-grid">
+                        <div class="future-card currency-future">
+                            <div class="future-header">
+                                <div class="future-symbol">MXP</div>
+                                <div class="future-name">Futuro USD/MXN Mar 2026</div>
+                                <div class="future-contract">MexDer/CME</div>
+                            </div>
+                            <div class="future-price">18.35</div>
+                            <div class="future-change negative">▼ -0.3%</div>
+                            <div class="future-premium">
+                                <span>Forward Points:</span>
+                                <span class="positive">+0.10</span>
+                            </div>
+                            <div class="future-details">
+                                <div class="future-detail">
+                                    <span>Vencimiento:</span>
+                                    <span>15 Mar 2026</span>
+                                </div>
+                                <div class="future-detail">
+                                    <span>Contrato:</span>
+                                    <span>$500,000 USD</span>
+                                </div>
+                                <div class="future-detail">
+                                    <span>Valor MXN:</span>
+                                    <span>$9,175,000 MXN</span>
+                                </div>
+                                <div class="future-detail">
+                                    <span>Tasa Implícita:</span>
+                                    <span>11.8% vs 5.5% USD</span>
+                                </div>
+                            </div>
+                            <div class="future-analysis">
+                                <p><strong>Análisis:</strong> Forward points reflejan diferencial de tasas México-USA. Principal instrumento de cobertura cambiaria para exportadores/importadores.</p>
+                            </div>
+                        </div>
+
+                        <div class="future-card currency-future">
+                            <div class="future-header">
+                                <div class="future-symbol">MPE</div>
+                                <div class="future-name">Futuro EUR/MXN Mar 2026</div>
+                                <div class="future-contract">MexDer</div>
+                            </div>
+                            <div class="future-price">19.55</div>
+                            <div class="future-change negative">▼ -0.4%</div>
+                            <div class="future-details">
+                                <div class="future-detail">
+                                    <span>Vencimiento:</span>
+                                    <span>15 Mar 2026</span>
+                                </div>
+                                <div class="future-detail">
+                                    <span>Contrato:</span>
+                                    <span>€100,000 EUR</span>
+                                </div>
+                                <div class="future-detail">
+                                    <span>Valor MXN:</span>
+                                    <span>$1,955,000 MXN</span>
+                                </div>
+                                <div class="future-detail">
+                                    <span>Liquidez:</span>
+                                    <span class="medium">Media</span>
+                                </div>
+                            </div>
+                            <div class="future-analysis">
+                                <p><strong>Análisis:</strong> Utilizado por empresas con exposición al euro. Liquidez moderada, spreads más amplios que USD/MXN.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+   
+                <div class="rates-futures-section">
+                    <h3 class="subsection-title">📊 Futuros sobre Tasas TIIE</h3>
+                    <div class="futures-grid">
+                        <div class="future-card rates-future">
+                            <div class="future-header">
+                                <div class="future-symbol">TIIE</div>
+                                <div class="future-name">Futuro TIIE 28d Mar 2026</div>
+                                <div class="future-contract">MexDer</div>
+                            </div>
+                            <div class="future-price">11.15%</div>
+                            <div class="future-change positive">▲ +0.05%</div>
+                            <div class="future-details">
+                                <div class="future-detail">
+                                    <span>Vencimiento:</span>
+                                    <span>15 Mar 2026</span>
+                                </div>
+                                <div class="future-detail">
+                                    <span>Contrato:</span>
+                                    <span>$1,000,000 MXN</span>
+                                </div>
+                                <div class="future-detail">
+                                    <span>Valor Punto:</span>
+                                    <span>$25 MXN</span>
+                                </div>
+                                <div class="future-detail">
+                                    <span>Tasa Implícita:</span>
+                                    <span>11.15%</span>
+                                </div>
+                            </div>
+                            <div class="future-analysis">
+                                <p><strong>Análisis:</strong> Principales usuarios: bancos para gestión de riesgo de tasa. Tasa implícita ligeramente sobre tasa spot, indica expectativas neutral-hawkish.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+     
+                <div class="options-section">
+                    <h3 class="subsection-title">🎯 Opciones sobre Acciones Mexicanas</h3>
+                    <div class="options-grid">
+                        <div class="option-card mexican-call">
+                            <div class="option-header">
+                                <div class="option-symbol">WALMEX</div>
+                                <div class="option-type">CALL Mar 2026</div>
+                                <div class="option-strike-price">$68.50</div>
+                            </div>
+                            <div class="option-price">$3.20</div>
+                            <div class="option-change positive">▲ +8.5%</div>
+                            <div class="option-greeks">
+                                <div class="greek">
+                                    <span>Delta:</span>
+                                    <span>0.65</span>
+                                </div>
+                                <div class="greek">
+                                    <span>Vega:</span>
+                                    <span>0.12</span>
+                                </div>
+                                <div class="greek">
+                                    <span>Theta:</span>
+                                    <span>-0.05</span>
+                                </div>
+                            </div>
+                            <div class="option-details">
+                                <div class="option-detail">
+                                    <span>Vencimiento:</span>
+                                    <span>20 Mar 2026</span>
+                                </div>
+                                <div class="option-detail">
+                                    <span>Volatilidad Implícita:</span>
+                                    <span>28.5%</span>
+                                </div>
+                                <div class="option-detail">
+                                    <span>Open Interest:</span>
+                                    <span>15,240 contratos</span>
+                                </div>
+                            </div>
+                            <div class="option-analysis">
+                                <p><strong>Análisis:</strong> CALL ligeramente fuera del dinero. Volatilidad moderada. Demandada por fondos que buscan exposición apalancada a retail.</p>
+                            </div>
+                        </div>
+
+                        <div class="option-card mexican-put">
+                            <div class="option-header">
+                                <div class="option-symbol">AMXL</div>
+                                <div class="option-type">PUT Mar 2026</div>
+                                <div class="option-strike-price">$45.00</div>
+                            </div>
+                            <div class="option-price">$2.85</div>
+                            <div class="option-change positive">▲ +5.2%</div>
+                            <div class="option-greeks">
+                                <div class="greek">
+                                    <span>Delta:</span>
+                                    <span>-0.45</span>
+                                </div>
+                                <div class="greek">
+                                    <span>Vega:</span>
+                                    <span>0.15</span>
+                                </div>
+                                <div class="greek">
+                                    <span>Theta:</span>
+                                    <span>-0.04</span>
+                                </div>
+                            </div>
+                            <div class="option-details">
+                                <div class="option-detail">
+                                    <span>Vencimiento:</span>
+                                    <span>20 Mar 2026</span>
+                                </div>
+                                <div class="option-detail">
+                                    <span>Volatilidad Implícita:</span>
+                                    <span>32.8%</span>
+                                </div>
+                                <div class="option-detail">
+                                    <span>Open Interest:</span>
+                                    <span>8,560 contratos</span>
+                                </div>
+                            </div>
+                            <div class="option-analysis">
+                                <p><strong>Análisis:</strong> PUT en el dinero utilizado para cobertura por accionistas institucionales. Alta volatilidad refleja incertidumbre sector telecom.</p>
+                            </div>
+                        </div>
+
+                        <div class="option-card mexican-call">
+                            <div class="option-header">
+                                <div class="option-symbol">GFNORTE</div>
+                                <div class="option-type">CALL Mar 2026</div>
+                                <div class="option-strike-price">$185.00</div>
+                            </div>
+                            <div class="option-price">$8.40</div>
+                            <div class="option-change negative">▼ -2.3%</div>
+                            <div class="option-greeks">
+                                <div class="greek">
+                                    <span>Delta:</span>
+                                    <span>0.72</span>
+                                </div>
+                                <div class="greek">
+                                    <span>Vega:</span>
+                                    <span>0.18</span>
+                                </div>
+                            </div>
+                            <div class="option-details">
+                                <div class="option-detail">
+                                    <span>Vencimiento:</span>
+                                    <span>20 Mar 2026</span>
+                                </div>
+                                <div class="option-detail">
+                                    <span>Volatilidad Implícita:</span>
+                                    <span>25.2%</span>
+                                </div>
+                            </div>
+                            <div class="option-analysis">
+                                <p><strong>Análisis:</strong> CALL en el dinero. Baja volatilidad refleja estabilidad del sector bancario. Utilizada para estrategias covered call.</p>
+                            </div>
+                        </div>
+
+                        <div class="option-card mexican-put">
+                            <div class="option-header">
+                                <div class="option-symbol">PEMEX</div>
+                                <div class="option-type">PUT Jun 2026</div>
+                                <div class="option-strike-price">$12.50</div>
+                            </div>
+                            <div class="option-price">$1.25</div>
+                            <div class="option-change positive">▲ +12.5%</div>
+                            <div class="option-greeks">
+                                <div class="greek">
+                                    <span>Delta:</span>
+                                    <span>-0.38</span>
+                                </div>
+                                <div class="greek">
+                                    <span>Vega:</span>
+                                    <span>0.22</span>
+                                </div>
+                            </div>
+                            <div class="option-details">
+                                <div class="option-detail">
+                                    <span>Vencimiento:</span>
+                                    <span>19 Jun 2026</span>
+                                </div>
+                                <div class="option-detail">
+                                    <span>Volatilidad Implícita:</span>
+                                    <span>45.8%</span>
+                                </div>
+                            </div>
+                            <div class="option-analysis">
+                                <p><strong>Análisis:</strong> PUT con alta volatilidad y prima modesta. Refleja preocupaciones sobre situación financiera Pemex. Utilizada por fondos de arbitraje.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            
+                <div class="volatility-section">
+                    <h3 class="subsection-title">📉 Análisis de Volatilidad MexDer</h3>
+                    <div class="volatility-content">
+                        <div class="volatility-card">
+                            <h4>📊 VIMEX - Índice Volatilidad México</h4>
+                            <div class="vimex-value">22.5</div>
+                            <div class="vimex-change positive">▼ -1.2</div>
+                            <div class="volatility-analysis">
+                                <p><strong>Nivel Actual:</strong> 22.5 (rango histórico: 15-45)</p>
+                                <p><strong>Interpretación:</strong> Volatilidad moderada-baja. Mercado en fase de consolidación. Niveles por debajo de 20 indicarían complacencia.</p>
+                                <p><strong>Comparativa:</strong> VIX USA: 15.8, VIMEX: 22.5 (+6.7 puntos diferencia normal).</p>
+                            </div>
+                        </div>
+                        
+                        <div class="volatility-skew">
+                            <h4>⚖️ Skew de Volatilidad</h4>
+                            <p><strong>PUT/CALL Ratio:</strong> 1.15 (ligeramente bearish)</p>
+                            <p><strong>Volatilidad Smile:</strong> Forma normal, sin distorsiones significativas</p>
+                            <p><strong>Sectores Alta Vol:</strong> Energía (Pemex) 45%, Telecom (AMXL) 33%</p>
+                            <p><strong>Sectores Baja Vol:</strong> Bancos 25%, Consumo 28%</p>
+                        </div>
+                    </div>
+                </div>
+
+            
+                <div class="strategies-section">
+                    <h3 class="subsection-title">🎯 Estrategias Recomendadas Derivados MX</h3>
+                    <div class="strategies-grid">
+                        <div class="strategy-card">
+                            <h4>🏦 Institucional - Cobertura</h4>
+                            <p><strong>Estrategia:</strong> Short Futuro IPC + Long Opciones PUT</p>
+                            <p><strong>Objetivo:</strong> Proteger portafolio ante corrección</p>
+                            <p><strong>Coste:</strong> Prima PUT 2-3% anual</p>
+                            <p><strong>Riesgo:</strong> Coste de cobertura en mercados alcistas</p>
+                        </div>
+                        <div class="strategy-card">
+                            <h4>📊 Retail - Generación Ingresos</h4>
+                            <p><strong>Estrategia:</strong> Covered Call sobre WALMEX/GFNORTE</p>
+                            <p><strong>Objetivo:</strong> Ingresos adicionales 8-12% anual</p>
+                            <p><strong>Rendimiento:</strong> Cupón + prima opciones</p>
+                            <p><strong>Riesgo:</strong> Pérdida de upside en rally fuerte</p>
+                        </div>
+                        <div class="strategy-card">
+                            <h4>💼 Especializado - Arbitraje</h4>
+                            <p><strong>Estrategia:</strong> Cash & Carry Futuros IPC</p>
+                            <p><strong>Objetivo:</strong> Capturar diferencial tasas</p>
+                            <p><strong>Retorno:</strong> 2.5-3.0% anual libre de riesgo</p>
+                            <p><strong>Requisito:</strong> Capital mínimo $5M MXN</p>
+                        </div>
+                    </div>
+                </div>
+
+      
+                <div class="expirations-section">
+                    <h3 class="subsection-title">📅 Calendario de Vencimientos 2026</h3>
+                    <div class="calendar-grid">
+                        <div class="calendar-month">
+                            <h5>Marzo 2026</h5>
+                            <p>• Futuros IPC: 15 Mar</p>
+                            <p>• Opciones acciones: 20 Mar</p>
+                            <p>• Futuros TIIE: 15 Mar</p>
+                        </div>
+                        <div class="calendar-month">
+                            <h5>Junio 2026</h5>
+                            <p>• Futuros IPC: 20 Jun</p>
+                            <p>• Opciones acciones: 19 Jun</p>
+                            <p>• Futuros USD/MXN: 15 Jun</p>
+                        </div>
+                        <div class="calendar-month">
+                            <h5>Septiembre 2026</h5>
+                            <p>• Futuros IPC: 19 Sep</p>
+                            <p>• Opciones acciones: 18 Sep</p>
+                            <p>• Triple witching: 18 Sep</p>
+                        </div>
+                        <div class="calendar-month">
+                            <h5>Diciembre 2026</h5>
+                            <p>• Futuros IPC: 19 Dic</p>
+                            <p>• Opciones acciones: 18 Dic</p>
+                            <p>• Vencimiento anual: 31 Dic</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Visual Economic</h4>
+                    <p>Portal líder en análisis económico y financiero para profesionales e inversionistas.</p>
+                    <p><strong>Datos actualizados:</strong> Diciembre 2025</p>
+                    <p><strong>Fuentes:</strong> Banco de México, BMV, MexDer, CNBV</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Mercados México</h4>
+                    <ul>
+                        <li><a href="#bonos">📈 Bonos Mexicanos</a></li>
+                        <li><a href="#futuros">⏰ Derivados MexDer</a></li>
+                        <li><a href="#divisas">💱 Tipo de Cambio</a></li>
+                        <li><a href="#commodities">🛢️ Commodities</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Visual Economic. Arrieta Torres Carlos Ernesto - Datos actualizados Diciembre 2025</p>
+                <p class="footer-disclaimer"><strong>Advertencia:</strong> Los derivados financieros conllevan alto riesgo. La información es con fines educativos. Consulte a un asesor financiero certificado.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="mercados.js"></script>
+</body>
+</html>
