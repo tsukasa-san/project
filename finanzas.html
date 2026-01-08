@@ -1,0 +1,1681 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanzas Personales - Visual Economic</title>
+      <link rel="stylesheet" href="finanzas.css">
+    <link href="" rel="stylesheet">
+</head>
+<body style="background-image: url('https://z101digital.com/wp-content/uploads/2018/12/ezgif-com-video-to-gif-9.gif');">
+
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <h1 class="logo">Visual Economic</h1>
+                <span class="tagline">Análisis financiero CECyT 3</span>
+            </div>
+            <nav class="top-nav">
+                <ul>
+                    <li><a href="../index.html" class="nav-link">🏠 Inicio</a></li>
+                    <li><a href="../mercados/mercados.html" class="nav-link">📈 Mercados</a></li>
+                    <li><a href="../inversiones/inversiones.html" class="nav-link">💼 Inversiones</a></li>
+                    <li><a href="finanzas.html" class="nav-link active">💰 Finanzas</a></li>
+                    <li><a href="../analisis/analisis.html" class="nav-link">🔍 Análisis</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-container">
+        
+        <aside class="sidebar">
+            <nav class="side-nav">
+                <h3>💰 Finanzas Personales</h3>
+                <ul>
+                    <li><a href="#dashboard" class="side-link active">📊 Mi Dashboard</a></li>
+                    <li><a href="#presupuesto" class="side-link">📝 Gestión de Presupuesto</a></li>
+                    <li><a href="#ahorro" class="side-link">🏦 Plan de Ahorro Inteligente</a></li>
+                    <li><a href="#deudas" class="side-link">💳 Manejo de Deudas</a></li>
+                    <li><a href="#educacion" class="side-link">🎓 Educación Financiera</a></li>
+                    <li><a href="#herramientas" class="side-link">🛠️ Herramientas Avanzadas</a></li>
+                </ul>
+            </nav>
+            
+            <div class="sidebar-widget">
+                <h4>⭐ Consejo del Día</h4>
+                <div class="widget-content">
+                    <div class="news-item">
+                        <div class="news-badge">💡</div>
+                        <div class="news-content">
+                            <h5>Regla 50/30/20</h5>
+                            <p>Destina 50% a necesidades, 30% a deseos y 20% a ahorro</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar-widget">
+                <h4>📊 Progreso Financiero</h4>
+                <div class="progress-widget">
+                    <div class="progress-item">
+                        <span>Patrimonio:</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 72%"></div>
+                        </div>
+                        <span>72%</span>
+                    </div>
+                    <div class="progress-item">
+                        <span>Deudas:</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill negative" style="width: 35%"></div>
+                        </div>
+                        <span>35%</span>
+                    </div>
+                    <div class="progress-item">
+                        <span>Ahorro:</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 58%"></div>
+                        </div>
+                        <span>58%</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="content">
+           
+            <section id="dashboard" class="content-section active">
+                <div class="dashboard-header">
+                    <div>
+                        <h2 class="section-title">📊 Dashboard Finanzas Personales</h2>
+                        <p class="dashboard-description">
+                            Tu centro de control financiero personal. Monitorea tu salud financiera en tiempo real, 
+                            sigue tu progreso hacia la libertad financiera y toma decisiones informadas para mejorar 
+                            tu bienestar económico.
+                        </p>
+                    </div>
+                    <div class="dashboard-controls">
+                        <button class="control-btn" data-period="week">Semana</button>
+                        <button class="control-btn active" data-period="month">Mes</button>
+                        <button class="control-btn" data-period="year">Año</button>
+                    </div>
+                </div>
+
+               
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-header">
+                            <div class="metric-icon">💰</div>
+                            <div class="metric-trend positive">+12%</div>
+                        </div>
+                        <div class="metric-value">$48,750</div>
+                        <div class="metric-label">Patrimonio Total</div>
+                        <div class="metric-chart">
+                            <div class="sparkline"></div>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-header">
+                            <div class="metric-icon">📈</div>
+                            <div class="metric-trend positive">+8%</div>
+                        </div>
+                        <div class="metric-value">$8,850</div>
+                        <div class="metric-label">Ingreso Mensual</div>
+                        <div class="metric-chart">
+                            <div class="sparkline"></div>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-header">
+                            <div class="metric-icon">💳</div>
+                            <div class="metric-trend negative">-18%</div>
+                        </div>
+                        <div class="metric-value">$11,500</div>
+                        <div class="metric-label">Deudas Totales</div>
+                        <div class="metric-chart">
+                            <div class="sparkline"></div>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-header">
+                            <div class="metric-icon">🎯</div>
+                            <div class="metric-trend positive">+28%</div>
+                        </div>
+                        <div class="metric-value">85%</div>
+                        <div class="metric-label">Progreso Metas</div>
+                        <div class="performance-gauge">
+                            <div class="gauge-circle">
+                                <div class="gauge-text">85%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+             
+                <div class="quick-overview">
+                    <div class="overview-card">
+                        <h3>📊 Flujo Mensual</h3>
+                        <div class="flow-grid">
+                            <div class="flow-item positive">
+                                <span class="flow-label">Ingresos</span>
+                                <span class="flow-value">$8,850</span>
+                            </div>
+                            <div class="flow-item negative">
+                                <span class="flow-label">Gastos</span>
+                                <span class="flow-value">$5,450</span>
+                            </div>
+                            <div class="flow-item positive">
+                                <span class="flow-label">Ahorro</span>
+                                <span class="flow-value">$2,000</span>
+                            </div>
+                            <div class="flow-item positive">
+                                <span class="flow-label">Inversión</span>
+                                <span class="flow-value">$1,400</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overview-card">
+                        <h3>🎯 Metas Activas</h3>
+                        <div class="goals-preview">
+                            <div class="goal-preview">
+                                <span>Fondo Emergencia</span>
+                                <div class="goal-mini-progress">
+                                    <div class="mini-progress-bar">
+                                        <div class="mini-progress-fill" style="width: 65%"></div>
+                                    </div>
+                                    <span>65%</span>
+                                </div>
+                            </div>
+                            <div class="goal-preview">
+                                <span>Vacaciones Europa</span>
+                                <div class="goal-mini-progress">
+                                    <div class="mini-progress-bar">
+                                        <div class="mini-progress-fill" style="width: 35%"></div>
+                                    </div>
+                                    <span>35%</span>
+                                </div>
+                            </div>
+                            <div class="goal-preview">
+                                <span>Enganche Casa</span>
+                                <div class="goal-mini-progress">
+                                    <div class="mini-progress-bar">
+                                        <div class="mini-progress-fill" style="width: 25%"></div>
+                                    </div>
+                                    <span>25%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section id="presupuesto" class="content-section">
+                <div class="section-header">
+                    <h2 class="section-title">📝 Gestión Inteligente de Presupuesto</h2>
+                    <p class="section-description">
+                        Toma el control total de tus finanzas con nuestro sistema de presupuesto avanzado. 
+                        Categoriza tus gastos, establece límites y monitorea tu progreso en tiempo real.
+                        Datos actualizados al último trimestre 2025.
+                    </p>
+                </div>
+
+                <div class="budget-section">
+                    <div class="budget-header">
+                        <h3 class="subsection-title">📅 Presupuesto Mensual Interactivo</h3>
+                        <div class="budget-actions">
+                            <button class="action-btn primary" id="add-budget-category">
+                                <span class="btn-icon">+</span>
+                                Nueva Categoría
+                            </button>
+                            <button class="action-btn secondary" id="reset-budget">
+                                <span class="btn-icon">🔄</span>
+                                Reiniciar Mes
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="budget-grid" id="budget-container">
+                        <!-- Categorías se cargarán dinámicamente -->
+                    </div>
+
+                    <div class="budget-summary">
+                        <div class="summary-stats">
+                            <div class="stat-card">
+                                <div class="stat-value" id="total-spent">$5,450</div>
+                                <div class="stat-label">Total Gastado</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value" id="total-remaining">$3,400</div>
+                                <div class="stat-label">Restante</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value" id="budget-used">62%</div>
+                                <div class="stat-label">Presupuesto Usado</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        
+                <div class="budget-rule">
+                    <h3 class="subsection-title">🎯 Regla 50/30/20</h3>
+                    <div class="rule-explanation">
+                        <p>
+                            La regla 50/30/20 es una guía simple para distribuir tus ingresos después de impuestos: 
+                            <strong>50% para necesidades</strong> (vivienda, comida, transporte), <strong>30% para deseos</strong> (entretenimiento, viajes, hobbies) y <strong>20% para ahorro e inversión</strong> (fondo de emergencia, jubilación, inversiones).
+                        </p>
+                        <p style="margin-top: 1rem;">
+                            <strong>Pro Tip:</strong> En México, adapta la regla considerando que los salarios promedio son más bajos que en países desarrollados. Puedes ajustar a 55/25/20 si vives en ciudades costosas.
+                        </p>
+                    </div>
+                    <div class="rule-visualization">
+                        <div class="rule-chart">
+                            <div class="rule-segment needs" style="width: 50%">
+                                <span>Necesidades 50%</span>
+                                <span>$4,425</span>
+                            </div>
+                            <div class="rule-segment wants" style="width: 30%">
+                                <span>Deseos 30%</span>
+                                <span>$2,655</span>
+                            </div>
+                            <div class="rule-segment savings" style="width: 20%">
+                                <span>Ahorro 20%</span>
+                                <span>$1,770</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NUEVA SECCIÓN: Análisis de Hábitos de Gasto -->
+                <div class="budget-rule">
+                    <h3 class="subsection-title">📊 Análisis de Hábitos de Gasto</h3>
+                    <div class="rule-explanation">
+                        <p>
+                            Identifica patrones en tus gastos para optimizar tu presupuesto. Los mexicanos gastan en promedio:
+                        </p>
+                        <ul style="margin-top: 1rem; padding-left: 1.5rem;">
+                            <li><strong>35-45%</strong> en vivienda y servicios</li>
+                            <li><strong>25-30%</strong> en alimentación</li>
+                            <li><strong>15-20%</strong> en transporte</li>
+                            <li><strong>10-15%</strong> en salud y educación</li>
+                            <li><strong>5-10%</strong> en entretenimiento</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+         
+            <section id="ahorro" class="content-section">
+                <div class="section-header">
+                    <h2 class="section-title">🏦 Plan de Ahorro Inteligente</h2>
+                    <p class="section-description">
+                        Implementa estrategias probadas para maximizar tu ahorro. Desde la "Ley del Ahorro" 
+                        hasta métodos automatizados, encuentra la mejor forma de alcanzar tus metas financieras.
+                        Datos ajustados a la economía mexicana 2025.
+                    </p>
+                </div>
+
+                
+                <div class="savings-law-simulator">
+                    <h3 class="subsection-title">⚡ Simulador: Ley del Ahorro Mexicano</h3>
+                    <div class="law-explanation">
+                        <p>
+                            La <strong>Ley del Ahorro</strong> establece que: <em>"El dinero ahorrado e invertido crece exponencialmente con el tiempo, 
+                            mientras que el dinero gastado desaparece para siempre"</em>. 
+                            En México, con tasas de interés reales positivas en CETES, el ahorro sistemático puede generar patrimonio significativo.
+                        </p>
+                    </div>
+                    
+                    <div class="simulator-container">
+                        <div class="simulator-controls">
+                            <div class="input-group">
+                                <label>Ingreso Mensual Neto ($ MXN)</label>
+                                <input type="number" id="monthly-income-law" value="8850" class="calculator-input">
+                            </div>
+                            <div class="input-group">
+                                <label>Porcentaje de Ahorro (%)</label>
+                                <input type="range" id="savings-percentage" min="5" max="50" value="20" class="slider-input">
+                                <span id="savings-percentage-value">20%</span>
+                            </div>
+                            <div class="input-group">
+                                <label>Tasa de Retorno Anual (%)</label>
+                                <input type="number" id="return-rate" value="11.5" class="calculator-input" step="0.1">
+                                <small>Tasa CETES 28 días: 11.05% (Diciembre 2025)</small>
+                            </div>
+                            <div class="input-group">
+                                <label>Años de Inversión</label>
+                                <input type="number" id="investment-years" value="10" class="calculator-input">
+                            </div>
+                            <button class="calculate-btn" id="calculate-law">Calcular Proyección</button>
+                        </div>
+                        
+                        <div class="simulator-results">
+                            <div class="result-card">
+                                <h4>💰 Ahorro Total</h4>
+                                <div class="result-value" id="total-savings-law">$212,400</div>
+                                <div class="result-label">Capital acumulado</div>
+                            </div>
+                            <div class="result-card">
+                                <h4>📈 Valor Futuro</h4>
+                                <div class="result-value" id="future-value-law">$398,650</div>
+                                <div class="result-label">Con interés compuesto</div>
+                            </div>
+                            <div class="result-card">
+                                <h4>⚡ Intereses Ganados</h4>
+                                <div class="result-value" id="interest-earned-law">$186,250</div>
+                                <div class="result-label">Crecimiento del dinero</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="law-insights">
+                        <h4>💡 Insights Financieros México 2025</h4>
+                        <div class="insights-grid">
+                            <div class="insight-card">
+                                <h5>🏦 Ahorro en CETES</h5>
+                                <p>Con tasas del 11.05%, $1,000 mensuales se convierten en $230,000 en 10 años gracias al interés compuesto.</p>
+                            </div>
+                            <div class="insight-card">
+                                <h5>📈 Inflación vs Ahorro</h5>
+                                <p>La inflación en México es del 4.25%, pero CETES ofrece tasa real positiva del 6.8%.</p>
+                            </div>
+                            <div class="insight-card">
+                                <h5>🎯 Metas Realistas</h5>
+                                <p>El salario promedio en México es de $6,500 mensuales. Ahorrar el 20% significa $1,300 mensuales.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div class="savings-goals-interactive">
+                    <h3 class="subsection-title">🎯 Mis Metas de Ahorro en MXN</h3>
+                    <div class="goals-container" id="goals-container">
+                        <!-- Metas se cargarán dinámicamente -->
+                    </div>
+                    
+                    <div class="add-goal-section">
+                        <button class="action-btn primary" id="add-savings-goal">
+                            <span class="btn-icon">+</span>
+                            Crear Nueva Meta
+                        </button>
+                    </div>
+                </div>
+
+                <!-- NUEVA SECCIÓN: Estrategias de Ahorro México -->
+                <div class="savings-law-simulator">
+                    <h3 class="subsection-title">🇲🇽 Estrategias de Ahorro para Mexicanos</h3>
+                    <div class="law-explanation">
+                        <p>
+                            <strong>1. Fondo de Emergencia:</strong> 3-6 meses de gastos en CETES o cuenta de ahorro líquida.
+                            <br><strong>2. Afore Voluntaria:</strong> Aportaciones adicionales a tu Afore para retiro.
+                            <br><strong>3. Pagarés Bancarios:</strong> Mejores tasas que cuentas de ahorro tradicionales.
+                            <br><strong>4. Fintel Apps:</strong> Apps como Fintel, Kubo Financiero, Nu ofrecen buenos rendimientos.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+          
+            <section id="deudas" class="content-section">
+                <h2 class="section-title">💳 Manejo Inteligente de Deudas en México</h2>
+                
+                <div class="debt-strategy-comparison">
+                    <h3 class="subsection-title">⚖️ Comparador de Estrategias Anti-Deuda</h3>
+                    <div class="strategy-comparison">
+                        <div class="strategy-option">
+                            <h4>Método Bola de Nieve</h4>
+                            <p>Paga las deudas más pequeñas primero para ganar momentum psicológico.</p>
+                            <div class="strategy-pros">
+                                <strong>Recomendado para:</strong>
+                                <ul>
+                                    <li>✅ Personas que necesitan motivación</li>
+                                    <li>✅ Múltiples deudas pequeñas</li>
+                                    <li>✅ Tarjetas de crédito con saldos bajos</li>
+                                </ul>
+                            </div>
+                            <button class="strategy-select-btn" data-strategy="snowball">Seleccionar</button>
+                        </div>
+                        
+                        <div class="strategy-option active">
+                            <h4>Método Avalancha</h4>
+                            <p>Enfócate en las deudas con mayor tasa de interés para ahorrar en intereses.</p>
+                            <div class="strategy-pros">
+                                <strong>Recomendado para:</strong>
+                                <ul>
+                                    <li>✅ Tarjetas con tasas del 50-80% anual</li>
+                                    <li>✅ Créditos personales bancarios</li>
+                                    <li>✅ Minimizar costo total</li>
+                                </ul>
+                            </div>
+                            <button class="strategy-select-btn active" data-strategy="avalanche">Seleccionado</button>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="advanced-debt-calculator">
+                    <h3 class="subsection-title">🧮 Simulador de Pago de Deudas México</h3>
+                    <div class="debt-calculator-container">
+                        <div class="debt-inputs">
+                            <div class="input-group">
+                                <label>Deuda Total ($ MXN)</label>
+                                <input type="number" id="total-debt-advanced" value="115000" class="calculator-input">
+                            </div>
+                            <div class="input-group">
+                                <label>Tasa de Interés Anual (%)</label>
+                                <input type="number" id="interest-rate-advanced" value="45" class="calculator-input">
+                                <small>Tasa promedio tarjetas México: 45-60%</small>
+                            </div>
+                            <div class="input-group">
+                                <label>Pago Mensual ($ MXN)</label>
+                                <input type="number" id="monthly-payment-advanced" value="4500" class="calculator-input">
+                            </div>
+                            <div class="input-group">
+                                <label>Pago Extra Mensual ($ MXN)</label>
+                                <input type="number" id="extra-payment" value="1000" class="calculator-input">
+                            </div>
+                            <button class="calculate-btn" id="calculate-debt-advanced">Calcular Plan</button>
+                        </div>
+                        
+                        <div class="debt-results-advanced">
+                            <div class="debt-timeline">
+                                <h4>📅 Proyección de Pago</h4>
+                                <div class="timeline-bar">
+                                    <div class="timeline-progress" style="width: 35%"></div>
+                                </div>
+                                <div class="timeline-stats">
+                                    <div class="timeline-stat">
+                                        <span>Tiempo estimado:</span>
+                                        <span id="payoff-time-advanced">4.8 años</span>
+                                    </div>
+                                    <div class="timeline-stat">
+                                        <span>Intereses totales:</span>
+                                        <span id="total-interest-advanced">$85,200</span>
+                                    </div>
+                                    <div class="timeline-stat">
+                                        <span>Ahorro vs pago mínimo:</span>
+                                        <span id="interest-savings" class="positive">$42,500</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NUEVA SECCIÓN: Refinanciamiento en México -->
+                <div class="budget-rule">
+                    <h3 class="subsection-title">🔄 Opciones de Refinanciamiento México 2025</h3>
+                    <div class="rule-explanation">
+                        <p>
+                            <strong>1. Consolidación de Deudas:</strong> Bancos como BBVA, Banorte ofrecen créditos personales al 18-25% anual.
+                            <br><strong>2. Buró de Crédito:</strong> Revisa tu puntuación gratuita cada 12 meses.
+                            <br><strong>3. Apoyo Financiero:</strong> CONDUSEF ofrece asesoría gratuita para reestructuración.
+                            <br><strong>4. Pagos Anticipados:</strong> No hay penalización por pagar anticipadamente en la mayoría de créditos.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+         
+            <section id="educacion" class="content-section">
+                <h2 class="section-title">🎓 Educación Financiera para Mexicanos</h2>
+                
+                <div class="financial-literacy">
+                    <div class="literacy-modules">
+                        <h3 class="subsection-title">📚 Módulos de Aprendizaje</h3>
+                        <div class="modules-grid">
+                            <div class="module-card">
+                                <div class="module-icon">💰</div>
+                                <h4>Presupuesto Familiar MX</h4>
+                                <p>Aprende a crear presupuesto considerando ingresos variables y gastos fijos en México</p>
+                                <div class="module-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 85%"></div>
+                                    </div>
+                                    <span>85%</span>
+                                </div>
+                                <button class="module-btn">Continuar</button>
+                            </div>
+                            
+                            <div class="module-card">
+                                <div class="module-icon">🏦</div>
+                                <h4>Sistema Bancario México</h4>
+                                <p>Conoce cuentas de ahorro, inversión, créditos y seguros en bancos mexicanos</p>
+                                <div class="module-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 60%"></div>
+                                    </div>
+                                    <span>60%</span>
+                                </div>
+                                <button class="module-btn">Continuar</button>
+                            </div>
+                            
+                            <div class="module-card">
+                                <div class="module-icon">📈</div>
+                                <h4>Inversión Básica MX</h4>
+                                <p>CETES, Fondos de Inversión, SOFIPOS y Bolsa Mexicana de Valores</p>
+                                <div class="module-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 30%"></div>
+                                    </div>
+                                    <span>30%</span>
+                                </div>
+                                <button class="module-btn">Comenzar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- NUEVA SECCIÓN: Conceptos Clave México -->
+                    <div class="budget-rule" style="margin-top: 2rem;">
+                        <h3 class="subsection-title">🔑 Conceptos Financieros Clave en México</h3>
+                        <div class="rule-explanation">
+                            <p>
+                                <strong>• CAT (Costo Anual Total):</strong> Incluye intereses, comisiones y seguros. Obligatorio en todos los créditos.
+                                <br><strong>• CETES:</strong> Certificados de la Tesorería, inversión más segura del país.
+                                <br><strong>• Afore:</strong> Administradora de Fondos para el Retiro, maneja tu pensión.
+                                <br><strong>• UDIS:</strong> Unidades de Inversión, se ajustan por inflación.
+                                <br><strong>• TIIE:</strong> Tasa de Interés Interbancaria de Equilibrio, referencia para créditos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="herramientas" class="content-section">
+                <h2 class="section-title">🛠️ Herramientas Avanzadas Finanzas MX</h2>
+                
+                <div class="advanced-tools">
+                    <div class="tools-grid-advanced">
+                        <div class="tool-card-advanced">
+                            <div class="tool-icon">🎯</div>
+                            <h3>Planificador de Metas MX</h3>
+                            <p>Calcula cuánto necesitas ahorrar para alcanzar metas en pesos mexicanos</p>
+                            <div class="goal-planner-advanced">
+                                <div class="input-group">
+                                    <label>Meta de Ahorro ($ MXN)</label>
+                                    <input type="number" id="savings-target-advanced" value="150000" class="calculator-input">
+                                </div>
+                                <div class="input-group">
+                                    <label>Plazo (meses)</label>
+                                    <input type="number" id="savings-months-advanced" value="24" class="calculator-input">
+                                </div>
+                                <div class="input-group">
+                                    <label>Tasa de Interés Anual (%)</label>
+                                    <input type="number" id="savings-rate-advanced" value="11.5" class="calculator-input">
+                                    <small>Tasa CETES 28 días: 11.05%</small>
+                                </div>
+                                <button class="calculate-btn" id="calculate-savings-advanced">Calcular</button>
+                                <div class="result-display">
+                                    <div class="savings-results-advanced">
+                                        <div class="result-item">
+                                            <span>Ahorro mensual:</span>
+                                            <span id="monthly-savings-advanced">$5,850</span>
+                                        </div>
+                                        <div class="result-item">
+                                            <span>Total ahorrado:</span>
+                                            <span id="total-saved-advanced">$140,400</span>
+                                        </div>
+                                        <div class="result-item">
+                                            <span>Intereses ganados:</span>
+                                            <span id="interest-earned-advanced">$9,600</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tool-card-advanced">
+                            <div class="tool-icon">📊</div>
+                            <h3>Analizador de Gastos MX</h3>
+                            <p>Identifica patrones en tus gastos y oportunidades de ahorro en México</p>
+                            <div class="expense-analyzer">
+                                <div class="analysis-result">
+                                    <h4>📈 Patrones de Gasto Promedio México</h4>
+                                    <div class="pattern-item">
+                                        <span>Vivienda/Alquiler:</span>
+                                        <span class="pattern-value">$3,500/mes</span>
+                                        <div class="pattern-bar">
+                                            <div class="pattern-fill" style="width: 70%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="pattern-item">
+                                        <span>Transporte/Gasolina:</span>
+                                        <span class="pattern-value">$1,200/mes</span>
+                                        <div class="pattern-bar">
+                                            <div class="pattern-fill" style="width: 40%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="pattern-item">
+                                        <span>Entretenimiento/Salidas:</span>
+                                        <span class="pattern-value">$800/mes</span>
+                                        <div class="pattern-bar">
+                                            <div class="pattern-fill" style="width: 30%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="savings-opportunities">
+                                    <h4>💡 Oportunidades Típicas MX</h4>
+                                    <ul>
+                                        <li>Reducir gastos hormiga: <strong>+$500/mes</strong></li>
+                                        <li>Optimizar seguros auto: <strong>+$300/mes</strong></li>
+                                        <li>Comprar en mercados locales: <strong>+$400/mes</strong></li>
+                                        <li>Usar transporte público: <strong>+$600/mes</strong></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- NUEVA SECCIÓN: Calculadora de Retiro -->
+                    <div class="tool-card-advanced" style="margin-top: 2rem;">
+                        <div class="tool-icon">👵</div>
+                        <h3>Calculadora de Retiro México</h3>
+                        <p>Proyecta cuánto necesitarás para tu retiro considerando Afore e inflación</p>
+                        <div class="goal-planner-advanced">
+                            <div class="input-group">
+                                <label>Edad Actual</label>
+                                <input type="number" value="30" class="calculator-input">
+                            </div>
+                            <div class="input-group">
+                                <label>Edad de Retiro</label>
+                                <input type="number" value="65" class="calculator-input">
+                            </div>
+                            <div class="input-group">
+                                <label>Ahorro Mensual Afore</label>
+                                <input type="number" value="1000" class="calculator-input">
+                            </div>
+                            <button class="calculate-btn">Calcular Retiro</button>
+                            <div class="result-display">
+                                <div class="savings-results-advanced">
+                                    <div class="result-item">
+                                        <span>Total acumulado:</span>
+                                        <span>$4.2M MXN</span>
+                                    </div>
+                                    <div class="result-item">
+                                        <span>Pensión mensual:</span>
+                                        <span>$18,500 MXN</span>
+                                    </div>
+                                    <div class="result-item">
+                                        <span>Déficit estimado:</span>
+                                        <span style="color: var(--negative)">$6,500/mes</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+ 
+    <div id="budget-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>➕ Nueva Categoría de Presupuesto</h3>
+            <div class="modal-body">
+                <form class="budget-form" id="new-budget-form">
+                    <div class="input-group">
+                        <label>Nombre de la Categoría</label>
+                        <input type="text" placeholder="Ej: Transporte, Educación, Salud..." id="category-name" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Presupuesto Mensual ($ MXN)</label>
+                        <input type="number" placeholder="0.00" id="category-budget" step="0.01" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Tipo de Gasto</label>
+                        <select id="expense-type" required>
+                            <option value="necesidad">🏠 Necesidad</option>
+                            <option value="deseo">🎮 Deseo</option>
+                            <option value="ahorro">💰 Ahorro/Inversión</option>
+                        </select>
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="cancel-btn">Cancelar</button>
+                        <button type="submit" class="submit-btn">Crear Categoría</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="goal-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>🎯 Nueva Meta de Ahorro</h3>
+            <div class="modal-body">
+                <form class="goal-form" id="new-goal-form">
+                    <div class="input-group">
+                        <label>Nombre de la Meta</label>
+                        <input type="text" placeholder="Ej: Fondo Emergencia, Auto, Casa..." id="goal-name" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Monto Objetivo ($ MXN)</label>
+                        <input type="number" placeholder="0.00" id="goal-target" step="0.01" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Plazo (meses)</label>
+                        <input type="number" placeholder="12" id="goal-months" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Ahorro Mensual ($ MXN)</label>
+                        <input type="number" placeholder="0.00" id="goal-monthly" step="0.01" required>
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="cancel-btn">Cancelar</button>
+                        <button type="submit" class="submit-btn">Crear Meta</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Visual Economic</h4>
+                    <p>Portal líder en análisis económico y financiero para profesionales e inversionistas mexicanos.</p>
+                    <p><strong>Datos actualizados:</strong> Diciembre 2025</p>
+                    <p><strong>Fuentes:</strong> Banxico, INEGI, CONDUSEF, CNBV</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Finanzas Personales MX</h4>
+                    <ul>
+                        <li><a href="#presupuesto">📝 Presupuesto Familiar</a></li>
+                        <li><a href="#ahorro">🏦 Ahorro e Inversión</a></li>
+                        <li><a href="#deudas">💳 Manejo de Deudas</a></li>
+                        <li><a href="#educacion">🎓 Educación Financiera</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Visual Economic. Arrieta Torres Carlos Ernesto - Datos actualizados Diciembre 2025</p>
+                <p class="footer-disclaimer"><strong>Advertencia:</strong> La información es con fines educativos. Consulta a un asesor financiero certificado. Tasas sujetas a cambio según mercado.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            const sideLinks = document.querySelectorAll('.side-link');
+            const controlBtns = document.querySelectorAll('.control-btn');
+            const addBudgetBtn = document.getElementById('add-budget-category');
+            const resetBudgetBtn = document.getElementById('reset-budget');
+            const addGoalBtn = document.getElementById('add-savings-goal');
+            const budgetModal = document.getElementById('budget-modal');
+            const goalModal = document.getElementById('goal-modal');
+            const closeModals = document.querySelectorAll('.close-modal');
+            const budgetContainer = document.getElementById('budget-container');
+            const goalsContainer = document.getElementById('goals-container');
+            const calculateLawBtn = document.getElementById('calculate-law');
+            const calculateDebtAdvancedBtn = document.getElementById('calculate-debt-advanced');
+            const calculateSavingsAdvancedBtn = document.getElementById('calculate-savings-advanced');
+            const strategySelectBtns = document.querySelectorAll('.strategy-select-btn');
+            
+            let budgetCategories = JSON.parse(localStorage.getItem('budgetCategories')) || [];
+            let savingsGoals = JSON.parse(localStorage.getItem('savingsGoals')) || [];
+            let userPreferences = JSON.parse(localStorage.getItem('userPreferences')) || {
+                debtStrategy: 'avalanche',
+                savingsPercentage: 20
+            };
+            
+            initPage();
+            
+            function initPage() {
+                initNavigation();
+                initDashboardControls();
+                initModals();
+                initAdvancedCalculators();
+                initDebtStrategies();
+                loadUserData();
+                initAdvancedInteractivity();
+                console.log('🚀 Sistema de Finanzas Personales México cargado');
+            }
+
+            function initNavigation() {
+                sideLinks.forEach(link => {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const targetId = this.getAttribute('href').substring(1);
+                        
+                        this.style.transform = 'scale(0.95)';
+                        setTimeout(() => {
+                            this.style.transform = 'scale(1)';
+                        }, 150);
+
+                        sideLinks.forEach(l => l.classList.remove('active'));
+                        this.classList.add('active');
+                        
+                        showSectionWithAnimation(targetId);
+                    });
+                });
+            }
+            
+            function showSectionWithAnimation(sectionId) {
+                const currentSection = document.querySelector('.content-section.active');
+                const targetSection = document.getElementById(sectionId);
+                
+                if (currentSection && targetSection && currentSection !== targetSection) {
+                    currentSection.style.opacity = '0';
+                    currentSection.style.transform = 'translateY(20px)';
+                    
+                    setTimeout(() => {
+                        currentSection.classList.remove('active');
+                        targetSection.classList.add('active');
+                        targetSection.style.opacity = '0';
+                        targetSection.style.transform = 'translateY(20px)';
+                        
+                        setTimeout(() => {
+                            targetSection.style.opacity = '1';
+                            targetSection.style.transform = 'translateY(0)';
+                        }, 50);
+                    }, 300);
+                }
+            }
+            
+            function initDashboardControls() {
+                controlBtns.forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        this.style.transform = 'scale(0.95)';
+                        setTimeout(() => {
+                            this.style.transform = 'scale(1)';
+                        }, 150);
+                        
+                        controlBtns.forEach(b => b.classList.remove('active'));
+                        this.classList.add('active');
+                        
+                        updateDashboardData(this.dataset.period);
+                    });
+                });
+            }
+            
+            function updateDashboardData(period) {
+                const metrics = document.querySelectorAll('.metric-value');
+                const trends = document.querySelectorAll('.metric-trend');
+                
+                const data = {
+                    week: {
+                        wealth: '$48,200',
+                        wealthTrend: '+2%',
+                        income: '$8,850',
+                        incomeTrend: '+1%',
+                        debt: '$11,500',
+                        debtTrend: '-5%',
+                        goals: '72%',
+                        goalsTrend: '+8%'
+                    },
+                    month: {
+                        wealth: '$48,750',
+                        wealthTrend: '+12%',
+                        income: '$8,850',
+                        incomeTrend: '+8%',
+                        debt: '$11,500',
+                        debtTrend: '-18%',
+                        goals: '85%',
+                        goalsTrend: '+25%'
+                    },
+                    year: {
+                        wealth: '$52,100',
+                        wealthTrend: '+28%',
+                        income: '$106,200',
+                        incomeTrend: '+12%',
+                        debt: '$8,900',
+                        debtTrend: '-42%',
+                        goals: '92%',
+                        goalsTrend: '+45%'
+                    }
+                };
+                
+                const periodData = data[period] || data.month;
+
+                animateMetricUpdate(metrics[0], periodData.wealth);
+                animateTrendUpdate(trends[0], periodData.wealthTrend, 'positive');
+                
+                animateMetricUpdate(metrics[1], periodData.income);
+                animateTrendUpdate(trends[1], periodData.incomeTrend, 'positive');
+                
+                animateMetricUpdate(metrics[2], periodData.debt);
+                animateTrendUpdate(trends[2], periodData.debtTrend, 'negative');
+                
+                animateMetricUpdate(metrics[3], periodData.goals);
+                animateTrendUpdate(trends[3], periodData.goalsTrend, 'positive');
+                
+                const gaugeText = document.querySelector('.gauge-text');
+                const gaugeCircle = document.querySelector('.gauge-circle');
+                if (gaugeText && gaugeCircle) {
+                    const percentage = parseInt(periodData.goals);
+                    gaugeText.textContent = periodData.goals;
+                    gaugeCircle.style.background = 
+                        `conic-gradient(var(--gold-primary) 0% ${percentage}%, var(--lighter-gray) ${percentage}% 100%)`;
+                }
+            }
+            
+            function animateMetricUpdate(element, newValue) {
+                element.style.transform = 'scale(1.1)';
+                setTimeout(() => {
+                    element.textContent = newValue;
+                    element.style.transform = 'scale(1)';
+                }, 150);
+            }
+            
+            function animateTrendUpdate(element, newValue, trendType) {
+                element.textContent = newValue;
+                element.className = `metric-trend ${trendType}`;
+                element.style.animation = 'pulse 0.5s ease';
+                
+                setTimeout(() => {
+                    element.style.animation = '';
+                }, 500);
+            }
+            
+            function loadUserData() {
+                loadBudgetCategories();
+                loadSavingsGoals();
+                updateBudgetSummary();
+            }
+            
+            function loadBudgetCategories() {
+                budgetContainer.innerHTML = '';
+                
+                const defaultCategories = [
+                    { id: 'default-1', name: 'Vivienda', budget: 3500, type: 'necesidad', icon: '🏠', spent: 2975 },
+                    { id: 'default-2', name: 'Alimentación', budget: 2200, type: 'necesidad', icon: '🍎', spent: 1980 },
+                    { id: 'default-3', name: 'Transporte', budget: 1200, type: 'necesidad', icon: '🚗', spent: 960 },
+                    { id: 'default-4', name: 'Salud', budget: 800, type: 'necesidad', icon: '🏥', spent: 320 },
+                    { id: 'default-5', name: 'Entretenimiento', budget: 800, type: 'deseo', icon: '🎮', spent: 240 }
+                ];
+
+                const allCategories = [...defaultCategories, ...budgetCategories];
+                
+                allCategories.forEach(category => {
+                    addBudgetCategoryToDOM(category);
+                });
+            }
+            
+            function addBudgetCategoryToDOM(category) {
+                const budgetCategory = document.createElement('div');
+                budgetCategory.className = 'budget-category';
+                budgetCategory.dataset.id = category.id;
+                
+                const spentPercentage = Math.min(100, Math.round((category.spent / category.budget) * 100));
+                const remaining = category.budget - category.spent;
+                
+                budgetCategory.innerHTML = `
+                    <div class="budget-category-header">
+                        <h4>${category.icon} ${category.name}</h4>
+                        ${!category.id.startsWith('default-') ? '<button class="action-icon delete-category">🗑️</button>' : ''}
+                    </div>
+                    <div class="budget-bar">
+                        <div class="budget-fill" style="width: ${spentPercentage}%"></div>
+                    </div>
+                    <div class="budget-details">
+                        <span>Presupuesto: $${category.budget.toLocaleString()}</span>
+                        <span>Gastado: $${category.spent.toLocaleString()}</span>
+                        <span>Restante: $${remaining.toLocaleString()}</span>
+                    </div>
+                `;
+                
+                budgetContainer.appendChild(budgetCategory);
+                
+                if (!category.id.startsWith('default-')) {
+                    budgetCategory.querySelector('.delete-category').addEventListener('click', function() {
+                        showDeleteConfirmation(category.name, () => {
+                            deleteBudgetCategory(category.id);
+                        });
+                    });
+                }
+            }
+            
+            function deleteBudgetCategory(categoryId) {
+                budgetCategories = budgetCategories.filter(cat => cat.id !== categoryId);
+                localStorage.setItem('budgetCategories', JSON.stringify(budgetCategories));
+                loadBudgetCategories();
+                updateBudgetSummary();
+            }
+            
+            function updateBudgetSummary() {
+                const totalBudget = 8500;
+                let totalSpent = 0;
+                
+                document.querySelectorAll('.budget-category').forEach(category => {
+                    const spentText = category.querySelector('.budget-details span:nth-child(2)').textContent;
+                    const spent = parseFloat(spentText.replace('Gastado: $', '').replace(/,/g, ''));
+                    totalSpent += spent;
+                });
+                
+                const remaining = totalBudget - totalSpent;
+                const usedPercentage = Math.round((totalSpent / totalBudget) * 100);
+                
+                document.getElementById('total-spent').textContent = `$${totalSpent.toLocaleString()}`;
+                document.getElementById('total-remaining').textContent = `$${remaining.toLocaleString()}`;
+                document.getElementById('budget-used').textContent = `${usedPercentage}%`;
+            }
+            
+            function loadSavingsGoals() {
+                goalsContainer.innerHTML = '';
+                
+                const defaultGoals = [
+                    {
+                        id: 'default-1',
+                        name: 'Fondo de Emergencia',
+                        description: '6 meses de gastos para imprevistos',
+                        target: 150000,
+                        current: 97500,
+                        monthly: 5000
+                    },
+                    {
+                        id: 'default-2', 
+                        name: 'Auto Nuevo',
+                        description: 'Enganche para automóvil económico',
+                        target: 80000,
+                        current: 32000,
+                        monthly: 4000
+                    },
+                    {
+                        id: 'default-3',
+                        name: 'Enganche Casa',
+                        description: '20% para enganche de vivienda',
+                        target: 400000,
+                        current: 100000,
+                        monthly: 8000
+                    }
+                ];
+                
+                const allGoals = [...defaultGoals, ...savingsGoals];
+                
+                allGoals.forEach(goal => {
+                    addSavingsGoalToDOM(goal);
+                });
+            }
+            
+            function addSavingsGoalToDOM(goal) {
+                const goalCard = document.createElement('div');
+                goalCard.className = 'savings-goal-card';
+                goalCard.dataset.id = goal.id;
+                
+                const progressPercentage = Math.min(100, Math.round((goal.current / goal.target) * 100));
+                const monthsRemaining = Math.ceil((goal.target - goal.current) / goal.monthly);
+                
+                goalCard.innerHTML = `
+                    <h4>${goal.name}</h4>
+                    <p>${goal.description}</p>
+                    <div class="goal-progress-detailed">
+                        <span>$${goal.current.toLocaleString()} / $${goal.target.toLocaleString()}</span>
+                        <div class="progress-bar-detailed">
+                            <div class="progress-fill-detailed" style="width: ${progressPercentage}%"></div>
+                        </div>
+                        <div class="goal-stats">
+                            <span>Progreso: ${progressPercentage}%</span>
+                            <span>Tiempo restante: ${monthsRemaining} meses</span>
+                        </div>
+                    </div>
+                    <div class="goal-actions-detailed">
+                        <button class="action-btn primary small add-to-goal">
+                            <span class="btn-icon">💰</span>
+                            Agregar $500
+                        </button>
+                        ${!goal.id.startsWith('default-') ? 
+                            '<button class="action-btn secondary small delete-goal">Eliminar</button>' : 
+                            ''
+                        }
+                    </div>
+                `;
+                
+                goalsContainer.appendChild(goalCard);
+                
+                goalCard.querySelector('.add-to-goal').addEventListener('click', function() {
+                    addToSavingsGoal(goal.id, 500);
+                });
+                
+                if (!goal.id.startsWith('default-')) {
+                    goalCard.querySelector('.delete-goal').addEventListener('click', function() {
+                        showDeleteConfirmation(goal.name, () => {
+                            deleteSavingsGoal(goal.id);
+                        });
+                    });
+                }
+            }
+            
+            function addToSavingsGoal(goalId, amount) {
+                const allGoals = [...getDefaultGoals(), ...savingsGoals];
+                const goal = allGoals.find(g => g.id === goalId);
+                
+                if (goal) {
+                    goal.current += amount;
+                    if (goal.current > goal.target) goal.current = goal.target;
+                    
+                    const goalCard = document.querySelector(`.savings-goal-card[data-id="${goalId}"]`);
+                    if (goalCard) {
+                        const progressPercentage = Math.min(100, Math.round((goal.current / goal.target) * 100));
+                        const progressFill = goalCard.querySelector('.progress-fill-detailed');
+                        const progressText = goalCard.querySelector('.goal-progress-detailed span:first-child');
+                        const progressStats = goalCard.querySelectorAll('.goal-stats span');
+
+                        progressFill.style.width = `${progressPercentage}%`;
+                        progressText.textContent = `$${goal.current.toLocaleString()} / $${goal.target.toLocaleString()}`;
+                        progressStats[0].textContent = `Progreso: ${progressPercentage}%`;
+                        
+                        const monthsRemaining = Math.ceil((goal.target - goal.current) / goal.monthly);
+                        progressStats[1].textContent = `Tiempo restante: ${monthsRemaining} meses`;
+                
+                        goalCard.style.animation = 'pulse 0.5s ease';
+                        setTimeout(() => {
+                            goalCard.style.animation = '';
+                        }, 500);
+                    }
+                    
+                    if (!goalId.startsWith('default-')) {
+                        localStorage.setItem('savingsGoals', JSON.stringify(savingsGoals));
+                    }
+                }
+            }
+            
+            function deleteSavingsGoal(goalId) {
+                savingsGoals = savingsGoals.filter(goal => goal.id !== goalId);
+                localStorage.setItem('savingsGoals', JSON.stringify(savingsGoals));
+                loadSavingsGoals();
+            }
+            
+            function getDefaultGoals() {
+                return [
+                    { id: 'default-1', name: 'Fondo de Emergencia', target: 150000, current: 97500, monthly: 5000 },
+                    { id: 'default-2', name: 'Auto Nuevo', target: 80000, current: 32000, monthly: 4000 },
+                    { id: 'default-3', name: 'Enganche Casa', target: 400000, current: 100000, monthly: 8000 }
+                ];
+            }
+            
+            function initAdvancedCalculators() {
+                if (calculateLawBtn) {
+                    calculateLawBtn.addEventListener('click', calculateLawOfSavings);
+                }
+                
+                const savingsSlider = document.getElementById('savings-percentage');
+                const savingsValue = document.getElementById('savings-percentage-value');
+                
+                if (savingsSlider && savingsValue) {
+                    savingsSlider.addEventListener('input', function() {
+                        savingsValue.textContent = `${this.value}%`;
+                        calculateLawOfSavings();
+                    });
+                }
+                
+                if (calculateDebtAdvancedBtn) {
+                    calculateDebtAdvancedBtn.addEventListener('click', calculateDebtAdvanced);
+                }
+                
+                if (calculateSavingsAdvancedBtn) {
+                    calculateSavingsAdvancedBtn.addEventListener('click', calculateSavingsAdvanced);
+                }
+                
+                calculateLawOfSavings();
+                calculateDebtAdvanced();
+                calculateSavingsAdvanced();
+            }
+            
+            function calculateLawOfSavings() {
+                const monthlyIncome = parseFloat(document.getElementById('monthly-income-law').value) || 0;
+                const savingsPercentage = parseFloat(document.getElementById('savings-percentage').value) || 0;
+                const returnRate = parseFloat(document.getElementById('return-rate').value) || 0;
+                const investmentYears = parseFloat(document.getElementById('investment-years').value) || 0;
+                
+                const monthlySavings = monthlyIncome * (savingsPercentage / 100);
+                const totalSavings = monthlySavings * 12 * investmentYears;
+                
+                const monthlyRate = returnRate / 100 / 12;
+                const months = investmentYears * 12;
+                
+                let futureValue = 0;
+                if (monthlyRate > 0) {
+                    futureValue = monthlySavings * ((Math.pow(1 + monthlyRate, months) - 1) / monthlyRate);
+                } else {
+                    futureValue = totalSavings;
+                }
+                
+                const interestEarned = futureValue - totalSavings;
+                
+                animateResultUpdate('total-savings-law', `$${Math.round(totalSavings).toLocaleString()}`);
+                animateResultUpdate('future-value-law', `$${Math.round(futureValue).toLocaleString()}`);
+                animateResultUpdate('interest-earned-law', `$${Math.round(interestEarned).toLocaleString()}`);
+                
+                showLawInsights(monthlySavings, futureValue, interestEarned, investmentYears);
+            }
+            
+            function animateResultUpdate(elementId, newValue) {
+                const element = document.getElementById(elementId);
+                if (element) {
+                    element.style.transform = 'scale(1.1)';
+                    setTimeout(() => {
+                        element.textContent = newValue;
+                        element.style.transform = 'scale(1)';
+                    }, 150);
+                }
+            }
+            
+            function showLawInsights(monthlySavings, futureValue, interestEarned, years) {
+                const insightsContainer = document.querySelector('.law-insights');
+                if (!insightsContainer) return;
+                
+                const insights = [
+                    `Ahorrando $${monthlySavings.toLocaleString()} mensuales, en ${years} años tendrás $${Math.round(futureValue).toLocaleString()}`,
+                    `El interés compuesto generará $${Math.round(interestEarned).toLocaleString()} - eso es dinero gratis`,
+                    `Cada año que empieces antes puede aumentar tu patrimonio final en un ${Math.round((interestEarned / futureValue) * 100 / years)}%`
+                ];
+                
+                const insightElements = insightsContainer.querySelectorAll('.insight-card p');
+                insightElements.forEach((element, index) => {
+                    if (insights[index]) {
+                        element.textContent = insights[index];
+                    }
+                });
+            }
+            
+            function calculateDebtAdvanced() {
+                const totalDebt = parseFloat(document.getElementById('total-debt-advanced').value) || 0;
+                const interestRate = parseFloat(document.getElementById('interest-rate-advanced').value) || 0;
+                const monthlyPayment = parseFloat(document.getElementById('monthly-payment-advanced').value) || 0;
+                const extraPayment = parseFloat(document.getElementById('extra-payment').value) || 0;
+                
+                const totalMonthlyPayment = monthlyPayment + extraPayment;
+                const monthlyRate = interestRate / 100 / 12;
+                
+                const strategy = userPreferences.debtStrategy;
+                const result = calculateDebtPayoff(totalDebt, monthlyRate, totalMonthlyPayment, strategy);
+                
+                document.getElementById('payoff-time-advanced').textContent = `${result.years} años`;
+                document.getElementById('total-interest-advanced').textContent = `$${Math.round(result.totalInterest).toLocaleString()}`;
+                
+                const minPaymentResult = calculateDebtPayoff(totalDebt, monthlyRate, monthlyPayment, strategy);
+                const interestSavings = minPaymentResult.totalInterest - result.totalInterest;
+                
+                document.getElementById('interest-savings').textContent = `$${Math.round(interestSavings).toLocaleString()}`;
+                
+                const progressBar = document.querySelector('.timeline-progress');
+                if (progressBar) {
+                    const progressPercentage = Math.min(100, (result.months / (result.months + 12)) * 100);
+                    progressBar.style.width = `${progressPercentage}%`;
+                }
+            }
+            
+            function calculateDebtPayoff(debt, monthlyRate, monthlyPayment, strategy) {
+                let remainingDebt = debt;
+                let months = 0;
+                let totalInterest = 0;
+                
+                while (remainingDebt > 0 && months < 600) {
+                    const interest = remainingDebt * monthlyRate;
+                    const principal = monthlyPayment - interest;
+                    
+                    if (principal <= 0) break;
+                    
+                    remainingDebt -= principal;
+                    totalInterest += interest;
+                    months++;
+                    
+                    if (remainingDebt < 0) {
+                        totalInterest -= (remainingDebt * -1);
+                        break;
+                    }
+                }
+                
+                return {
+                    years: (months / 12).toFixed(1),
+                    months: months,
+                    totalInterest: totalInterest
+                };
+            }
+            
+            function calculateSavingsAdvanced() {
+                const savingsTarget = parseFloat(document.getElementById('savings-target-advanced').value) || 0;
+                const savingsMonths = parseFloat(document.getElementById('savings-months-advanced').value) || 0;
+                const savingsRate = parseFloat(document.getElementById('savings-rate-advanced').value) || 0;
+                
+                const monthlyRate = savingsRate / 100 / 12;
+                
+                let monthlySavings, totalSaved, interestEarned;
+                
+                if (monthlyRate === 0) {
+                    monthlySavings = savingsTarget / savingsMonths;
+                    totalSaved = monthlySavings * savingsMonths;
+                    interestEarned = 0;
+                } else {
+                    monthlySavings = savingsTarget * monthlyRate / (Math.pow(1 + monthlyRate, savingsMonths) - 1);
+                    totalSaved = monthlySavings * savingsMonths;
+                    interestEarned = savingsTarget - totalSaved;
+                }
+                
+                document.getElementById('monthly-savings-advanced').textContent = `$${monthlySavings.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+                document.getElementById('total-saved-advanced').textContent = `$${Math.round(totalSaved).toLocaleString()}`;
+                document.getElementById('interest-earned-advanced').textContent = `$${Math.round(interestEarned).toLocaleString()}`;
+            }
+
+            function initDebtStrategies() {
+                strategySelectBtns.forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        const strategy = this.dataset.strategy;
+                        
+                        strategySelectBtns.forEach(b => {
+                            b.classList.remove('active');
+                            b.textContent = 'Seleccionar';
+                        });
+                        
+                        this.classList.add('active');
+                        this.textContent = 'Seleccionado ✓';
+                        
+                        userPreferences.debtStrategy = strategy;
+                        localStorage.setItem('userPreferences', JSON.stringify(userPreferences));
+        
+                        calculateDebtAdvanced();
+                    });
+                });
+            }
+            
+            function initModals() {
+                if (addBudgetBtn) {
+                    addBudgetBtn.addEventListener('click', () => showModal(budgetModal));
+                }
+                
+                if (resetBudgetBtn) {
+                    resetBudgetBtn.addEventListener('click', () => {
+                        showConfirmation(
+                            '¿Reiniciar presupuesto mensual?',
+                            'Esta acción restablecerá todos los gastos a cero para el nuevo mes.',
+                            resetBudget
+                        );
+                    });
+                }
+                
+                if (addGoalBtn) {
+                    addGoalBtn.addEventListener('click', () => showModal(goalModal));
+                }
+                
+                closeModals.forEach(closeBtn => {
+                    closeBtn.addEventListener('click', function() {
+                        const modal = this.closest('.modal');
+                        hideModal(modal);
+                    });
+                });
+                
+                window.addEventListener('click', function(e) {
+                    if (e.target.classList.contains('modal')) {
+                        hideModal(e.target);
+                    }
+                });
+                
+                initForms();
+            }
+            
+            function showModal(modal) {
+                modal.style.display = 'block';
+                setTimeout(() => {
+                    modal.style.opacity = '1';
+                }, 10);
+            }
+            
+            function hideModal(modal) {
+                modal.style.opacity = '0';
+                setTimeout(() => {
+                    modal.style.display = 'none';
+                }, 300);
+            }
+            
+            function showConfirmation(title, message, onConfirm) {
+                const modal = document.createElement('div');
+                modal.className = 'modal';
+                modal.innerHTML = `
+                    <div class="modal-content">
+                        <h3>${title}</h3>
+                        <div class="modal-body">
+                            <p>${message}</p>
+                            <div class="form-actions">
+                                <button class="cancel-btn">Cancelar</button>
+                                <button class="submit-btn confirm-btn">Confirmar</button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                document.body.appendChild(modal);
+                showModal(modal);
+                
+                modal.querySelector('.cancel-btn').addEventListener('click', () => {
+                    hideModal(modal);
+                    setTimeout(() => {
+                        document.body.removeChild(modal);
+                    }, 300);
+                });
+                
+                modal.querySelector('.confirm-btn').addEventListener('click', () => {
+                    onConfirm();
+                    hideModal(modal);
+                    setTimeout(() => {
+                        document.body.removeChild(modal);
+                    }, 300);
+                });
+            }
+            
+            function showDeleteConfirmation(itemName, onConfirm) {
+                showConfirmation(
+                    'Eliminar Elemento',
+                    `¿Estás seguro de que quieres eliminar "${itemName}"? Esta acción no se puede deshacer.`,
+                    onConfirm
+                );
+            }
+            
+            function initForms() {
+                const budgetForm = document.getElementById('new-budget-form');
+                if (budgetForm) {
+                    budgetForm.addEventListener('submit', function(e) {
+                        e.preventDefault();
+                        
+                        const categoryName = document.getElementById('category-name').value;
+                        const categoryBudget = parseFloat(document.getElementById('category-budget').value);
+                        const expenseType = document.getElementById('expense-type').value;
+                        
+                        const newCategory = {
+                            id: `custom-${Date.now()}`,
+                            name: categoryName,
+                            budget: categoryBudget,
+                            type: expenseType,
+                            icon: getCategoryIcon(expenseType),
+                            spent: 0
+                        };
+                        
+                        budgetCategories.push(newCategory);
+                        localStorage.setItem('budgetCategories', JSON.stringify(budgetCategories));
+                        
+                        addBudgetCategoryToDOM(newCategory);
+                        updateBudgetSummary();
+                        hideModal(budgetModal);
+                        budgetForm.reset();
+                        
+                        showToast('✅ Categoría agregada exitosamente');
+                    });
+                }
+                
+                const goalForm = document.getElementById('new-goal-form');
+                if (goalForm) {
+                    goalForm.addEventListener('submit', function(e) {
+                        e.preventDefault();
+                        
+                        const goalName = document.getElementById('goal-name').value;
+                        const goalTarget = parseFloat(document.getElementById('goal-target').value);
+                        const goalMonths = parseInt(document.getElementById('goal-months').value);
+                        const goalMonthly = parseFloat(document.getElementById('goal-monthly').value);
+                        
+                        const newGoal = {
+                            id: `custom-${Date.now()}`,
+                            name: goalName,
+                            description: 'Meta personal de ahorro',
+                            target: goalTarget,
+                            current: 0,
+                            monthly: goalMonthly
+                        };
+                        
+                        savingsGoals.push(newGoal);
+                        localStorage.setItem('savingsGoals', JSON.stringify(savingsGoals));
+                        
+                        addSavingsGoalToDOM(newGoal);
+                        hideModal(goalModal);
+                        goalForm.reset();
+                        
+                        showToast('🎯 Meta de ahorro creada exitosamente');
+                    });
+                }
+            }
+            
+            function getCategoryIcon(type) {
+                const iconMap = {
+                    'necesidad': '🏠',
+                    'deseo': '🎮',
+                    'ahorro': '💰'
+                };
+                return iconMap[type] || '📊';
+            }
+            
+            function resetBudget() {
+                budgetCategories.forEach(category => {
+                    category.spent = 0;
+                });
+                localStorage.setItem('budgetCategories', JSON.stringify(budgetCategories));
+                loadBudgetCategories();
+                updateBudgetSummary();
+                showToast('🔄 Presupuesto reiniciado para el nuevo mes');
+            }
+            
+            function initAdvancedInteractivity() {
+                initHoverEffects();
+                initScrollAnimations();
+                initNotifications();
+            }
+            
+            function initHoverEffects() {
+                const interactiveElements = document.querySelectorAll(
+                    '.metric-card, .overview-card, .budget-category, .savings-goal-card, ' +
+                    '.strategy-option, .module-card, .tool-card-advanced, .result-card, .insight-card'
+                );
+                
+                interactiveElements.forEach(element => {
+                    element.addEventListener('mouseenter', function() {
+                        this.style.transform = 'translateY(-8px)';
+                        this.style.boxShadow = '0 12px 30px rgba(212, 175, 55, 0.15)';
+                    });
+                    
+                    element.addEventListener('mouseleave', function() {
+                        this.style.transform = 'translateY(0)';
+                        this.style.boxShadow = '';
+                    });
+                });
+            }
+            
+            function initScrollAnimations() {
+                const observerOptions = {
+                    threshold: 0.1,
+                    rootMargin: '0px 0px -50px 0px'
+                };
+                
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.style.opacity = '1';
+                            entry.target.style.transform = 'translateY(0)';
+                        }
+                    });
+                }, observerOptions);
+                
+                const animatedElements = document.querySelectorAll(
+                    '.metric-card, .overview-card, .budget-category, .savings-goal-card, ' +
+                    '.strategy-option, .module-card, .tool-card-advanced'
+                );
+                
+                animatedElements.forEach(el => {
+                    el.style.opacity = '0';
+                    el.style.transform = 'translateY(30px)';
+                    el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                    observer.observe(el);
+                });
+            }
+            
+            function initNotifications() {
+                window.showToast = function(message, type = 'info') {
+                    const toast = document.createElement('div');
+                    toast.className = `toast toast-${type}`;
+                    toast.textContent = message;
+                    toast.style.cssText = `
+                        position: fixed;
+                        top: 20px;
+                        right: 20px;
+                        background: var(--premium-bg);
+                        color: var(--gold-light);
+                        padding: 1rem 1.5rem;
+                        border-radius: 8px;
+                        border: 1px solid var(--gold-primary);
+                        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+                        z-index: 3000;
+                        transform: translateX(100%);
+                        transition: transform 0.3s ease;
+                    `;
+                    
+                    document.body.appendChild(toast);
+                    
+                    setTimeout(() => {
+                        toast.style.transform = 'translateX(0)';
+                    }, 100);
+                    
+                    setTimeout(() => {
+                        toast.style.transform = 'translateX(100%)';
+                        setTimeout(() => {
+                            document.body.removeChild(toast);
+                        }, 300);
+                    }, 3000);
+                };
+            }
+            
+            // Agregar estilos de animación
+            const style = document.createElement('style');
+            style.textContent = `
+                .action-icon {
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+                    font-size: 1.2rem;
+                    padding: 0.3rem;
+                    border-radius: 4px;
+                    transition: all 0.3s ease;
+                }
+                
+                .action-icon:hover {
+                    background: rgba(231, 76, 60, 0.1);
+                    color: var(--negative);
+                }
+                
+                .action-btn.small {
+                    padding: 0.5rem 1rem;
+                    font-size: 0.9rem;
+                }
+                
+                .toast-info {
+                    background: linear-gradient(135deg, var(--premium-bg) 0%, #2d2d2d 100%) !important;
+                }
+                
+                .toast-success {
+                    background: linear-gradient(135deg, var(--positive) 0%, #27ae60 100%) !important;
+                }
+                
+                .toast-warning {
+                    background: linear-gradient(135deg, var(--warning) 0%, #f39c12 100%) !important;
+                }
+            `;
+            document.head.appendChild(style);
+        });
+    </script>
+</body>
+</html>
