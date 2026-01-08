@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis - Visual Economic</title>
+    <link rel="stylesheet" href="analisis.css">
+</head>
+<body style="background-image: url('https://z101digital.com/wp-content/uploads/2018/12/ezgif-com-video-to-gif-9.gif');">
+
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <h1 class="logo">Visual Economic</h1>
+                <span class="tagline">Análisis financiero CECyT 3</span>
+            </div>
+            <nav class="top-nav">
+                <ul>
+                    <li><a href="../index.html" class="nav-link">🏠 Inicio</a></li>
+                    <li><a href="../mercados/mercados.html" class="nav-link">📈 Mercados</a></li>
+                    <li><a href="../inversiones/inversiones.html" class="nav-link">💼 Inversiones</a></li>
+                    <li><a href="../finanzas/finanzas.html" class="nav-link">💰 Finanzas</a></li>
+                    <li><a href="../analisis/analisis.html" class="nav-link active">🔍 Análisis</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-container">
+       
+        <aside class="sidebar">
+            <nav class="side-nav">
+                <h3>📈 Análisis Financiero</h3>
+                <ul>
+                    <li><a href="#dashboard-analisis" class="side-link active">📊 Dashboard Análisis</a></li>
+                    <li><a href="#tecnico" class="side-link">📉 Análisis Técnico</a></li>
+                    <li><a href="#fundamental" class="side-link">📊 Análisis Fundamental</a></li>
+                    <li><a href="#macroeconomico" class="side-link">🌍 Análisis Macroeconómico</a></li>
+                    <li><a href="#sentimiento" class="side-link">📊 Sentimiento de Mercado</a></li>
+                    <li><a href="#herramientas-analisis" class="side-link">🛠️ Herramientas de Análisis</a></li>
+                    <li><a href="#ley-ahorro" class="side-link">💰 Ley del Ahorro</a></li>
+                </ul>
+            </nav>
+            
+            <div class="sidebar-widget">
+                <h4>💡 Análisis del Día</h4>
+                <div class="daily-tip">
+                    <p>"El IPC mexicano muestra fortaleza en 58,450 puntos con soporte clave en 57,800. Volatilidad moderada en mercados globales."</p>
+                </div>
+            </div>
+
+            <div class="sidebar-widget">
+                <h4>📊 Indicadores México</h4>
+                <div class="monthly-goals">
+                    <div class="goal-item">
+                        <span class="goal-label">Inflación Anual:</span>
+                        <span class="goal-progress">
+                            <span class="progress-bar">
+                                <span class="progress-fill" style="width: 65%"></span>
+                            </span>
+                            <span>4.25%</span>
+                        </span>
+                    </div>
+                    <div class="goal-item">
+                        <span class="goal-label">Tasa Banxico:</span>
+                        <span class="goal-progress">
+                            <span class="progress-bar">
+                                <span class="progress-fill" style="width: 85%"></span>
+                            </span>
+                            <span>11.00%</span>
+                        </span>
+                    </div>
+                    <div class="goal-item">
+                        <span class="goal-label">Crecimiento PIB:</span>
+                        <span class="goal-progress">
+                            <span class="progress-bar">
+                                <span class="progress-fill positive" style="width: 32%"></span>
+                            </span>
+                            <span>3.2%</span>
+                        </span>
+                    </div>
+                    <div class="goal-item">
+                        <span class="goal-label">Desempleo:</span>
+                        <span class="goal-progress">
+                            <span class="progress-bar">
+                                <span class="progress-fill" style="width: 28%"></span>
+                            </span>
+                            <span>2.8%</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar-widget">
+                <h4>📈 Alertas Técnicas</h4>
+                <div class="alert-list">
+                    <div class="alert-item">
+                        <div class="alert-badge">📊</div>
+                        <div class="alert-content">
+                            <h5>IPC México</h5>
+                            <p>Resistencia: 58,800 pts</p>
+                        </div>
+                    </div>
+                    <div class="alert-item">
+                        <div class="alert-badge">💱</div>
+                        <div class="alert-content">
+                            <h5>USD/MXN</h5>
+                            <p>Soporte: 17.80</p>
+                        </div>
+                    </div>
+                    <div class="alert-item">
+                        <div class="alert-badge">📉</div>
+                        <div class="alert-content">
+                            <h5>CETES 28 días</h5>
+                            <p>Rendimiento: 11.05%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+
+        <main class="content">
+       
+            <section id="analisis" class="content-section active">
+               
+                <div id="dashboard-analisis" class="content-subsection active">
+                    <div class="dashboard-header">
+                        <div>
+                            <h2 class="section-title">📊 Dashboard de Análisis Financiero</h2>
+                            <p class="dashboard-description">
+                                Centro integral de análisis de mercados mexicanos e internacionales. 
+                                Datos actualizados Diciembre 2025 con herramientas avanzadas para análisis técnico, fundamental y macroeconómico.
+                            </p>
+                        </div>
+                        <div class="dashboard-controls">
+                            <button class="control-btn" data-period="day">Día</button>
+                            <button class="control-btn" data-period="week">Semana</button>
+                            <button class="control-btn active" data-period="month">Mes</button>
+                            <button class="control-btn" data-period="quarter">Trimestre</button>
+                        </div>
+                    </div>
+
+              
+                    <div class="metrics-grid">
+                        <div class="metric-card">
+                            <div class="metric-header">
+                                <div class="metric-icon">🇲🇽</div>
+                                <div class="metric-trend positive">+1.8%</div>
+                            </div>
+                            <div class="metric-value">58,450</div>
+                            <div class="metric-label">BMV IPC México</div>
+                            <div class="metric-info">
+                                <p><strong>Máximo:</strong> 58,800</p>
+                                <p><strong>Mínimo:</strong> 57,200</p>
+                                <p><strong>Volumen:</strong> $45B MXN</p>
+                            </div>
+                        </div>
+
+                        <div class="metric-card">
+                            <div class="metric-header">
+                                <div class="metric-icon">💱</div>
+                                <div class="metric-trend negative">-0.5%</div>
+                            </div>
+                            <div class="metric-value">18.25</div>
+                            <div class="metric-label">USD/MXN</div>
+                            <div class="metric-info">
+                                <p><strong>Soporte:</strong> 17.80</p>
+                                <p><strong>Resistencia:</strong> 18.50</p>
+                                <p><strong>Volatilidad:</strong> 8.2%</p>
+                            </div>
+                        </div>
+
+                        <div class="metric-card">
+                            <div class="metric-header">
+                                <div class="metric-icon">📊</div>
+                                <div class="metric-trend positive">+0.3%</div>
+                            </div>
+                            <div class="metric-value">11.05%</div>
+                            <div class="metric-label">CETES 28 días</div>
+                            <div class="metric-info">
+                                <p><strong>Real:</strong> +6.80%</p>
+                                <p><strong>Subasta:</strong> Lunes</p>
+                                <p><strong>Demanda:</strong> Alta</p>
+                            </div>
+                        </div>
+
+                        <div class="metric-card">
+                            <div class="metric-header">
+                                <div class="metric-icon">🏛️</div>
+                                <div class="metric-trend neutral">0.0%</div>
+                            </div>
+                            <div class="metric-value">11.00%</div>
+                            <div class="metric-label">Tasa Banxico</div>
+                            <div class="metric-info">
+                                <p><strong>Próxima Reunión:</strong> 30 Ene</p>
+                                <p><strong>Expectativa:</strong> Mantener</p>
+                                <p><strong>Inflación:</strong> 4.25%</p>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+                    <div class="market-summary">
+                        <h3 class="subsection-title">📊 Resumen General de Mercados</h3>
+                        <div class="summary-content">
+                            <p><strong>Mercado Mexicano:</strong> El IPC cierra en 58,450 puntos con avance de 1.8% en la sesión. Sectores líderes: Financiero (+2.3%) y Industrial (+1.9%). Volumen moderado con participación institucional del 65%.</p>
+                            
+                            <p><strong>Tipo de Cambio:</strong> USD/MXN opera en 18.25 con ligera presión alcista. Banxico mantiene intervención discrecional. Diferencial de tasas México-USA (+650pb) sigue atrayendo inversión.</p>
+                            
+                            <p><strong>Renta Fija:</strong> CETES 28 días en 11.05% con demanda sólida. Curva de rendimientos normal con pendiente positiva de +85pb entre 1 mes y 10 años.</p>
+                            
+                            <div class="summary-stats">
+                                <div class="stat-item">
+                                    <span>Volatilidad VIMEX:</span>
+                                    <span class="positive">22.5 (Moderada)</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span>Flujos Extranjeros:</span>
+                                    <span class="positive">+$850M USD</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span>Prima Riesgo:</span>
+                                    <span>+595pb vs USA</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span>Rating Soberano:</span>
+                                    <span>BBB (Fitch)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                  
+                    <div class="chart-section">
+                        <h3 class="subsection-title">📈 Gráfico IPC México - Análisis Técnico</h3>
+                        <div class="chart-container">
+                            <canvas id="ipc-chart" width="800" height="400"></canvas>
+                        </div>
+                        <div class="chart-controls">
+                            <button class="control-btn" data-timeframe="1d">1D</button>
+                            <button class="control-btn" data-timeframe="1w">1S</button>
+                            <button class="control-btn active" data-timeframe="1m">1M</button>
+                            <button class="control-btn" data-timeframe="3m">3M</button>
+                            <button class="control-btn" data-timeframe="1y">1A</button>
+                            <button class="control-btn" data-timeframe="5y">5A</button>
+                        </div>
+                        <div class="chart-analysis">
+                            <p><strong>Análisis Técnico:</strong> IPC en canal alcista con soporte en 57,200 y resistencia en 58,800. RSI en 58 (neutral), MACD positivo, medias móviles alineadas alcistas (20d sobre 50d sobre 200d).</p>
+                        </div>
+                    </div>
+
+                  
+                    <div class="live-market-banner">
+                        <h4>📡 Indicadores en Vivo - Mercado Mexicano</h4>
+                        <div class="live-indicators">
+                            <div class="live-indicator">
+                                <span class="indicator-name">WALMEX</span>
+                                <span class="indicator-value">$68.50</span>
+                                <span class="indicator-change positive">+1.2%</span>
+                            </div>
+                            <div class="live-indicator">
+                                <span class="indicator-name">AMXL</span>
+                                <span class="indicator-value">$45.20</span>
+                                <span class="indicator-change negative">-0.8%</span>
+                            </div>
+                            <div class="live-indicator">
+                                <span class="indicator-name">GFNORTE</span>
+                                <span class="indicator-value">$185.75</span>
+                                <span class="indicator-change positive">+2.1%</span>
+                            </div>
+                            <div class="live-indicator">
+                                <span class="indicator-name">PEMEX</span>
+                                <span class="indicator-value">$12.30</span>
+                                <span class="indicator-change negative">-1.5%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+           
+                <div id="tecnico" class="content-subsection">
+                    <div class="section-header">
+                        <h2 class="section-title">📉 Análisis Técnico Avanzado</h2>
+                        <div class="portfolio-actions">
+                            <button class="action-btn primary" id="add-indicator">
+                                <span class="btn-icon">+</span>
+                                Agregar Indicador
+                            </button>
+                            <button class="action-btn secondary" id="export-analysis">
+                                <span class="btn-icon">📤</span>
+                                Exportar Gráfico
+                            </button>
+                            <button class="action-btn small" id="clear-indicators">
+                                <span class="btn-icon">🗑️</span>
+                                Limpiar
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="analysis-tools">
+                        <h3 class="subsection-title">🛠️ Herramientas de Análisis Técnico</h3>
+                        <div class="tools-grid">
+                            <div class="tool-card">
+                                <h4>📊 Medias Móviles 
+                                    <span class="indicator-tooltip">ℹ️
+                                        <span class="tooltip-text">Suavizan la acción del precio para identificar tendencias. Cruces entre medias generan señales de compra/venta.</span>
+                                    </span>
+                                </h4>
+                                <div class="indicator-settings">
+                                    <div class="input-group">
+                                        <label>MA Corta (días)</label>
+                                        <input type="number" value="20" min="5" max="50" class="calculator-input ma-fast">
+                                    </div>
+                                    <div class="input-group">
+                                        <label>MA Media (días)</label>
+                                        <input type="number" value="50" min="20" max="100" class="calculator-input ma-medium">
+                                    </div>
+                                    <div class="input-group">
+                                        <label>MA Larga (días)</label>
+                                        <input type="number" value="200" min="100" max="300" class="calculator-input ma-slow">
+                                    </div>
+                                    <button class="calculate-btn apply-ma">Aplicar MAs</button>
+                                </div>
+                            </div>
+
+                            <div class="tool-card">
+                                <h4>📏 RSI (Índice de Fuerza Relativa)
+                                    <span class="indicator-tooltip">ℹ️
+                                        <span class="tooltip-text">Oscilador de 0-100 que identifica condiciones de sobrecompra (>70) y sobreventa (<30). Período típico: 14 días.</span>
+                                    </span>
+                                </h4>
+                                <div class="indicator-settings">
+                                    <div class="input-group">
+                                        <label>Período RSI</label>
+                                        <input type="number" value="14" min="7" max="30" class="calculator-input rsi-period">
+                                    </div>
+                                    <div class="input-group">
+                                        <label>Nivel Sobrecompra</label>
+                                        <input type="number" value="70" min="60" max="80" class="calculator-input rsi-overbought">
+                                    </div>
+                                    <div class="input-group">
+                                        <label>Nivel Sobreventa</label>
+                                        <input type="number" value="30" min="20" max="40" class="calculator-input rsi-oversold">
+                                    </div>
+                                    <button class="calculate-btn apply-rsi">Aplicar RSI</button>
+                                </div>
+                            </div>
+
+                            <div class="tool-card">
+                                <h4>📈 MACD (Convergencia/Divergencia)
+                                    <span class="indicator-tooltip">ℹ️
+                                        <span class="tooltip-text">Muestra la relación entre dos medias móviles exponenciales. Cruce sobre línea de señal genera señales.</span>
+                                    </span>
+                                </h4>
+                                <div class="indicator-settings">
+                                    <div class="input-group">
+                                        <label>EMA Rápida</label>
+                                        <input type="number" value="12" min="5" max="20" class="calculator-input macd-fast">
+                                    </div>
+                                    <div class="input-group">
+                                        <label>EMA Lenta</label>
+                                        <input type="number" value="26" min="20" max="40" class="calculator-input macd-slow">
+                                    </div>
+                                    <div class="input-group">
+                                        <label>Señal (EMA)</label>
+                                        <input type="number" value="9" min="5" max="15" class="calculator-input macd-signal">
+                                    </div>
+                                    <button class="calculate-btn apply-macd">Aplicar MACD</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                 
+                    <div class="technical-signals">
+                        <h3 class="subsection-title">🎯 Señales Técnicas Actuales - IPC México</h3>
+                        <div class="signals-grid">
+                            <div class="signal-card positive">
+                                <h4>🔺 Tendencia Alcista Confirmada</h4>
+                                <p>El precio se mantiene por encima de las tres medias móviles principales (20, 50, 200 días). La secuencia alcista de medias indica fortaleza del mercado.</p>
+                                <div class="signal-strength">
+                                    <span>Confianza:</span>
+                                    <div class="strength-bar">
+                                        <div class="strength-fill" style="width: 82%"></div>
+                                    </div>
+                                    <span>82%</span>
+                                </div>
+                                <div class="signal-details">
+                                    <p><strong>MA20:</strong> 57,850 ▲</p>
+                                    <p><strong>MA50:</strong> 56,920 ▲</p>
+                                    <p><strong>MA200:</strong> 54,380 ▲</p>
+                                </div>
+                            </div>
+
+                            <div class="signal-card neutral">
+                                <h4>⚖️ RSI Neutral con Sesgo Alcista</h4>
+                                <p>RSI en 58 puntos, dentro de rango neutral (30-70). Tendencia alcista en el oscilador pero sin condiciones de sobrecompra.</p>
+                                <div class="signal-strength">
+                                    <span>Confianza:</span>
+                                    <div class="strength-bar">
+                                        <div class="strength-fill" style="width: 65%"></div>
+                                    </div>
+                                    <span>65%</span>
+                                </div>
+                                <div class="signal-details">
+                                    <p><strong>RSI Actual:</strong> 58</p>
+                                    <p><strong>Nivel Sobrecompra:</strong> 70</p>
+                                    <p><strong>Nivel Sobreventa:</strong> 30</p>
+                                </div>
+                            </div>
+
+                            <div class="signal-card positive">
+                                <h4>📈 MACD Positivo</h4>
+                                <p>MACD por encima de la línea de señal con histograma positivo y creciente. Confirmación de impulso alcista a mediano plazo.</p>
+                                <div class="signal-strength">
+                                    <span>Confianza:</span>
+                                    <div class="strength-bar">
+                                        <div class="strength-fill" style="width: 78%"></div>
+                                    </div>
+                                    <span>78%</span>
+                                </div>
+                                <div class="signal-details">
+                                    <p><strong>MACD:</strong> +245 ▲</p>
+                                    <p><strong>Señal:</strong> +180 ▲</p>
+                                    <p><strong>Histograma:</strong> +65 ▲</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                  
+                    <div class="support-resistance">
+                        <h3 class="subsection-title">🛡️ Niveles de Soporte y Resistencia</h3>
+                        <div class="levels-grid">
+                            <div class="level-card resistance">
+                                <h4>📈 Niveles de Resistencia</h4>
+                                <div class="level-list">
+                                    <div class="level-item">
+                                        <span>Resistencia 1</span>
+                                        <span class="level-price">58,800</span>
+                                        <span class="level-strength high">Alta</span>
+                                    </div>
+                                    <div class="level-item">
+                                        <span>Resistencia 2</span>
+                                        <span class="level-price">59,200</span>
+                                        <span class="level-strength medium">Media</span>
+                                    </div>
+                                    <div class="level-item">
+                                        <span>Resistencia 3</span>
+                                        <span class="level-price">59,800</span>
+                                        <span class="level-strength low">Baja</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="level-card support">
+                                <h4>📉 Niveles de Soporte</h4>
+                                <div class="level-list">
+                                    <div class="level-item">
+                                        <span>Soporte 1</span>
+                                        <span class="level-price">57,800</span>
+                                        <span class="level-strength high">Alta</span>
+                                    </div>
+                                    <div class="level-item">
+                                        <span>Soporte 2</span>
+                                        <span class="level-price">57,200</span>
+                                        <span class="level-strength high">Alta</span>
+                                    </div>
+                                    <div class="level-item">
+                                        <span>Soporte 3</span>
+                                        <span class="level-price">56,500</span>
+                                        <span class="level-strength medium">Media</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                  
+                    <div class="technical-conclusion">
+                        <h3 class="subsection-title">📋 Conclusión Técnica</h3>
+                        <div class="conclusion-content">
+                            <p><strong>Escenario Principal (70% probabilidad):</strong> Continuación del rally alcista hacia 59,200-59,800. Condiciones técnicas favorables con tendencia, momentum y volumen positivos.</p>
+                            
+                            <p><strong>Escenario Alternativo (30% probabilidad):</strong> Corrección técnica hacia 57,800-57,200 antes de reanudar tendencia alcista. Condición necesaria: pérdida de 57,200.</p>
+                            
+                            <p><strong>Recomendación:</strong> Posiciones largas con stop en 57,200. Añadir en ruptura de 58,800. Tomar beneficios parciales en 59,200 y 59,800.</p>
+                            
+                            <div class="risk-metrics">
+                                <div class="risk-metric">
+                                    <span>Stop Loss:</span>
+                                    <span class="negative">57,200 (-2.1%)</span>
+                                </div>
+                                <div class="risk-metric">
+                                    <span>Take Profit 1:</span>
+                                    <span class="positive">59,200 (+1.3%)</span>
+                                </div>
+                                <div class="risk-metric">
+                                    <span>Take Profit 2:</span>
+                                    <span class="positive">59,800 (+2.3%)</span>
+                                </div>
+                                <div class="risk-metric">
+                                    <span>Risk/Reward:</span>
+                                    <span class="positive">1:1.6</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div id="fundamental" class="content-subsection">
+                    <h2 class="section-title">📊 Análisis Fundamental - Empresas Mexicanas</h2>
+                    
+                    <div class="fundamental-analysis">
+                        <div class="valuation-metrics">
+                            <h3 class="subsection-title">💰 Métricas de Valoración por Sector</h3>
+                            <div class="metrics-container">
+                                <div class="valuation-card">
+                                    <h4>🏦 Sector Financiero (GFNORTE)</h4>
+                                    <div class="valuation-grid">
+                                        <div class="valuation-item">
+                                            <span>Precio/Valor Contable:</span>
+                                            <span class="value neutral">1.8x</span>
+                                        </div>
+                                        <div class="valuation-item">
+                                            <span>ROE (Retorno sobre Capital):</span>
+                                            <span class="value positive">18.5%</span>
+                                        </div>
+                                        <div class="valuation-item">
+                                            <span>Margen Neto:</span>
+                                            <span class="value positive">32.5%</span>
+                                        </div>
+                                        <div class="valuation-item">
+                                            <span>Dividend Yield:</span>
+                                            <span class="value positive">4.8%</span>
+                                        </div>
+                                        <div class="valuation-item">
+                                            <span>PER (Precio/Beneficio):</span>
+                                            <span class="value neutral">12.5x</span>
+                                        </div>
+                                        <div class="valuation-item">
+                                            <span>Deuda/Capital:</span>
+                                            <span class="value positive">45%</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="valuation-card">
+                                    <h4>🛒 Sector Consumo (WALMEX)</h4>
+                                    <div class="valuation-grid">
+                                        <div class="valuation-item">
+                                            <span>Precio/Valor Contable:</span>
+                                            <span class="value neutral">4.2x</span>
+                                        </div>
+                                        <div class="valuation-item">
+                                            <span>ROE:</span>
+                                            <span class="value positive">22.8%</span>
+                                        </div>
+                                        <div class="valuation-item">
+                                            <span>Margen Neto:</span>
+                                            <span class="value positive">5.8%</span>
+                                        </div>
+                                        <div class="valuation-item">
+                                            <span>Dividend Yield:</span>
+                                            <span class="value positive">3.2%</span>
+                                        </div>
+                                        <div class="valuation-item">
+                                            <span>PER:</span>
+                                            <span class="value neutral">25.8x</span>
+                                        </div>
+                                        <div class="valuation-item">
+                                            <span>Deuda/Capital:</span>
+                                            <span class="value positive">38%</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="valuation-card">
+                                    <h4>🏭 Sector Industrial (CEMEX)</h4>
+                                    <div class="valuation-grid">
+                                        <div class="valuation-item">
+                                            <span>Precio/Valor Contable:</span>
+                                            <span class="value positive">0.8x</span>
+                                        </div>
+                                        <div class="valuation-item">
+                                            <span>ROE:</span>
+                                            <span class="value negative">-2.5%</span>
+                                        </div>
+                                        <div class="valuation-item">
+                                            <span>Margen Neto:</span>
+                                            <span class="value negative">-1.8%</span>
+                                        </div>
+                                        <div class="valuation-item">
+                                            <span>Dividend Yield:</span>
+                                            <span class="value negative">0.0%</span>
+                                        </div>
+                                        <div class="valuation-item">
+                                            <span>PER:</span>
+                                            <span class="value negative">N/A</span>
+                                        </div>
+                                        <div class="valuation-item">
+                                            <span>Deuda/Capital:</span>
+                                            <span class="value negative">85%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="financial-statements">
+                            <h3 class="subsection-title">📑 Estados Financieros Comparativos</h3>
+                            <div class="statements-tabs">
+                                <div class="tab-buttons">
+                                    <button class="tab-btn active" data-tab="ingresos">Estado de Resultados</button>
+                                    <button class="tab-btn" data-tab="balance">Balance General</button>
+                                    <button class="tab-btn" data-tab="flujo">Flujo de Efectivo</button>
+                                </div>
+                                
+                                <div class="tab-content active" id="ingresos-tab">
+                                    <div class="financial-table">
+                                        <div class="table-row header">
+                                            <div class="table-cell">Concepto / Empresa</div>
+                                            <div class="table-cell">GFNORTE</div>
+                                            <div class="table-cell">WALMEX</div>
+                                            <div class="table-cell">CEMEX</div>
+                                            <div class="table-cell">AMXL</div>
+                                        </div>
+                                        <div class="table-row">
+                                            <div class="table-cell">Ingresos (M USD)</div>
+                                            <div class="table-cell">$8,450</div>
+                                            <div class="table-cell">$62,380</div>
+                                            <div class="table-cell">$14,250</div>
+                                            <div class="table-cell">$22,150</div>
+                                        </div>
+                                        <div class="table-row">
+                                            <div class="table-cell">Beneficio Neto (M USD)</div>
+                                            <div class="table-cell">$2,750</div>
+                                            <div class="table-cell">$3,620</div>
+                                            <div class="table-cell">$-258</div>
+                                            <div class="table-cell">$3,850</div>
+                                        </div>
+                                        <div class="table-row">
+                                            <div class="table-cell">Margen Neto</div>
+                                            <div class="table-cell positive">32.5%</div>
+                                            <div class="table-cell positive">5.8%</div>
+                                            <div class="table-cell negative">-1.8%</div>
+                                            <div class="table-cell positive">17.4%</div>
+                                        </div>
+                                        <div class="table-row">
+                                            <div class="table-cell">EBITDA (M USD)</div>
+                                            <div class="table-cell">$4,120</div>
+                                            <div class="table-cell">$5,850</div>
+                                            <div class="table-cell">$1,450</div>
+                                            <div class="table-cell">$8,250</div>
+                                        </div>
+                                        <div class="table-row">
+                                            <div class="table-cell">Margen EBITDA</div>
+                                            <div class="table-cell positive">48.8%</div>
+                                            <div class="table-cell positive">9.4%</div>
+                                            <div class="table-cell positive">10.2%</div>
+                                            <div class="table-cell positive">37.2%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                      
+                        <div class="fundamental-conclusion">
+                            <h3 class="subsection-title">📋 Conclusión Fundamental</h3>
+                            <div class="conclusion-content">
+                                <p><strong>Sector Financiero:</strong> Atractivo por valoración razonable (PER 12.5x), alta rentabilidad (ROE 18.5%) y dividendos generosos (4.8%). Solidez patrimonial y exposición positiva a altas tasas.</p>
+                                
+                                <p><strong>Sector Consumo:</strong> Valoración premium justificada por posición dominante y crecimiento estable. Margen reducido pero previsible. Atractivo para inversión defensiva.</p>
+                                
+                                <p><strong>Sector Industrial:</strong> Desafíos operativos y elevado endeudamiento. Recuperación pendiente de inversión en infraestructura. Solo para inversionistas especulativos.</p>
+                                
+                                <p><strong>Sector Telecom:</strong> Alta rentabilidad y flujos estables. Posición oligopólica con barreras de entrada. Sensible a regulación.</p>
+                                
+                                <div class="recommendations">
+                                    <h4>🎯 Recomendaciones por Perfil</h4>
+                                    <div class="recommendation-list">
+                                        <div class="recommendation-item conservative">
+                                            <h5>Conservador</h5>
+                                            <p>GFNORTE (60%) + WALMEX (40%)</p>
+                                            <span class="expected-return">8-10% anual</span>
+                                        </div>
+                                        <div class="recommendation-item moderate">
+                                            <h5>Moderado</h5>
+                                            <p>GFNORTE (40%) + AMXL (30%) + WALMEX (30%)</p>
+                                            <span class="expected-return">10-12% anual</span>
+                                        </div>
+                                        <div class="recommendation-item aggressive">
+                                            <h5>Agresivo</h5>
+                                            <p>AMXL (50%) + GFNORTE (30%) + CEMEX (20%)</p>
+                                            <span class="expected-return">12-15% anual</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="macroeconomico" class="content-subsection">
+                    <h2 class="section-title">🌍 Análisis Macroeconómico - México y Global</h2>
+                    
+                    <div class="macro-analysis">
+                        <div class="economic-indicators">
+                            <h3 class="subsection-title">📊 Indicadores Económicos Comparativos</h3>
+                            <div class="indicators-grid">
+                                <div class="indicator-card">
+                                    <h4>🇲🇽 México</h4>
+                                    <div class="indicator-list">
+                                        <div class="indicator-item">
+                                            <span>Inflación Anual:</span>
+                                            <span class="value negative">4.25%</span>
+                                        </div>
+                                        <div class="indicator-item">
+                                            <span>Tasa Referencia Banxico:</span>
+                                            <span class="value">11.00%</span>
+                                        </div>
+                                        <div class="indicator-item">
+                                            <span>Crecimiento PIB 2025:</span>
+                                            <span class="value positive">3.2%</span>
+                                        </div>
+                                        <div class="indicator-item">
+                                            <span>Desempleo:</span>
+                                            <span class="value positive">2.8%</span>
+                                        </div>
+                                        <div class="indicator-item">
+                                            <span>Saldo Fiscal/PIB:</span>
+                                            <span class="value negative">-3.2%</span>
+                                        </div>
+                                        <div class="indicator-item">
+                                            <span>Deuda Externa/PIB:</span>
+                                            <span class="value">52.8%</span>
+                                        </div>
+                                        <div class="indicator-item">
+                                            <span>Exportaciones (M USD):</span>
+                                            <span class="value positive">$585,000</span>
+                                        </div>
+                                        <div class="indicator-item">
+                                            <span>Reservas Internacionales:</span>
+                                            <span class="value positive">$215,000M</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="indicator-card">
+                                    <h4>🇺🇸 Estados Unidos</h4>
+                                    <div class="indicator-list">
+                                        <div class="indicator-item">
+                                            <span>Inflación (CPI):</span>
+                                            <span class="value negative">3.2%</span>
+                                        </div>
+                                        <div class="indicator-item">
+                                            <span>Tasa Fed:</span>
+                                            <span class="value">5.50%</span>
+                                        </div>
+                                        <div class="indicator-item">
+                                            <span>Crecimiento PIB:</span>
+                                            <span class="value positive">2.1%</span>
+                                        </div>
+                                        <div class="indicator-item">
+                                            <span>Desempleo:</span>
+                                            <span class="value positive">3.8%</span>
+                                        </div>
+                                        <div class="indicator-item">
+                                            <span>Déficit Fiscal/PIB:</span>
+                                            <span class="value negative">-5.8%</span>
+                                        </div>
+                                        <div class="indicator-item">
+                                            <span>Deuda/PIB:</span>
+                                            <span class="value negative">122%</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="indicator-card">
+                                    <h4>🌎 América Latina</h4>
+                                    <div class="indicator-list">
+                                        <div class="indicator-item">
+                                            <span>Brasil Inflación:</span>
+                                            <span class="value negative">4.8%</span>
+                                        </div>
+                                        <div class="indicator-item">
+                                            <span>Brasil Tasa:</span>
+                                            <span class="value">11.75%</span>
+                                        </div>
+                                        <div class="indicator-item">
+                                            <span>Colombia Inflación:</span>
+                                            <span class="value negative">7.2%</span>
+                                        </div>
+                                        <div class="indicator-item">
+                                            <span>Colombia Tasa:</span>
+                                            <span class="value">13.25%</span>
+                                        </div>
+                                        <div class="indicator-item">
+                                            <span>Chile Inflación:</span>
+                                            <span class="value negative">3.8%</span>
+                                        </div>
+                                        <div class="indicator-item">
+                                            <span>Chile Tasa:</span>
+                                            <span class="value">8.25%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="economic-calendar">
+                            <h3 class="subsection-title">📅 Calendario Económico - Enero 2026</h3>
+                            <div class="calendar-events">
+                                <div class="calendar-event high-impact">
+                                    <div class="event-date">
+                                        <span class="day">30</span>
+                                        <span class="month">ENE</span>
+                                    </div>
+                                    <div class="event-info">
+                                        <h4>Decisión Tasa de Interés Banxico</h4>
+                                        <p>Anuncio de política monetaria del Banco de México. Expectativa: Mantener en 11.00%</p>
+                                    </div>
+                                    <div class="event-time">13:00 CST</div>
+                                </div>
+
+                                <div class="calendar-event medium-impact">
+                                    <div class="event-date">
+                                        <span class="day">09</span>
+                                        <span class="month">ENE</span>
+                                    </div>
+                                    <div class="event-info">
+                                        <h4>IPC México (Inflación Mensual)</h4>
+                                        <p>Datos de inflación de diciembre 2025. Expectativa: 0.30% mensual</p>
+                                    </div>
+                                    <div class="event-time">08:00 CST</div>
+                                </div>
+
+                                <div class="calendar-event high-impact">
+                                    <div class="event-date">
+                                        <span class="day">31</span>
+                                        <span class="month">ENE</span>
+                                    </div>
+                                    <div class="event-info">
+                                        <h4>Decisión Tasa de Interés FED</h4>
+                                        <p>Reunión del Comité Federal de Mercado Abierto. Expectativa: Mantener en 5.50%</p>
+                                    </div>
+                                    <div class="event-time">14:00 EST</div>
+                                </div>
+
+                                <div class="calendar-event medium-impact">
+                                    <div class="event-date">
+                                        <span class="day">23</span>
+                                        <span class="month">ENE</span>
+                                    </div>
+                                    <div class="event-info">
+                                        <h4>Desempleo México</h4>
+                                        <p>Tasa de desempleo trimestral. Expectativa: 2.8%</p>
+                                    </div>
+                                    <div class="event-time">08:00 CST</div>
+                                </div>
+
+                                <div class="calendar-event low-impact">
+                                    <div class="event-date">
+                                        <span class="day">17</span>
+                                        <span class="month">ENE</span>
+                                    </div>
+                                    <div class="event-info">
+                                        <h4>Indicador Global de Actividad Económica</h4>
+                                        <p>IGAE de noviembre 2025. Expectativa: +0.2% mensual</p>
+                                    </div>
+                                    <div class="event-time">08:00 CST</div>
+                                </div>
+                            </div>
+                        </div>
+
+                      
+                        <div class="macroeconomic-outlook">
+                            <h3 class="subsection-title">🔮 Perspectivas Macroeconómicas 2026</h3>
+                            <div class="outlook-content">
+                                <div class="outlook-scenario">
+                                    <h4>📈 Escenario Base (60% probabilidad)</h4>
+                                    <p><strong>México:</strong> Crecimiento de 2.8-3.2%, inflación converge a 3.5-4.0%, Banxico inicia recorte tasas en Q3 2026 (100-150pb anual). Tipo de cambio 17.50-18.50.</p>
+                                    <p><strong>Global:</strong> Fed mantiene tasas hasta Q2, luego recorte gradual. Suave aterrizaje en USA. Europa estancada, Asia moderada.</p>
+                                </div>
+                                
+                                <div class="outlook-scenario">
+                                    <h4>⚠️ Escenario Riesgo (30% probabilidad)</h4>
+                                    <p><strong>México:</strong> Inflación persistente 4.5-5.0%, Banxico mantiene tasas, crecimiento 2.0-2.5%, tipo de cambio 18.50-19.50.</p>
+                                    <p><strong>Global:</strong> Fed retrasa recortes, recesión USA, crisis energética, fortalecimiento del dólar.</p>
+                                </div>
+                                
+                                <div class="outlook-scenario">
+                                    <h4>🚀 Escenario Positivo (10% probabilidad)</h4>
+                                    <p><strong>México:</strong> Inflación converge rápido a 3.0%, Banxico recorta 200-250pb, crecimiento 3.5-4.0%, inversión récord, tipo de cambio 16.50-17.50.</p>
+                                    <p><strong>Global:</strong> Inflación controlada globalmente, crecimiento sincronizado, dólar estable, mercados alcistas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="sentimiento" class="content-subsection">
+                    <h2 class="section-title">📊 Análisis de Sentimiento de Mercado</h2>
+                    
+                    <div class="sentiment-analysis">
+                        <div class="sentiment-metrics">
+                            <h3 class="subsection-title">📊 Métricas de Sentimiento México</h3>
+                            <div class="sentiment-grid">
+                                <div class="sentiment-card">
+                                    <h4>📰 Medios Financieros</h4>
+                                    <div class="sentiment-score positive">68%</div>
+                                    <p>Tono positivo en cobertura de mercados mexicanos</p>
+                                    <div class="sentiment-trend">
+                                        <span class="trend positive">↑ 5%</span>
+                                        <span>vs semana anterior</span>
+                                    </div>
+                                    <div class="sentiment-details">
+                                        <p><strong>Noticias positivas:</strong> 68%</p>
+                                        <p><strong>Neutrales:</strong> 25%</p>
+                                        <p><strong>Negativas:</strong> 7%</p>
+                                    </div>
+                                </div>
+
+                                <div class="sentiment-card">
+                                    <h4>💬 Redes Sociales / Twitter</h4>
+                                    <div class="sentiment-score neutral">52%</div>
+                                    <p>Sentimiento dividido en discusión de acciones mexicanas</p>
+                                    <div class="sentiment-trend">
+                                        <span class="trend negative">↓ 3%</span>
+                                        <span>vs semana anterior</span>
+                                    </div>
+                                    <div class="sentiment-details">
+                                        <p><strong>Tweets alcistas:</strong> 45%</p>
+                                        <p><strong>Neutrales:</strong> 35%</p>
+                                        <p><strong>Bajistas:</strong> 20%</p>
+                                    </div>
+                                </div>
+
+                                <div class="sentiment-card">
+                                    <h4>🏦 Flujos Institucionales</h4>
+                                    <div class="sentiment-score positive">72%</div>
+                                    <p>Compras netas por parte de fondos institucionales</p>
+                                    <div class="sentiment-trend">
+                                        <span class="trend positive">↑ 8%</span>
+                                        <span>vs semana anterior</span>
+                                    </div>
+                                    <div class="sentiment-details">
+                                        <p><strong>Flujos netos:</strong> +$850M USD</p>
+                                        <p><strong>Instituciones:</strong> +$650M</p>
+                                        <p><strong>Retail:</strong> +$200M</p>
+                                    </div>
+                                </div>
+
+                                <div class="sentiment-card">
+                                    <h4>📊 Encuestas a Analistas</h4>
+                                    <div class="sentiment-score positive">65%</div>
+                                    <p>Recomendaciones mayoritariamente positivas</p>
+                                    <div class="sentiment-trend">
+                                        <span class="trend positive">↑ 4%</span>
+                                        <span>vs mes anterior</span>
+                                    </div>
+                                    <div class="sentiment-details">
+                                        <p><strong>Comprar:</strong> 40%</p>
+                                        <p><strong>Mantener:</strong> 45%</p>
+                                        <p><strong>Vender:</strong> 15%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fear-greed-index">
+                            <h3 class="subsection-title">📈 Índice Miedo y Codicia - Mercado Mexicano</h3>
+                            <div class="fear-greed-container">
+                                <div class="fear-greed-meter">
+                                    <div class="meter-scale">
+                                        <div class="scale-label">Miedo Extremo</div>
+                                        <div class="scale-label">Miedo</div>
+                                        <div class="scale-label">Neutral</div>
+                                        <div class="scale-label">Codicia</div>
+                                        <div class="scale-label">Codicia Extrema</div>
+                                        <div class="meter-needle" style="transform: rotate(60deg);">
+                                            <div class="needle"></div>
+                                        </div>
+                                    </div>
+                                    <div class="meter-value">60</div>
+                                    <div class="meter-label">Codicia Moderada</div>
+                                </div>
+                                <div class="fear-greed-analysis">
+                                    <h4>Interpretación del Índice</h4>
+                                    <p>El mercado mexicano muestra niveles de "Codicia Moderada" (60/100), indicando optimismo cauteloso. Los componentes del índice:</p>
+                                    <div class="index-components">
+                                        <div class="component-item">
+                                            <span>Volatilidad:</span>
+                                            <span class="value positive">25 puntos</span>
+                                        </div>
+                                        <div class="component-item">
+                                            <span>Impulso del Mercado:</span>
+                                            <span class="value positive">70 puntos</span>
+                                        </div>
+                                        <div class="component-item">
+                                            <span>Calidad de Acciones:</span>
+                                            <span class="value neutral">55 puntos</span>
+                                        </div>
+                                        <div class="component-item">
+                                            <span>Flujos de Capital:</span>
+                                            <span class="value positive">65 puntos</span>
+                                        </div>
+                                    </div>
+                                    <div class="historical-comparison">
+                                        <h5>Comparativa Histórica</h5>
+                                        <div class="comparison-item">
+                                            <span>Hoy:</span>
+                                            <span class="value">60</span>
+                                        </div>
+                                        <div class="comparison-item">
+                                            <span>Semana pasada:</span>
+                                            <span class="value">55</span>
+                                        </div>
+                                        <div class="comparison-item">
+                                            <span>Mes pasado:</span>
+                                            <span class="value">48</span>
+                                        </div>
+                                        <div class="comparison-item">
+                                            <span>Año pasado (promedio):</span>
+                                            <span class="value">52</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                       
+                        <div class="sentiment-conclusion">
+                            <h3 class="subsection-title">📋 Conclusión de Sentimiento</h3>
+                            <div class="conclusion-content">
+                                <p><strong>Análisis Integrado:</strong> El sentimiento general del mercado mexicano es positivo-cauteloso (60/100). Instituciones y medios financieros muestran optimismo, mientras redes sociales presentan división.</p>
+                                
+                                <p><strong>Factores Positivos:</strong> Flujos de capital entrantes, recomendaciones de analistas, estabilidad macroeconómica, altas tasas atractivas para inversión extranjera.</p>
+                                
+                                <p><strong>Factores de Precaución:</strong> Optimismo elevado puede indicar complacencia. Índice en zona de "Codicia" sugiere posibles correcciones técnicas.</p>
+                                
+                                <p><strong>Recomendación:</strong> Mantener exposición al mercado pero con gestión de riesgo activa. Establecer stops de protección y diversificar entre sectores.</p>
+                                
+                                <div class="sentiment-actions">
+                                    <div class="action-recommendation">
+                                        <h5>🎯 Acciones Recomendadas</h5>
+                                        <div class="action-list">
+                                            <div class="action-item">
+                                                <span>Incrementar exposición:</span>
+                                                <span class="recommendation positive">Sector financiero</span>
+                                            </div>
+                                            <div class="action-item">
+                                                <span>Mantener:</span>
+                                                <span class="recommendation neutral">Sector consumo</span>
+                                            </div>
+                                            <div class="action-item">
+                                                <span>Reducir/Tomar ganancias:</span>
+                                                <span class="recommendation negative">Sectores sobrecomprados</span>
+                                            </div>
+                                            <div class="action-item">
+                                                <span>Agregar protección:</span>
+                                                <span class="recommendation">Stop loss 5-7%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+              
+                <div id="herramientas-analisis" class="content-subsection">
+                    <h2 class="section-title">🛠️ Herramientas Avanzadas de Análisis</h2>
+                    
+                    <div class="analysis-tools-section">
+                        <div class="tools-grid-extended">
+                            <div class="tool-card">
+                                <div class="tool-icon">📊</div>
+                                <h3>Calculadora de Position Sizing</h3>
+                                <p>Determina el tamaño óptimo de posición basado en tu tolerancia al riesgo y stop loss</p>
+                                <div class="calculator-form">
+                                    <div class="input-group">
+                                        <label>Capital Total de Cuenta ($)</label>
+                                        <input type="number" id="account-capital" value="100000" min="1000" step="1000" class="calculator-input">
+                                    </div>
+                                    <div class="input-group">
+                                        <label>Riesgo por Operación (%)</label>
+                                        <input type="number" id="risk-per-trade" value="2" min="0.5" max="5" step="0.5" class="calculator-input">
+                                    </div>
+                                    <div class="input-group">
+                                        <label>Precio de Entrada ($)</label>
+                                        <input type="number" id="entry-price" value="68.50" min="1" step="0.01" class="calculator-input">
+                                    </div>
+                                    <div class="input-group">
+                                        <label>Stop Loss ($)</label>
+                                        <input type="number" id="stop-loss" value="65.00" min="1" step="0.01" class="calculator-input">
+                                    </div>
+                                    <button class="calculate-btn" id="calculate-position">Calcular Posición</button>
+                                    <div class="result-display">
+                                        <div class="position-results">
+                                            <div class="result-item">
+                                                <span>Riesgo por acción:</span>
+                                                <span id="risk-per-share">$3.50</span>
+                                            </div>
+                                            <div class="result-item">
+                                                <span>Riesgo total permitido:</span>
+                                                <span id="total-risk">$2,000</span>
+                                            </div>
+                                            <div class="result-item">
+                                                <span>Número de acciones:</span>
+                                                <span id="position-shares">571 acciones</span>
+                                            </div>
+                                            <div class="result-item">
+                                                <span>Valor de la posición:</span>
+                                                <span id="position-value">$39,114</span>
+                                            </div>
+                                            <div class="result-item">
+                                                <span>% del capital:</span>
+                                                <span id="capital-percentage">39.1%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tool-card">
+                                <div class="tool-icon">📈</div>
+                                <h3>Simulador de Estrategias de Trading</h3>
+                                <p>Prueba diferentes estrategias con datos históricos del IPC México</p>
+                                <div class="strategy-simulator">
+                                    <div class="input-group">
+                                        <label>Estrategia</label>
+                                        <select id="strategy-type" class="calculator-input">
+                                            <option value="breakout">Breakout (Ruptura)</option>
+                                            <option value="mean-reversion">Mean Reversion</option>
+                                            <option value="trend-following">Trend Following</option>
+                                            <option value="swing-trading">Swing Trading</option>
+                                        </select>
+                                    </div>
+                                    <div class="input-group">
+                                        <label>Capital Inicial ($)</label>
+                                        <input type="number" id="initial-capital" value="50000" min="1000" step="1000" class="calculator-input">
+                                    </div>
+                                    <div class="input-group">
+                                        <label>Período de Prueba</label>
+                                        <select id="backtest-period" class="calculator-input">
+                                            <option value="1y">1 Año</option>
+                                            <option value="2y">2 Años</option>
+                                            <option value="3y">3 Años</option>
+                                            <option value="5y">5 Años</option>
+                                        </select>
+                                    </div>
+                                    <button class="calculate-btn" id="run-backtest">Ejecutar Backtest</button>
+                                    <div class="result-display">
+                                        <div class="backtest-results">
+                                            <div class="result-item">
+                                                <span>Rentabilidad Total:</span>
+                                                <span id="backtest-return" class="positive">+18.5%</span>
+                                            </div>
+                                            <div class="result-item">
+                                                <span>Máximo Drawdown:</span>
+                                                <span id="max-drawdown" class="negative">-8.2%</span>
+                                            </div>
+                                            <div class="result-item">
+                                                <span>Ratio Sharpe:</span>
+                                                <span id="sharpe-ratio" class="positive">1.42</span>
+                                            </div>
+                                            <div class="result-item">
+                                                <span>Operaciones Ganadoras:</span>
+                                                <span id="winning-trades">58%</span>
+                                            </div>
+                                            <div class="result-item">
+                                                <span>Expectativa Matemática:</span>
+                                                <span id="mathematical-expectation" class="positive">+1.25</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tool-card">
+                                <div class="tool-icon">🎯</div>
+                                <h3>Calculadora de Risk/Reward</h3>
+                                <p>Analiza la relación riesgo/beneficio de tus operaciones y probabilidad de éxito</p>
+                                <div class="risk-reward-calculator">
+                                    <div class="input-group">
+                                        <label>Precio de Entrada ($)</label>
+                                        <input type="number" id="rr-entry-price" value="68.50" min="1" step="0.01" class="calculator-input">
+                                    </div>
+                                    <div class="input-group">
+                                        <label>Stop Loss ($)</label>
+                                        <input type="number" id="rr-sl-price" value="65.00" min="1" step="0.01" class="calculator-input">
+                                    </div>
+                                    <div class="input-group">
+                                        <label>Take Profit 1 ($)</label>
+                                        <input type="number" id="rr-tp1-price" value="72.00" min="1" step="0.01" class="calculator-input">
+                                    </div>
+                                    <div class="input-group">
+                                        <label>Take Profit 2 ($)</label>
+                                        <input type="number" id="rr-tp2-price" value="75.00" min="1" step="0.01" class="calculator-input">
+                                    </div>
+                                    <div class="input-group">
+                                        <label>Probabilidad de éxito estimada (%)</label>
+                                        <input type="number" id="success-probability" value="60" min="10" max="90" step="5" class="calculator-input">
+                                    </div>
+                                    <button class="calculate-btn" id="calculate-rr">Calcular R/R y Expectativa</button>
+                                    <div class="result-display">
+                                        <div class="rr-results">
+                                            <div class="result-item">
+                                                <span>Riesgo por acción:</span>
+                                                <span id="rr-risk-per-share">$3.50</span>
+                                            </div>
+                                            <div class="result-item">
+                                                <span>Beneficio TP1:</span>
+                                                <span id="rr-profit-tp1" class="positive">$3.50 (1:1)</span>
+                                            </div>
+                                            <div class="result-item">
+                                                <span>Beneficio TP2:</span>
+                                                <span id="rr-profit-tp2" class="positive">$6.50 (1:1.86)</span>
+                                            </div>
+                                            <div class="result-item">
+                                                <span>Expectativa matemática:</span>
+                                                <span id="rr-expectation" class="positive">+$1.75</span>
+                                            </div>
+                                            <div class="result-item">
+                                                <span>Recomendación:</span>
+                                                <span id="rr-recommendation" class="positive">Operación viable</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div id="ley-ahorro" class="content-subsection">
+                    <div class="section-header">
+                        <h2 class="section-title">💰 Ley del Ahorro e Interés Compuesto</h2>
+                        <p class="section-description">Calcula el poder del interés compuesto y cómo aplica la ley del ahorro para construir patrimonio</p>
+                    </div>
+                    
+                    <div class="savings-law-calculator">
+                        <h3>📈 Calculadora de Ley del Ahorro</h3>
+                        <p>El interés compuesto es la octava maravilla del mundo. Quien lo entiende, lo gana; quien no, lo paga. - Albert Einstein</p>
+                        
+                        <div class="savings-law-form">
+                            <div class="input-group">
+                                <label>Capital Inicial ($)</label>
+                                <input type="number" id="initial-capital" value="10000" min="0" step="1000" class="calculator-input">
+                                <small class="input-hint">Dinero que tienes hoy para invertir</small>
+                            </div>
+                            <div class="input-group">
+                                <label>Ahorro Mensual ($)</label>
+                                <input type="number" id="monthly-savings" value="500" min="0" step="100" class="calculator-input">
+                                <small class="input-hint">Cantidad que ahorrarás cada mes</small>
+                            </div>
+                            <div class="input-group">
+                                <label>Rentabilidad Anual Esperada (%)</label>
+                                <input type="number" id="annual-return" value="10" min="1" max="30" step="0.5" class="calculator-input">
+                                <small class="input-hint">Promedio histórico S&P 500: ~10% anual</small>
+                            </div>
+                            <div class="input-group">
+                                <label>Años de Ahorro</label>
+                                <input type="number" id="savings-years" value="20" min="1" max="50" step="1" class="calculator-input">
+                                <small class="input-hint">Tiempo que mantendrás la inversión</small>
+                            </div>
+                            <div class="input-group">
+                                <label>Inflación Anual Estimada (%)</label>
+                                <input type="number" id="inflation-rate" value="3" min="0" max="10" step="0.5" class="calculator-input">
+                                <small class="input-hint">Para ajustar a valor real</small>
+                            </div>
+                        </div>
+                        
+                        <button class="calculate-btn" id="calculate-savings">Calcular Proyección</button>
+                        
+                        <div class="savings-law-results">
+                            <div class="savings-result-card">
+                                <h4>💰 Capital Final Nominal</h4>
+                                <div class="savings-result-value" id="total-savings">$412,582</div>
+                                <small>Valor total en dólares nominales</small>
+                            </div>
+                            <div class="savings-result-card">
+                                <h4>📊 Capital Final Real</h4>
+                                <div class="savings-result-value" id="real-savings">$228,415</div>
+                                <small>Valor ajustado por inflación (poder adquisitivo)</small>
+                            </div>
+                            <div class="savings-result-card">
+                                <h4>💵 Total Invertido</h4>
+                                <div class="savings-result-value" id="total-invested">$130,000</div>
+                                <small>Dinero que aportaste de tu bolsillo</small>
+                            </div>
+                            <div class="savings-result-card">
+                                <h4>📈 Intereses Ganados</h4>
+                                <div class="savings-result-value" id="total-earned">$282,582</div>
+                                <small>Dinero que ganó tu dinero (interés compuesto)</small>
+                            </div>
+                        </div>
+
+                      
+                        <div class="savings-breakdown">
+                            <h4>📋 Desglose Detallado</h4>
+                            <div class="breakdown-grid">
+                                <div class="breakdown-item">
+                                    <span>Rentabilidad Total Nominal:</span>
+                                    <span class="value positive">+317.4%</span>
+                                </div>
+                                <div class="breakdown-item">
+                                    <span>Rentabilidad Total Real:</span>
+                                    <span class="value positive">+75.7%</span>
+                                </div>
+                                <div class="breakdown-item">
+                                    <span>Rentabilidad Anual Nominal:</span>
+                                    <span class="value">10.0%</span>
+                                </div>
+                                <div class="breakdown-item">
+                                    <span>Rentabilidad Anual Real:</span>
+                                    <span class="value positive">6.8%</span>
+                                </div>
+                                <div class="breakdown-item">
+                                    <span>Interés Compuesto vs Simple:</span>
+                                    <span class="value positive">+$152,415</span>
+                                </div>
+                                <div class="breakdown-item">
+                                    <span>Dinero que trabajó por ti:</span>
+                                    <span class="value positive">217.4%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                      
+                        <div class="savings-principles">
+                            <h4>📚 Los 7 Principios de la Ley del Ahorro</h4>
+                            <div class="principles-grid">
+                                <div class="principle-card">
+                                    <h5>1. Comienza Temprano</h5>
+                                    <p>El tiempo es tu mayor aliado. Iniciar 10 años antes puede duplicar tu patrimonio final.</p>
+                                    <div class="principle-example">
+                                        <span>Inicio a 25 vs 35 años:</span>
+                                        <span class="value positive">+150%</span>
+                                    </div>
+                                </div>
+                                <div class="principle-card">
+                                    <h5>2. Sé Constante</h5>
+                                    <p>Ahorra automáticamente cada mes. La consistencia vence a la intensidad.</p>
+                                    <div class="principle-example">
+                                        <span>$500/mes por 30 años:</span>
+                                        <span class="value positive">$1.1M</span>
+                                    </div>
+                                </div>
+                                <div class="principle-card">
+                                    <h5>3. Reinvierte los Rendimientos</h5>
+                                    <p>Deja que el interés compuesto trabaje. No retires las ganancias.</p>
+                                    <div class="principle-example">
+                                        <span>Reinvertir vs retirar:</span>
+                                        <span class="value positive">+300%</span>
+                                    </div>
+                                </div>
+                                <div class="principle-card">
+                                    <h5>4. Diversifica</h5>
+                                    <p>No pongas todos los huevos en una canasta. Reduce riesgo, mantén rendimiento.</p>
+                                    <div class="principle-example">
+                                        <span>Portafolio diversificado:</span>
+                                        <span class="value positive">8-12% anual</span>
+                                    </div>
+                                </div>
+                                <div class="principle-card">
+                                    <h5>5. Controla los Costos</h5>
+                                    <p>Las comisiones altas destruyen el interés compuesto. Busca eficiencia.</p>
+                                    <div class="principle-example">
+                                        <span>1% vs 2% de comisión:</span>
+                                        <span class="value negative">-25% patrimonio</span>
+                                    </div>
+                                </div>
+                                <div class="principle-card">
+                                    <h5>6. Aumenta tu Capacidad de Ahorro</h5>
+                                    <p>Incrementa tus ingresos y mantén gastos controlados. Ahorra porcentaje, no cantidad fija.</p>
+                                    <div class="principle-example">
+                                        <span>Ahorrar 20% de ingresos:</span>
+                                        <span class="value positive">Libertad financiera</span>
+                                    </div>
+                                </div>
+                                <div class="principle-card">
+                                    <h5>7. Ten Paciencia</h5>
+                                    <p>El interés compuesto necesita tiempo. Sé paciente y mantén el curso.</p>
+                                    <div class="principle-example">
+                                        <span>20+ años:</span>
+                                        <span class="value positive">Crecimiento exponencial</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                      
+                        <div class="savings-scenarios">
+                            <h4>🎯 Escenarios Comparativos</h4>
+                            <div class="scenarios-grid">
+                                <div class="scenario-card">
+                                    <h5>Escenario Conservador</h5>
+                                    <div class="scenario-details">
+                                        <p><strong>Rentabilidad:</strong> 6% anual</p>
+                                        <p><strong>Inversión mensual:</strong> $300</p>
+                                        <p><strong>30 años:</strong> $284,000</p>
+                                        <p class="scenario-note">Bajo riesgo, crecimiento estable</p>
+                                    </div>
+                                </div>
+                                <div class="scenario-card">
+                                    <h5>Escenario Moderado</h5>
+                                    <div class="scenario-details">
+                                        <p><strong>Rentabilidad:</strong> 10% anual</p>
+                                        <p><strong>Inversión mensual:</strong> $500</p>
+                                        <p><strong>30 años:</strong> $1,130,000</p>
+                                        <p class="scenario-note">Riesgo balanceado, óptimo histórico</p>
+                                    </div>
+                                </div>
+                                <div class="scenario-card">
+                                    <h5>Escenario Agresivo</h5>
+                                    <div class="scenario-details">
+                                        <p><strong>Rentabilidad:</strong> 15% anual</p>
+                                        <p><strong>Inversión mensual:</strong> $800</p>
+                                        <p><strong>30 años:</strong> $4,250,000</p>
+                                        <p class="scenario-note">Alto riesgo, potencial máximo</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                      
+                        <div class="savings-timeline">
+                            <h4>📅 Línea de Tiempo del Ahorro</h4>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-year">Año 5</div>
+                                    <div class="timeline-content">
+                                        <h5>💰 $45,000</h5>
+                                        <p>Primer hito importante. Interés compuesto comienza a notarse.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-year">Año 10</div>
+                                    <div class="timeline-content">
+                                        <h5>💰 $105,000</h5>
+                                        <p>Tu dinero trabaja más que tú. Aceleración del crecimiento.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-year">Año 15</div>
+                                    <div class="timeline-content">
+                                        <h5>💰 $208,000</h5>
+                                        <p>Interés compuesto en plena acción. Crecimiento exponencial visible.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-year">Año 20</div>
+                                    <div class="timeline-content">
+                                        <h5>💰 $412,000</h5>
+                                        <p>Patrimonio significativo. Posible independencia financiera.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-year">Año 30</div>
+                                    <div class="timeline-content">
+                                        <h5>💰 $1,130,000</h5>
+                                        <p>Libertad financiera completa. El interés compuesto hizo el trabajo duro.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="savings-action-plan">
+                            <h4>🚀 Plan de Acción para Comenzar Hoy</h4>
+                            <div class="action-steps">
+                                <div class="step">
+                                    <span class="step-number">1</span>
+                                    <div class="step-content">
+                                        <h5>Establece tu meta de ahorro</h5>
+                                        <p>Define cuánto quieres ahorrar cada mes (mínimo 10-20% de tus ingresos).</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <span class="step-number">2</span>
+                                    <div class="step-content">
+                                        <h5>Automatiza tus ahorros</h5>
+                                        <p>Configura transferencias automáticas el día que recibes tu salario.</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <span class="step-number">3</span>
+                                    <div class="step-content">
+                                        <h5>Invierte consistentemente</h5>
+                                        <p>Elige instrumentos adecuados (CETES, ETFs, fondos indexados) y mantén el curso.</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <span class="step-number">4</span>
+                                    <div class="step-content">
+                                        <h5>Revisa y ajusta anualmente</h5>
+                                        <p>Revisa tu progreso cada año y aumenta tu porcentaje de ahorro.</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <span class="step-number">5</span>
+                                    <div class="step-content">
+                                        <h5>Educa y comparte</h5>
+                                        <p>Aprende sobre finanzas personales y enseña a otros el poder del interés compuesto.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Visual Economic</h4>
+                    <p>Portal líder en análisis económico y financiero para profesionales e inversionistas.</p>
+                    <p><strong>Datos actualizados:</strong> Diciembre 2025</p>
+                    <p><strong>Fuentes:</strong> Banco de México, BMV, INEGI, CNBV</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Análisis Financiero</h4>
+                    <ul>
+                        <li><a href="#tecnico">📉 Análisis Técnico</a></li>
+                        <li><a href="#fundamental">📊 Análisis Fundamental</a></li>
+                        <li><a href="#macroeconomico">🌍 Macroeconomía</a></li>
+                        <li><a href="#ley-ahorro">💰 Ley del Ahorro</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Herramientas</h4>
+                    <ul>
+                        <li><a href="#herramientas-analisis">🛠️ Calculadoras</a></li>
+                        <li><a href="#dashboard-analisis">📊 Dashboard</a></li>
+                        <li><a href="#sentimiento">📈 Sentimiento</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Visual Economic. Arrieta Torres Carlos Ernesto - Datos actualizados Diciembre 2025</p>
+                <p class="disclaimer"><strong>Advertencia:</strong> La información proporcionada es con fines educativos. No constituye asesoramiento financiero personalizado.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="analisis.js"></script>
+</body>
+</html>
